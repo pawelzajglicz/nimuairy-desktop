@@ -203,52 +203,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &830544899 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1660517609814406450, guid: af2846a2c650d5443899790f6157525b,
-    type: 3}
-  m_PrefabInstance: {fileID: 893028469}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &830544900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830544899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bf20a646628c944290ccdcce9803196, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startHealth: 500
-  currenttHealth: 0
---- !u!61 &830544901
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830544899}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1001 &893028469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -315,31 +269,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8535584376270602390, guid: af2846a2c650d5443899790f6157525b,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 8535584376270602390, guid: af2846a2c650d5443899790f6157525b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 324983413200013878, guid: af2846a2c650d5443899790f6157525b,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.509434
-      objectReference: {fileID: 0}
-    - target: {fileID: 324983413200013878, guid: af2846a2c650d5443899790f6157525b,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.509434
-      objectReference: {fileID: 0}
-    - target: {fileID: 324983413200013878, guid: af2846a2c650d5443899790f6157525b,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.509434
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af2846a2c650d5443899790f6157525b, type: 3}
