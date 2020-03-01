@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] public float biggerity = 1;
+    [SerializeField] float biggerityModificatorMinRange = 0;
+    [SerializeField] float biggerityModificatorMaxRange = 3;
+
+    private void Awake()
+    {
+        biggerity += Random.Range(biggerityModificatorMinRange, biggerityModificatorMaxRange);
+    }
+
     void Start()
     {
         
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         

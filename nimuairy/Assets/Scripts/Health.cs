@@ -16,5 +16,10 @@ public class Health : MonoBehaviour
     public void DealDamage(float damage)
     {
         currenttHealth -= damage;
+
+        if (currenttHealth < 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
