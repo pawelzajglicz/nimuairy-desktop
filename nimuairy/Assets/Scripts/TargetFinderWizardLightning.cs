@@ -26,8 +26,15 @@ public class TargetFinderWizardLightning : TargetFinder
             return GetDefaultTarget();
         }
 
+        Enemy biggestEnemy = FindBiggestEnemy(enemies);
+
+        return biggestEnemy.transform.position;
+    }
+
+    private static Enemy FindBiggestEnemy(Enemy[] enemies)
+    {
         Enemy biggestEnemy = enemies[0];
-        foreach(Enemy enemy in enemies)
+        foreach (Enemy enemy in enemies)
         {
             if (enemy.biggerity > biggestEnemy.biggerity)
             {
@@ -35,6 +42,6 @@ public class TargetFinderWizardLightning : TargetFinder
             }
         }
 
-        return biggestEnemy.transform.position;
+        return biggestEnemy;
     }
 }

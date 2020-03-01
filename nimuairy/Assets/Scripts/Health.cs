@@ -16,7 +16,11 @@ public class Health : MonoBehaviour
     public void DealDamage(float damage)
     {
         currenttHealth -= damage;
+        CheckDeath();
+    }
 
+    private void CheckDeath()
+    {
         if (currenttHealth < 0)
         {
             Destroy(gameObject);
