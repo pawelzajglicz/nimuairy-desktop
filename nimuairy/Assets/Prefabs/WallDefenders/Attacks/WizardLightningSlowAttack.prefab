@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8603563630169266075}
   - component: {fileID: 6101652227008682076}
   - component: {fileID: -1121673378926055585}
+  - component: {fileID: -515880246914718860}
   m_Layer: 0
   m_Name: WizardLightningSlowAttack
   m_TagString: Untagged
@@ -120,8 +121,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8476bc3c319a7e428a1d2f9545c8d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPower: 10
+  attackPower: 30
   speed: 1
   target: {x: 0, y: 0}
   lifeTimeLimit: 1.5
-  yScaleFactor: 7.35
+--- !u!114 &-515880246914718860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9089275953115082485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b1594ed9c2b07a43846b55975a4b707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPower: 30
+  speed: 1
+  target: {x: 0, y: 0}
+  attackTimeRate: 0.4

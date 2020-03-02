@@ -24,7 +24,6 @@ public class AttackWallDefenderSimpleStraight : AttackWallDefender
     private void MoveTotarget()
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        //transform.Translate(direction * speed * Time.deltaTime);
         transform.position += (Vector3)(direction * speed * Time.deltaTime);
     }
 }
