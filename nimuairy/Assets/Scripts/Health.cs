@@ -21,7 +21,7 @@ public class Health : MonoBehaviour
 
     private void CheckDeath()
     {
-        if (currenttHealth < 0)
+        if (currenttHealth <= 0)
         {
             Destroy(gameObject);
         }
