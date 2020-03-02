@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class AttackWallDefenderSimpleStraight : AttackWallDefender
 {
-    
+    float stoppingDistance = 0.1f;
+
     void Update()
     {
         float distance = Mathf.Abs((target - (Vector2)transform.position).magnitude);
@@ -14,7 +15,7 @@ public class AttackWallDefenderSimpleStraight : AttackWallDefender
 
     private void CheckTargetAchieving(float distance)
     {
-        if (distance < 0.05f)
+        if (distance < stoppingDistance)
         {
             Destroy(gameObject);
         }
@@ -23,6 +24,7 @@ public class AttackWallDefenderSimpleStraight : AttackWallDefender
     private void MoveTotarget()
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        transform.Translate(direction * speed * Time.deltaTime);
+        //transform.Translate(direction * speed * Time.deltaTime);
+        transform.position += (Vector3)(direction * speed * Time.deltaTime);
     }
 }
