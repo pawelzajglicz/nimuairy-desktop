@@ -796,12 +796,12 @@ PrefabInstance:
     - target: {fileID: 4694064810645699788, guid: 619581a186ad3aa42810d7c1e80ecafa,
         type: 3}
       propertyPath: slowAttackInterval
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4694064810645699788, guid: 619581a186ad3aa42810d7c1e80ecafa,
         type: 3}
       propertyPath: fastAttackInterval
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 619581a186ad3aa42810d7c1e80ecafa, type: 3}

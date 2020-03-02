@@ -2,8 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AttackParameters))]
 public class AttackWallDefenderPenetrating : AttackWallDefender
 {
+    private AttackParameters attackParameters;
+
+    private void Awake()
+    {
+        attackParameters = GetComponent<AttackParameters>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,7 +26,7 @@ public class AttackWallDefenderPenetrating : AttackWallDefender
         Health enemyHealth = collision.GetComponent<Health>();
         if (enemyHealth != null)
         {
-            enemyHealth.DealDamage(attackPower);
+            enemyHealth.DealDamage(attackParameters.GetAttackPower());
         }
     }
 }

@@ -3,14 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AttackParameters))]
 public class AttackWallDefenderContinuos : AttackWallDefender
 {
     [SerializeField] float attackTimeRate = 0.4f;
     private HashSet<Enemy> enemyToDealDamage;
+    private AttackParameters attackParameters;
 
     private void Awake()
     {
         enemyToDealDamage = new HashSet<Enemy>();
+        attackParameters = GetComponent<AttackParameters>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -57,7 +60,7 @@ public class AttackWallDefenderContinuos : AttackWallDefender
         if (enemyToDealDamage.Contains(enemy))
         {
             Health enemyHealth = enemy.GetComponent<Health>();
-            enemyHealth.DealDamage(attackPower);
+            enemyHealth.DealDamage(attackParameters.GetAttackPower());
             StartCoroutine(ProcessDealingDamageToEnemy(enemy));
         }
     }
