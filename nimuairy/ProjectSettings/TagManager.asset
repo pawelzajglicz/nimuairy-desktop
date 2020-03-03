@@ -15,8 +15,8 @@ TagManager:
   - 
   - Wall
   - WallDefenderAttack
-  - 
-  - 
+  - FieldDefender
+  - Enemy
   - 
   - 
   - 
