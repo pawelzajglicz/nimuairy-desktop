@@ -132,7 +132,7 @@ MonoBehaviour:
   MaxHorizontalSpeed: 8
   MaxVerticalSpeed: 6
   Acceleration: 25
-  Deceleration: 10
+  Deceleration: 18
 --- !u!50 &1897196328
 Rigidbody2D:
   serializedVersion: 4
