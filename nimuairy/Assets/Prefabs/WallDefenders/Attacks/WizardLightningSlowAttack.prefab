@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1121673378926055585}
   - component: {fileID: -515880246914718860}
   - component: {fileID: -4894103081663489394}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WizardLightningSlowAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
