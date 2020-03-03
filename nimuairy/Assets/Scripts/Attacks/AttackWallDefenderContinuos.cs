@@ -3,17 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AttackParameters))]
+[RequireComponent(typeof(AttackWallDefenderParameters))]
 public class AttackWallDefenderContinuos : AttackWallDefender
 {
     [SerializeField] float attackTimeRate = 0.4f;
     private HashSet<Enemy> enemyToDealDamage;
-    private AttackParameters attackParameters;
+    private AttackWallDefenderParameters attackParameters;
 
     private void Awake()
     {
         enemyToDealDamage = new HashSet<Enemy>();
-        attackParameters = GetComponent<AttackParameters>();
+        attackParameters = GetComponent<AttackWallDefenderParameters>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
