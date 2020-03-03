@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AttackParameters))]
-public class AttackWallDefenderPenetrating : AttackWallDefender
+public class AttackFieldDefender : MonoBehaviour
 {
-    private AttackParameters attackParameters;
+    [SerializeField] float attackPower = 10f;
+    [SerializeField] float lifeTime = 0.2f;
 
-    private void Awake()
+    // Start is called before the first frame update
+    void Start()
     {
-        attackParameters = GetComponent<AttackParameters>();
+        Destroy(gameObject, lifeTime);
+    }
+
+    public float GetLifeTime()
+    {
+        return lifeTime;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -26,7 +32,8 @@ public class AttackWallDefenderPenetrating : AttackWallDefender
         Health enemyHealth = collision.GetComponent<Health>();
         if (enemyHealth != null)
         {
-            enemyHealth.DealDamage(attackParameters.GetAttackPower());
+            enemyHealth.DealDamage(attackPower);
         }
     }
+
 }
