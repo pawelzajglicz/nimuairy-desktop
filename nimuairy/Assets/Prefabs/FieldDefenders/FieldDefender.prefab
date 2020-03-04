@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 1897196329}
   - component: {fileID: 9204973533322815760}
   - component: {fileID: 3330457126080496692}
+  - component: {fileID: 8477043608996600833}
   m_Layer: 10
   m_Name: FieldDefender
   m_TagString: Untagged
@@ -128,12 +129,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a84cb29496685b4896ddbd206ff1149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedHorizontal: 0
-  SpeedVertical: 0
-  MaxHorizontalSpeed: 7
-  MaxVerticalSpeed: 5
-  Acceleration: 23
-  Deceleration: 16
+  speedHorizontal: 0
+  speedVertical: 0
+  maxHorizontalSpeed: 10
+  maxVerticalSpeed: 8
+  acceleration: 10
+  deceleration: 10
+  startMaxHorizontalSpeed: 0
+  startMaxVerticalSpeed: 0
+  startAcceleration: 0
+  startDeceleration: 0
 --- !u!50 &1897196328
 Rigidbody2D:
   serializedVersion: 4
@@ -213,3 +218,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHealth: 1000
   currenttHealth: 0
+--- !u!114 &8477043608996600833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086091354398968675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408be56f21ab8834aa845f4e55aa3720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackState: {fileID: 893879655143708102, guid: e7707efac59894c44bf703ae5260e1a1,
+    type: 3}
+  defenceState: {fileID: 893879655143708102, guid: d56b073b6e022a04f8b96022c2617cfd,
+    type: 3}
+  currentState: {fileID: 0}
