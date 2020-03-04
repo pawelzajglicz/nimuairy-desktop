@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 9204973533322815760}
   - component: {fileID: 3330457126080496692}
   m_Layer: 10
-  m_Name: Player
+  m_Name: FieldDefender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,10 +130,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedHorizontal: 0
   SpeedVertical: 0
-  MaxHorizontalSpeed: 8
-  MaxVerticalSpeed: 6
-  Acceleration: 25
-  Deceleration: 18
+  MaxHorizontalSpeed: 7
+  MaxVerticalSpeed: 5
+  Acceleration: 23
+  Deceleration: 16
 --- !u!50 &1897196328
 Rigidbody2D:
   serializedVersion: 4
