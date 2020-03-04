@@ -36,16 +36,6 @@ public class FieldDefenderMovement : MonoBehaviour
         }
     }
 
-    public void SetState(State state)
-    {
-        this.state = state;
-
-        acceleration = startAcceleration * state.GetSpeedModifier();
-        deceleration = startDeceleration * state.GetSpeedModifier();
-        maxHorizontalSpeed = startMaxHorizontalSpeed * state.GetSpeedModifier();
-        maxVerticalSpeed = startMaxVerticalSpeed * state.GetSpeedModifier();
-    }
-
     void Update()
     {
         HandleMoving();
@@ -112,5 +102,20 @@ public class FieldDefenderMovement : MonoBehaviour
     public int GetFacingRightValue()
     {
         return facingRight;
+    }
+
+    public void SetState(State state)
+    {
+        this.state = state;
+
+        acceleration = startAcceleration * state.GetSpeedModifier();
+        deceleration = startDeceleration * state.GetSpeedModifier();
+        maxHorizontalSpeed = startMaxHorizontalSpeed * state.GetSpeedModifier();
+        maxVerticalSpeed = startMaxVerticalSpeed * state.GetSpeedModifier();
+    }
+
+    public State getState()
+    {
+        return state;
     }
 }

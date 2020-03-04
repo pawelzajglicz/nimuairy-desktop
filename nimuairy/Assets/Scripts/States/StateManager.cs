@@ -79,12 +79,12 @@ public class StateManager : MonoBehaviour
         return currentState;
     }
 
-    public bool isInAttackingState()
+    public bool IsInAttackingState()
     {
         return currentState == attackState;
     }
 
-    public bool isInDefenceState()
+    public bool IsInDefenceState()
     {
         return currentState == defenceState;
     }

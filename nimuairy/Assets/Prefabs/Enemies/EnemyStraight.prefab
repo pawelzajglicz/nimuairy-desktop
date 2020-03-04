@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 8629640625927611561}
   - component: {fileID: 8629640625927611562}
   - component: {fileID: 8378914008262768228}
+  - component: {fileID: 16012164028904324}
   m_Layer: 11
   m_Name: EnemyStraight
   m_TagString: Untagged
@@ -156,6 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.75
+  isStandardMoveAllowed: 0
 --- !u!114 &8629640625927611561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +208,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &16012164028904324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2219123595095245754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6dcb6177d4d024ba17d78238ed15c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyModifiers: []
+  enemyMovement: {fileID: 0}
 --- !u!1 &7673413336028625026
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,7 +292,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 5d96b58466ce9d5439cd066bc4eb4c5d, type: 3}
-  m_Color: {r: 0.6039216, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.4056604, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
