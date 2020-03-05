@@ -5,21 +5,48 @@ using UnityEngine;
 public class EnemyAttacking : MonoBehaviour
 {
     [SerializeField] EnemyAttack attack;
+    [SerializeField] float attackTimeRate = 1.4f;
+
+    private HashSet<GameObject> objectsToDealDamage;
+
+    private void Awake()
+    {
+        objectsToDealDamage = new HashSet<GameObject>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        FieldDefenderMovement fieldDefender = collision.GetComponent<FieldDefenderMovement>();
-
-        if (fieldDefender)
+        GameObject collided = collision.gameObject;
+        if (IsGameObjectAttackable(collided))
         {
-            AttackFieldDefender(fieldDefender);
+            Attack(collided);
         }
     }
 
-    private void AttackFieldDefender(FieldDefenderMovement fieldDefender)
+    private static bool IsGameObjectAttackable(GameObject collided)
+    {
+        return collided.CompareTag("Wall") || collided.CompareTag("FieldDefender");
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        GameObject collided = collision.gameObject;
+        if (IsGameObjectAttackable(collided))
+        {
+            StopDealDamageToGameObject(collided);
+        }
+    }
+
+    private void Attack(GameObject gameObjectToGetDamage)
+    {
+        MakeAttack(gameObjectToGetDamage);
+        StartCoroutine(ProcessAttacking(gameObjectToGetDamage));
+    }
+
+    private void MakeAttack(GameObject gameObjectToGetDamage)
     {
         InstantiateAttack();
-        DealDamage(fieldDefender);
+        DealDamage(gameObjectToGetDamage);
     }
 
     private void InstantiateAttack()
@@ -28,12 +55,31 @@ public class EnemyAttacking : MonoBehaviour
         attackInstance.transform.parent = transform;
     }
 
-    private void DealDamage(FieldDefenderMovement fieldDefender)
+    private void DealDamage(GameObject gameObjectToGetDamage)
     {
-        Health fieldDefenderHealth = fieldDefender.GetComponent<Health>();
-        if (fieldDefenderHealth)
+        Health health = gameObjectToGetDamage.GetComponent<Health>();
+        if (health)
         {
-            fieldDefenderHealth.DealDamage(attack.GetAttackPower());
+            objectsToDealDamage.Add(gameObjectToGetDamage);
+            health.DealDamage(attack.GetAttackPower());
+        }
+    }
+
+    IEnumerator ProcessAttacking(GameObject gameObjectToGetDamage)
+    {
+        yield return new WaitForSeconds(attackTimeRate);
+
+        if (objectsToDealDamage.Contains(gameObjectToGetDamage))
+        {
+            Attack(gameObjectToGetDamage);
+        }
+    }
+
+    private void StopDealDamageToGameObject(GameObject gameObjectToStopGetDamage)
+    {
+        if (objectsToDealDamage.Contains(gameObjectToStopGetDamage))
+        {
+            objectsToDealDamage.Remove(gameObjectToStopGetDamage);
         }
     }
 }
