@@ -18,6 +18,15 @@ public class AttackWallDefenderExpandedToEnemy : AttackWallDefender
     // Update is called once per frame
     void Update()
     {
+        if (targetGameObject != null)
+        {
+            ProcessAttacking();
+        }
+    }
+
+    private void ProcessAttacking()
+    {
+        Vector2 target = targetGameObject.transform.position;
         Vector2 newLookAt = HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(target)).ToVector();
         if (newLookAt.magnitude > Mathf.Epsilon)
         {

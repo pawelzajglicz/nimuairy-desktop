@@ -46,10 +46,18 @@ public class WallDefender : MonoBehaviour
 
         if (timeToFastAttack < 0)
         {
-            AttackWallDefender fastAttackInstance = Instantiate(fastAttack, transform.position, transform.rotation) as AttackWallDefender;
-            fastAttackInstance.SetTarget(targetFinder.FindTarget());
             timeToFastAttack = fastAttackInterval;
+            if (FindObjectsOfType<Enemy>().Length > 0)
+            {
+                InstantiateFastAttack();
+            }
         }
+    }
+
+    private void InstantiateFastAttack()
+    {
+        AttackWallDefender fastAttackInstance = Instantiate(fastAttack, transform.position, transform.rotation) as AttackWallDefender;
+        fastAttackInstance.SetTarget(targetFinder.FindTarget());
     }
 
     private void HandleSlowAttack()
@@ -58,9 +66,17 @@ public class WallDefender : MonoBehaviour
 
         if (timeToSlowAttack < 0)
         {
-            AttackWallDefender slowAttackInstance = Instantiate(slowAttack, transform.position, transform.rotation) as AttackWallDefender;
-            slowAttackInstance.SetTarget(targetFinder.FindTarget());
             timeToSlowAttack = slowAttackInterval;
+            if (FindObjectsOfType<Enemy>().Length > 0)
+            {
+                InstantiateSlowAttack();
+            }
         }
+    }
+
+    private void InstantiateSlowAttack()
+    {
+        AttackWallDefender slowAttackInstance = Instantiate(slowAttack, transform.position, transform.rotation) as AttackWallDefender;
+        slowAttackInstance.SetTarget(targetFinder.FindTarget());
     }
 }

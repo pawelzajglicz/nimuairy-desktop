@@ -6,7 +6,7 @@ public class EnemyModifier : MonoBehaviour
 {
 
     [SerializeField] public bool isModifierActive;
-    private int facingLeftValue = 1;
+    protected int facingLeftValue = 1;
 
     public bool IsModifierActive()
     {

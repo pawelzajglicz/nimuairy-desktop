@@ -8,7 +8,6 @@ public class EnemyModifierDevil : EnemyModifier
     [SerializeField] public float activationDistance = 3f;
     [SerializeField] public float speed = 7f;
 
-    private int facingLeftValue = 1;
 
     private void Start()
     {

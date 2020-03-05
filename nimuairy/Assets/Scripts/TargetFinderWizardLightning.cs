@@ -17,7 +17,7 @@ public class TargetFinderWizardLightning : TargetFinder
 
     }
 
-    public override Vector2 FindTarget()
+    public override Vector2 FindTargetPosition()
     {
         Enemy[] enemies = FindObjectsOfType<Enemy>();
 
@@ -29,6 +29,20 @@ public class TargetFinderWizardLightning : TargetFinder
         Enemy biggestEnemy = FindBiggestEnemy(enemies);
 
         return biggestEnemy.transform.position;
+    }
+
+    public override GameObject FindTarget()
+    {
+        Enemy[] enemies = FindObjectsOfType<Enemy>();
+
+        if (enemies.Length == 0)
+        {
+            return null;
+        }
+
+        Enemy biggestEnemy = FindBiggestEnemy(enemies);
+
+        return biggestEnemy.gameObject;
     }
 
     private static Enemy FindBiggestEnemy(Enemy[] enemies)
