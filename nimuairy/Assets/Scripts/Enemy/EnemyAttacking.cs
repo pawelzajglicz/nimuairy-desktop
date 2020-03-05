@@ -67,9 +67,7 @@ public class EnemyAttacking : MonoBehaviour
 
     IEnumerator ProcessAttacking(GameObject gameObjectToGetDamage)
     {
-        Debug.Log("sss");
         yield return new WaitForSeconds(attackTimeRate);
-        Debug.Log("fefesss");
 
         if (objectsToDealDamage.Contains(gameObjectToGetDamage))
         {
