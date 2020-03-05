@@ -16,7 +16,8 @@ public abstract class TargetFinder : MonoBehaviour
         
     }
 
-    abstract public Vector2 FindTarget();
+    abstract public Vector2 FindTargetPosition();
+    abstract public GameObject FindTarget();
 
     public Vector2 GetDefaultTarget()
     {
