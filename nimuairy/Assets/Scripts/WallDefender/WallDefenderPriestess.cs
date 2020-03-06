@@ -6,8 +6,9 @@ public class WallDefenderPriestess : WallDefender
 {
     [SerializeField] GameObject fieldDefenderGameObject;
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         fieldDefenderGameObject = FindObjectOfType<FieldDefenderMovement>().gameObject;
     }
 

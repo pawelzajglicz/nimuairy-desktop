@@ -46,7 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fastAction: {fileID: -4590822052259623897, guid: 0889a0ddfc1df9546931fce1ee39e0c2,
     type: 3}
-  slowAction: {fileID: 0}
+  slowAction: {fileID: -5079271887731674392, guid: 3d96a7995d917154c813bb1c74dc9916,
+    type: 3}
   fastActionInterval: 3
   slowActionInterval: 6
   timeToFastAction: 0

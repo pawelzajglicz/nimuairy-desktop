@@ -20,15 +20,13 @@ public class WallDefender : MonoBehaviour
     {
         targetFinder = GetComponent<TargetFinder>();
     }
-
-    // Start is called before the first frame update
-    void Start()
+    
+    protected virtual void Start()
     {
         timeToFastAction = fastActionInterval;
         timeToSlowAction = slowActionInterval;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         HandleAttacks();

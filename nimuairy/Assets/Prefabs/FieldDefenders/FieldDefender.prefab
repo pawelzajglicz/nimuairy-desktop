@@ -136,7 +136,7 @@ MonoBehaviour:
   maxHorizontalSpeed: 10
   maxVerticalSpeed: 8
   acceleration: 10
-  deceleration: 16
+  deceleration: 22
   startMaxHorizontalSpeed: 0
   startMaxVerticalSpeed: 0
   startAcceleration: 0
@@ -206,6 +206,7 @@ MonoBehaviour:
   slowAttack: {fileID: 457339538516085497, guid: 3c4c3ca29c38c414786ca6e394bdadce,
     type: 3}
   horizontalXAttackInterspace: 0.6
+  attackPowerFactor: 0.3
   isNowAttacking: 0
 --- !u!114 &3330457126080496692
 MonoBehaviour:
@@ -220,7 +221,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 1000
+  maxHealth: 0
   currenttHealth: 0
+  healFactor: 1
+  damageFactor: 1
   healthBar: {fileID: 0}
 --- !u!114 &8477043608996600833
 MonoBehaviour:

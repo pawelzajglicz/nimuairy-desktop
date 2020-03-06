@@ -118,4 +118,19 @@ public class FieldDefenderMovement : MonoBehaviour
     {
         return state;
     }
+
+    internal void ModifyMaxVerticalSpeedByFactor(float speedBuffFactor)
+    {
+        maxVerticalSpeed *= speedBuffFactor;
+    }
+
+    internal void ModifyMaxHorizontalSpeedByFactor(float speedBuffFactor)
+    {
+        maxHorizontalSpeed *= speedBuffFactor;
+    }
+
+    internal void ModifyAccelerationByFactor(float speedBuffFactor)
+    {
+        acceleration *= speedBuffFactor;
+    }
 }

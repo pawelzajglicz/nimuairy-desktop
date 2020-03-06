@@ -8,7 +8,7 @@ public class AttackWallDefenderSimpleStraight : WallDefenderAction
 
     void Update()
     {
-        float distance = Mathf.Abs((targetPostion - (Vector2)transform.position).magnitude);
+        float distance = Mathf.Abs((targetPosition - (Vector2)transform.position).magnitude);
         CheckTargetAchieving(distance);
         MoveTotarget();
     }
@@ -23,7 +23,7 @@ public class AttackWallDefenderSimpleStraight : WallDefenderAction
 
     private void MoveTotarget()
     {
-        Vector2 direction = (targetPostion - (Vector2)transform.position).normalized;
+        Vector2 direction = (targetPosition - (Vector2)transform.position).normalized;
         transform.position += (Vector3)(direction * speed * Time.deltaTime);
     }
 }
