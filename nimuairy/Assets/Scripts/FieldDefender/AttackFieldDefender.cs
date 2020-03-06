@@ -28,7 +28,6 @@ public class AttackFieldDefender : MonoBehaviour
         Enemy enemy = collision.gameObject.GetComponent<Enemy>();
         if (enemy != null)
         {
-            Debug.Log("Collided with power: " + attackPower);
             DealDamageToEnemy(collision);
         }
     }
