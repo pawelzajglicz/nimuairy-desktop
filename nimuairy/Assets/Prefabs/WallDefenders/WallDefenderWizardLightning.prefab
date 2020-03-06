@@ -94,14 +94,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9fd27166b2c64c47a6e39620b600a74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fastAttack: {fileID: 5395054948887891885, guid: f5ba5a2a98dbf744e880bfbab7bd036c,
+  fastAction: {fileID: 5395054948887891885, guid: f5ba5a2a98dbf744e880bfbab7bd036c,
     type: 3}
-  slowAttack: {fileID: -1121673378926055585, guid: 66e49456f195b08489d48641751c7483,
+  slowAction: {fileID: -1121673378926055585, guid: 66e49456f195b08489d48641751c7483,
     type: 3}
-  fastAttackInterval: 1
-  slowAttackInterval: 6
-  timeToFastAttack: 0
-  timeToSlowAttack: 0
+  fastActionInterval: 1
+  slowActionInterval: 6
+  timeToFastAction: 0
+  timeToSlowAction: 0
 --- !u!114 &5455570908224250771
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackWallDefender : MonoBehaviour
+public class WallDefenderAction : MonoBehaviour
 {
     [SerializeField] public float speed = 1f;
-    [SerializeField] public Vector2 targetPostion;
+    [SerializeField] public Vector2 targetPosition;
     [SerializeField] public GameObject targetGameObject;
 
     public void SetTarget()
@@ -20,7 +20,7 @@ public class AttackWallDefender : MonoBehaviour
 
     public void SetTarget(Vector2 newTarget)
     {
-        targetPostion = newTarget;
+        targetPosition = newTarget;
         if (newTarget != Vector2.zero)
         {
             transform.up = HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(newTarget)).ToVector();
@@ -32,11 +32,11 @@ public class AttackWallDefender : MonoBehaviour
         targetGameObject = gameObject;
         if (gameObject != null)
         {
-            targetPostion = gameObject.transform.position;
+            targetPosition = gameObject.transform.position;
 
-            if (targetPostion != Vector2.zero)
+            if (targetPosition != Vector2.zero && ((Vector2)this.transform.position != targetPosition))
             {
-                transform.up = HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(targetPostion)).ToVector();
+                transform.up = HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(targetPosition)).ToVector();
             }
         }
     }

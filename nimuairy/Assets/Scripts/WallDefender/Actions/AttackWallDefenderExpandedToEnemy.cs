@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackWallDefenderExpandedToEnemy : AttackWallDefender
+public class AttackWallDefenderExpandedToEnemy : WallDefenderAction
 {
 
     [SerializeField] float lifeTimeLimit = 1.5f;
@@ -37,7 +37,7 @@ public class AttackWallDefenderExpandedToEnemy : AttackWallDefender
         float newPositionY = (source.y + target.y) / 2;
         transform.position = new Vector2(newPositionX, newPositionY);
 
-        float newScaleY = Mathf.Abs(target.x - source.x);
+        float newScaleY = Mathf.Abs(target.x - source.x) + Mathf.Abs(target.y - source.y);
         transform.localScale = new Vector2(transform.localScale.x, newScaleY);
     }
 }
