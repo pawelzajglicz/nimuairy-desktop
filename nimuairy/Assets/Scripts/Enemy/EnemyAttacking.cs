@@ -9,7 +9,7 @@ public class EnemyAttacking : MonoBehaviour
 
     private HashSet<GameObject> objectsToDealDamage;
 
-    public EnemyAttack Attack1 { get => attack; set => attack = value; }
+    public EnemyAttack AttackPrefab { get => attack; set => attack = value; }
 
     private void Awake()
     {
@@ -21,7 +21,7 @@ public class EnemyAttacking : MonoBehaviour
         GameObject collided = collision.gameObject;
         if (IsGameObjectAttackable(collided))
         {
-            Attack(collided);
+            AttackGameObject(collided);
         }
     }
 
@@ -39,7 +39,7 @@ public class EnemyAttacking : MonoBehaviour
         }
     }
 
-    private void Attack(GameObject gameObjectToGetDamage)
+    private void AttackGameObject(GameObject gameObjectToGetDamage)
     {
         MakeAttack(gameObjectToGetDamage);
         StartCoroutine(ProcessAttacking(gameObjectToGetDamage));
@@ -53,7 +53,7 @@ public class EnemyAttacking : MonoBehaviour
 
     private void InstantiateAttack()
     {
-        EnemyAttack attackInstance = Instantiate(Attack1, transform.position, Quaternion.identity) as EnemyAttack;
+        EnemyAttack attackInstance = Instantiate(AttackPrefab, transform.position, Quaternion.identity) as EnemyAttack;
         attackInstance.transform.parent = transform;
     }
 
@@ -63,7 +63,7 @@ public class EnemyAttacking : MonoBehaviour
         if (health)
         {
             objectsToDealDamage.Add(gameObjectToGetDamage);
-            health.DealDamage(Attack1.GetAttackPower());
+            health.DealDamage(AttackPrefab.GetAttackPower());
         }
     }
 
@@ -73,7 +73,7 @@ public class EnemyAttacking : MonoBehaviour
 
         if (objectsToDealDamage.Contains(gameObjectToGetDamage))
         {
-            Attack(gameObjectToGetDamage);
+            AttackGameObject(gameObjectToGetDamage);
         }
     }
 
