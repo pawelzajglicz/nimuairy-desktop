@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackWallDefenderExpandedToEnemy : AttackWallDefender
+public class AttackWallDefenderExpandedToEnemy : WallDefenderAction
 {
 
     [SerializeField] float lifeTimeLimit = 1.5f;

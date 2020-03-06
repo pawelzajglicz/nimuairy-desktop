@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class TargetFinder : MonoBehaviour
+public class Wall : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,13 +14,5 @@ public abstract class TargetFinder : MonoBehaviour
     void Update()
     {
         
-    }
-
-    abstract public Vector2 FindTargetPosition();
-    abstract public GameObject FindTarget();
-
-    public Vector2 GetDefaultTarget()
-    {
-        return Camera.main.transform.position;
     }
 }

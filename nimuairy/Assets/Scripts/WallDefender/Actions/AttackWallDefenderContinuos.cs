@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AttackWallDefenderParameters))]
-public class AttackWallDefenderContinuos : AttackWallDefender
+public class AttackWallDefenderContinuos : WallDefenderAction
 {
     [SerializeField] float attackTimeRate = 0.4f;
     private HashSet<Enemy> enemyToDealDamage;

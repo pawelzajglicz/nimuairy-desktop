@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AttackWallDefenderParameters))]
-public class AttackWallDefenderPenetrating : AttackWallDefender
+public class AttackWallDefenderPenetrating : WallDefenderAction
 {
     private AttackWallDefenderParameters attackParameters;
 

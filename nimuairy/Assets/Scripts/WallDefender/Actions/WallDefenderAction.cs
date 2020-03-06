@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackWallDefender : MonoBehaviour
+public class WallDefenderAction : MonoBehaviour
 {
     [SerializeField] public float speed = 1f;
     [SerializeField] public Vector2 targetPostion;

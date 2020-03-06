@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackWallDefenderSimpleStraight : AttackWallDefender
+public class AttackWallDefenderSimpleStraight : WallDefenderAction
 {
     float stoppingDistance = 0.1f;
 

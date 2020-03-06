@@ -5,17 +5,6 @@ using UnityEngine;
 public class TargetFinderWizardLightning : TargetFinder
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public override Vector2 FindTargetPosition()
     {
@@ -45,7 +34,7 @@ public class TargetFinderWizardLightning : TargetFinder
         return biggestEnemy.gameObject;
     }
 
-    private static Enemy FindBiggestEnemy(Enemy[] enemies)
+    private Enemy FindBiggestEnemy(Enemy[] enemies)
     {
         Enemy biggestEnemy = enemies[0];
         foreach (Enemy enemy in enemies)
