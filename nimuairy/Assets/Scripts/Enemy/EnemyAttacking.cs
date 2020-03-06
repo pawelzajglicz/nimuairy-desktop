@@ -9,6 +9,8 @@ public class EnemyAttacking : MonoBehaviour
 
     private HashSet<GameObject> objectsToDealDamage;
 
+    public EnemyAttack Attack1 { get => attack; set => attack = value; }
+
     private void Awake()
     {
         objectsToDealDamage = new HashSet<GameObject>();
@@ -51,7 +53,7 @@ public class EnemyAttacking : MonoBehaviour
 
     private void InstantiateAttack()
     {
-        EnemyAttack attackInstance = Instantiate(attack, transform.position, Quaternion.identity) as EnemyAttack;
+        EnemyAttack attackInstance = Instantiate(Attack1, transform.position, Quaternion.identity) as EnemyAttack;
         attackInstance.transform.parent = transform;
     }
 
@@ -61,7 +63,7 @@ public class EnemyAttacking : MonoBehaviour
         if (health)
         {
             objectsToDealDamage.Add(gameObjectToGetDamage);
-            health.DealDamage(attack.GetAttackPower());
+            health.DealDamage(Attack1.GetAttackPower());
         }
     }
 

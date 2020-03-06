@@ -20,6 +20,12 @@ public class FieldDefenderMovement : MonoBehaviour
     StateManager stateManager;
     [SerializeField] State state;
 
+    public Vector2 direction;
+
+
+    public State State => state;
+    public int FacingRightValue => facingRight;
+
     int facingRight = 1;
 
     private void Start()
@@ -46,16 +52,22 @@ public class FieldDefenderMovement : MonoBehaviour
         CalculatingHorizontalSpeed();
         CalculatingVerticalSpeed();
 
-        transform.position = new Vector2(transform.position.x + speedHorizontal * Time.deltaTime, transform.position.y + speedVertical * Time.deltaTime);
+        Vector2 vectorOffset = new Vector2(speedHorizontal * Time.deltaTime, speedVertical * Time.deltaTime);
+        direction = vectorOffset.normalized;
+        transform.position += (Vector3)vectorOffset;
         HandleFacingDirection();
     }
 
     private void CalculatingHorizontalSpeed()
     {
-        if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) && (speedHorizontal > -maxHorizontalSpeed))
-            speedHorizontal = speedHorizontal - acceleration * Time.deltaTime;
-        else if ((Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) && (speedHorizontal < maxHorizontalSpeed))
-            speedHorizontal = speedHorizontal + acceleration * Time.deltaTime;
+        if (Input.GetKey(KeyCode.LeftArrow) && (speedHorizontal > -maxHorizontalSpeed))
+        {
+            speedHorizontal = speedHorizontal - (acceleration * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.RightArrow) && (speedHorizontal < maxHorizontalSpeed))
+        {
+            speedHorizontal = speedHorizontal + (acceleration * Time.deltaTime);
+        }
         else
         {
             if (speedHorizontal > deceleration * Time.deltaTime)
@@ -69,11 +81,11 @@ public class FieldDefenderMovement : MonoBehaviour
 
     private void CalculatingVerticalSpeed()
     {
-        if ((Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) && (speedVertical > -maxVerticalSpeed))
+        if (Input.GetKey(KeyCode.DownArrow) && (speedVertical > -maxVerticalSpeed))
+        {
             speedVertical = speedVertical - acceleration * Time.deltaTime;
-        else if ((Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && (speedVertical < maxVerticalSpeed))
-            speedVertical = speedVertical + acceleration * Time.deltaTime;
-        else
+        }
+        else if (!Input.GetKey(KeyCode.UpArrow) || speedVertical >= maxVerticalSpeed)
         {
             if (speedVertical > deceleration * Time.deltaTime)
                 speedVertical = speedVertical - deceleration * Time.deltaTime;
@@ -81,6 +93,10 @@ public class FieldDefenderMovement : MonoBehaviour
                 speedVertical = speedVertical + deceleration * Time.deltaTime;
             else
                 speedVertical = 0;
+        }
+        else
+        {
+            speedVertical = speedVertical + acceleration * Time.deltaTime;
         }
     }
 
@@ -99,10 +115,6 @@ public class FieldDefenderMovement : MonoBehaviour
         }
     }
 
-    public int GetFacingRightValue()
-    {
-        return facingRight;
-    }
 
     public void SetState(State state)
     {
@@ -114,10 +126,6 @@ public class FieldDefenderMovement : MonoBehaviour
         maxVerticalSpeed = startMaxVerticalSpeed * state.GetSpeedModifier();
     }
 
-    public State getState()
-    {
-        return state;
-    }
 
     internal void ModifyMaxVerticalSpeedByFactor(float speedBuffFactor)
     {

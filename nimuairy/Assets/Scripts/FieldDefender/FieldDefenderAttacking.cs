@@ -72,7 +72,7 @@ public class FieldDefenderAttacking : MonoBehaviour
 
     private AttackFieldDefender InstantiateAttack(AttackFieldDefender attack)
     {
-        float attackXPosition = transform.position.x + (horizontalXAttackInterspace * fieldDefenderMovement.GetFacingRightValue());
+        float attackXPosition = transform.position.x + (horizontalXAttackInterspace * fieldDefenderMovement.FacingRightValue);
         AttackFieldDefender attackInstance = Instantiate(attack, new Vector2(attackXPosition, transform.position.y), Quaternion.identity);
 
         attackInstance.ModifyAttackPowerByFactor(attackPowerFactor);
