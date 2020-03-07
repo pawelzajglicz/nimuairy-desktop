@@ -36,6 +36,6 @@ public class EnemyModifierAngel : EnemyModifier
     {
         Vector2 direction = (fieldDefenderMovement.transform.position - transform.parent.transform.position).normalized;
         HandleFacingDirection(direction);
-        transform.parent.gameObject.transform.position += (Vector3)(direction * enemyMovement.speed * angelModifierSpeed * Time.deltaTime);
+        transform.parent.gameObject.transform.position = (Vector2)transform.parent.gameObject.transform.position + (direction * enemyMovement.speed * angelModifierSpeed * Time.deltaTime);
     }
 }
