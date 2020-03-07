@@ -6,6 +6,14 @@ public class EnemyMovementStraight : EnemyMovement
 {
 
     [SerializeField] float timeToWaitToRotate = 0.75f;
+    [SerializeField] bool arrivedAtWall;
+
+    BoxCollider2D collider;
+
+    private void Awake()
+    {
+        collider = GetComponent<BoxCollider2D>();
+    }
 
     void Start()
     {
@@ -14,9 +22,17 @@ public class EnemyMovementStraight : EnemyMovement
     
     void Update()
     {
-        if (isStandardMoveAllowed)
+        if (isStandardMoveAllowed && !arrivedAtWall)
         {
             ProcessStandardMove();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.GetComponent<Wall>())
+        {
+            arrivedAtWall = true;
         }
     }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Burning : MonoBehaviour
 {
-    [SerializeField] public float lifeTime = 0.5f;
+    [SerializeField] public float lifeTime = 3f;
     [SerializeField] public float burnDamage = 22f;
     [SerializeField] public float burnInterval = 0.4f;
     [SerializeField] public float timeSinceLastBurnDamage;
@@ -55,7 +55,7 @@ public class Burning : MonoBehaviour
     private void SetFireTo(Enemy enemy)
     {
         Burning burningInstance = Instantiate(burning, enemy.transform.position, Quaternion.identity) as Burning;
-        burning.burn(enemy);
+        burningInstance.burn(enemy);
         burningInstance.transform.parent = enemy.transform;
     }
 
