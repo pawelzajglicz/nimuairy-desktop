@@ -4,8 +4,25 @@ using UnityEngine;
 
 public class SkillDragonBreath : Skill
 {
+    [SerializeField] public Vector2 offset;
+    public FieldDefenderMovement fieldDefenderMovement;
+    public DragonBreath dragonBreath;
+
+    private void Awake()
+    {
+        activationKey = KeyCode.S;;
+    }
+
+    private void Start()
+    {
+        fieldDefenderMovement = FindObjectOfType<FieldDefenderMovement>();
+    }
+
     protected override void ActivateSkill()
     {
-        throw new System.NotImplementedException();
+        Vector2 dragonBreathPosition = (Vector2)fieldDefenderMovement.transform.position + offset * fieldDefenderMovement.FacingRightValue;
+        DragonBreath dragonBreathInstance = Instantiate(dragonBreath, dragonBreathPosition, Quaternion.identity) as DragonBreath;
+        dragonBreathInstance.transform.parent = fieldDefenderMovement.transform;
     }
+
 }

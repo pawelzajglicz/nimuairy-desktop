@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6196697599236458665
+--- !u!1 &934079192887083838
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6196697599236458667}
-  - component: {fileID: 6196697599236458664}
+  - component: {fileID: 2137894038709456934}
+  - component: {fileID: 2332047942134573497}
   m_Layer: 0
-  m_Name: SkillDragonBreath
+  m_Name: Burning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6196697599236458667
+--- !u!4 &2137894038709456934
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6196697599236458665}
+  m_GameObject: {fileID: 934079192887083838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.16, y: -4.21, z: -0.70331824}
+  m_LocalPosition: {x: 0.47540087, y: 1.2914706, z: -0.70331824}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6196697600906764315}
+  - {fileID: 7998983111491728890}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6196697599236458664
+--- !u!114 &2332047942134573497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6196697599236458665}
+  m_GameObject: {fileID: 934079192887083838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd47cde28f0d69e4fb349a87fb261e75, type: 3}
+  m_Script: {fileID: 11500000, guid: 9436ff209375dda4fae1cff26f4c0e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 4
-  canBeActivated: 1
-  activationKey: 0
-  offset: {x: 0, y: 0}
-  fieldDefenderMovement: {fileID: 0}
-  dragonBreath: {fileID: 6538711203118522744, guid: 6a08273b1e617a145b14c4dc3add5a5f,
-    type: 3}
---- !u!1 &6196697600906764312
+--- !u!1 &2443958214536882679
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,36 +52,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6196697600906764315}
-  - component: {fileID: 6196697600906764314}
+  - component: {fileID: 7998983111491728890}
+  - component: {fileID: 1780722454708336275}
   m_Layer: 0
-  m_Name: DragonBreath
+  m_Name: Burning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6196697600906764315
+--- !u!4 &7998983111491728890
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6196697600906764312}
+  m_GameObject: {fileID: 2443958214536882679}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.47540087, y: -1.2914706, z: 0.70331824}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6196697599236458667}
+  m_Father: {fileID: 2137894038709456934}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6196697600906764314
+--- !u!212 &1780722454708336275
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6196697600906764312}
+  m_GameObject: {fileID: 2443958214536882679}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -119,9 +112,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 35
-  m_Sprite: {fileID: 21300000, guid: e0800d1ba7a48e342a9123749ae76741, type: 3}
-  m_Color: {r: 0.7735849, g: 0.062907904, b: 0.025542913, a: 1}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 28c35ae4ab0617c469678554bfc42b06, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
