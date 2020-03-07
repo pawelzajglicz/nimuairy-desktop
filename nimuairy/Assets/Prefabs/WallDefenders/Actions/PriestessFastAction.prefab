@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  targetPostion: {x: 0, y: 0}
+  targetPosition: {x: 0, y: 0}
   targetGameObject: {fileID: 0}
-  healPoints: 25
+  healPoints: 77
   lifeTime: 0.5
 --- !u!1 &8819801442741915559
 GameObject:
