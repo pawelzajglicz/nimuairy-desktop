@@ -15,7 +15,7 @@ public class AttackWallDefenderSimpleStraight : WallDefenderAction
 
     private void CheckTargetAchieving(float distance)
     {
-        if (distance < stoppingDistance)
+        if (distance < stoppingDistance || transform.position.x >= targetPosition.x)
         {
             Destroy(gameObject);
         }
