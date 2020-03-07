@@ -161,6 +161,8 @@ MonoBehaviour:
   speed: 0.75
   isStandardMoveAllowed: 0
   timeToWaitToRotate: 0.75
+  arrivedAtWall: 0
+  collider: {fileID: 0}
 --- !u!114 &8629640625927611561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf20a646628c944290ccdcce9803196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 300
+  startHealth: 150
   maxHealth: 0
   currenttHealth: 0
   healFactor: 1

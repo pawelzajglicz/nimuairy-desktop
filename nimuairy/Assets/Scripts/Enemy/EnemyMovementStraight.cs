@@ -8,7 +8,7 @@ public class EnemyMovementStraight : EnemyMovement
     [SerializeField] float timeToWaitToRotate = 0.75f;
     [SerializeField] bool arrivedAtWall;
 
-    BoxCollider2D collider;
+    public BoxCollider2D collider;
 
     private void Awake()
     {
