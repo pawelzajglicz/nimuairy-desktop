@@ -88,7 +88,7 @@ public class AttackWallDefenderContinuos : WallDefenderAction
     {
         yield return new WaitForSeconds(attackTimeRate);
 
-        if (charactersToDealDamage.Contains(enemy.gameObject))
+        if (enemy && charactersToDealDamage.Contains(enemy.gameObject))
         {
             Health enemyHealth = enemy.GetComponent<Health>();
             enemyHealth.DealDamage(attackParameters.AttackPower);

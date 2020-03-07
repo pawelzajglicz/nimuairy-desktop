@@ -15,10 +15,12 @@ public class FieldDefenderAttacking : MonoBehaviour
     [SerializeField] bool isNowAttacking = false;
 
     FieldDefenderMovement fieldDefenderMovement;
+    FieldAttackManager fieldAttackManager;
 
     private void Awake()
     {
         fieldDefenderMovement = GetComponent<FieldDefenderMovement>();
+        fieldAttackManager = GetComponent<FieldAttackManager>();
     }
 
     void Update()
@@ -50,17 +52,20 @@ public class FieldDefenderAttacking : MonoBehaviour
     private void MakeQuickAttack()
     {
         MakeAttack(quickAttack);
+        fieldAttackManager.PushQuickAttack(quickAttack);
     }
 
     private void MakeSlowAttack()
     {
         MakeAttack(slowAttack);
+        fieldAttackManager.PushSlowAttack(slowAttack);
     }
 
-    private void MakeAttack(AttackFieldDefender attack)
+    private AttackFieldDefender MakeAttack(AttackFieldDefender attack)
     {
         AttackFieldDefender attackInstance = InstantiateAttack(attack);
         ManageAttackingState(attackInstance);
+        return attackInstance;
     }
 
     private void ManageAttackingState(AttackFieldDefender attackInstance)

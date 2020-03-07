@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 3330457126080496692}
   - component: {fileID: 8477043608996600833}
   - component: {fileID: 2129060038}
+  - component: {fileID: 4895319101476270539}
   m_Layer: 10
   m_Name: FieldDefender
   m_TagString: FieldDefender
@@ -142,6 +143,7 @@ MonoBehaviour:
   startAcceleration: 0
   startDeceleration: 0
   state: {fileID: 0}
+  direction: {x: 0, y: 0}
 --- !u!50 &1897196328
 Rigidbody2D:
   serializedVersion: 4
@@ -258,6 +260,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentXScale: 0
+--- !u!114 &4895319101476270539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086091354398968675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d270c09428ce9a74fbec8553735a9086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastAttacks: []
+  timeToBreakCombo: 1
+  timeFromLastAttack: 0
+  horizontalXAttackInterspace: 0.3
+  pushAwayComboAttack: {fileID: 8459751326929860599, guid: ed7fde554e04fdf44b30b02d0ba3c51e,
+    type: 3}
 --- !u!1001 &2086091354240476326
 PrefabInstance:
   m_ObjectHideFlags: 0

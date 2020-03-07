@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class AttackFieldDefender : MonoBehaviour
 {
-    [SerializeField] float attackPower = 10f;
-    [SerializeField] float lifeTime = 0.2f;
+    [SerializeField] protected float attackPower = 10f;
+    [SerializeField] protected float lifeTime = 0.2f;
     
     private void Awake()
     {
@@ -32,7 +32,7 @@ public class AttackFieldDefender : MonoBehaviour
         }
     }
 
-    private void DealDamageToEnemy(Collider2D collision)
+    protected virtual void DealDamageToEnemy(Collider2D collision)
     {
         Health enemyHealth = collision.GetComponent<Health>();
         if (enemyHealth != null)
