@@ -58,6 +58,7 @@ public class FieldDefenderMovement : MonoBehaviour
         HandleFacingDirection();
     }
 
+    // TODO: refactoring
     private void CalculatingHorizontalSpeed()
     {
         if (Input.GetKey(KeyCode.LeftArrow) && (speedHorizontal > -maxHorizontalSpeed))

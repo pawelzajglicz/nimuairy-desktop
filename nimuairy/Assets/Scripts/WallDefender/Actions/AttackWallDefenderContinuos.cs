@@ -6,17 +6,25 @@ using UnityEngine;
 [RequireComponent(typeof(AttackWallDefenderParameters))]
 public class AttackWallDefenderContinuos : WallDefenderAction
 {
+    // TODO: refactoring
+
     [SerializeField] float attackTimeRate = 0.4f;
-    private HashSet<Enemy> enemyToDealDamage;
+    private HashSet<GameObject> charactersToDealDamage;
     private AttackWallDefenderParameters attackParameters;
 
     private void Awake()
     {
-        enemyToDealDamage = new HashSet<Enemy>();
+        charactersToDealDamage = new HashSet<GameObject>();
         attackParameters = GetComponent<AttackWallDefenderParameters>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
+    {
+        CheckEnemyCollision(collision);
+        CheckFieldDefenderCollision(collision);
+    }
+
+    private void CheckEnemyCollision(Collider2D collision)
     {
         Enemy enemy = collision.gameObject.GetComponent<Enemy>();
         if (enemy != null)
@@ -25,20 +33,44 @@ public class AttackWallDefenderContinuos : WallDefenderAction
         }
     }
 
+    private void CheckFieldDefenderCollision(Collider2D collision)
+    {
+        FieldDefenderMovement fieldDefenderMovement = collision.gameObject.GetComponent<FieldDefenderMovement>();
+        if (fieldDefenderMovement != null && fieldDefenderMovement.GetComponent<StateManager>().IsInAttackingState())
+        {
+            DealDamageToFieldDefender(fieldDefenderMovement);
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
+    {
+        CheckEnemyExitCollision(collision);
+        CheckFieldDefenderExitCollision(collision);
+    }
+
+    private void CheckEnemyExitCollision(Collider2D collision)
     {
         Enemy enemy = collision.gameObject.GetComponent<Enemy>();
         if (enemy != null)
         {
-            StopDealDamageToEnemy(enemy);
+            StopDealDamageToCharacter(enemy.gameObject);
         }
     }
 
-    private void StopDealDamageToEnemy(Enemy enemy)
+    private void CheckFieldDefenderExitCollision(Collider2D collision)
     {
-        if (enemyToDealDamage.Contains(enemy))
+        FieldDefenderMovement fieldDefenderMovement = collision.gameObject.GetComponent<FieldDefenderMovement>();
+        if (fieldDefenderMovement != null)
         {
-            enemyToDealDamage.Remove(enemy);
+            StopDealDamageToCharacter(fieldDefenderMovement.gameObject);
+        }
+    }
+
+    private void StopDealDamageToCharacter(GameObject characterToDealDamage)
+    {
+        if (charactersToDealDamage.Contains(characterToDealDamage))
+        {
+            charactersToDealDamage.Remove(characterToDealDamage);
         }
     }
 
@@ -46,9 +78,8 @@ public class AttackWallDefenderContinuos : WallDefenderAction
     {
         Health enemyHealth = enemy.GetComponent<Health>();
         if (enemyHealth != null)
-        {
-            
-            enemyToDealDamage.Add(enemy);
+        {         
+            charactersToDealDamage.Add(enemy.gameObject);
             StartCoroutine(ProcessDealingDamageToEnemy(enemy));
         }
     }
@@ -57,11 +88,33 @@ public class AttackWallDefenderContinuos : WallDefenderAction
     {
         yield return new WaitForSeconds(attackTimeRate);
 
-        if (enemyToDealDamage.Contains(enemy))
+        if (charactersToDealDamage.Contains(enemy.gameObject))
         {
             Health enemyHealth = enemy.GetComponent<Health>();
-            enemyHealth.DealDamage(attackParameters.GetAttackPower());
+            enemyHealth.DealDamage(attackParameters.AttackPower);
             StartCoroutine(ProcessDealingDamageToEnemy(enemy));
+        }
+    }
+
+    private void DealDamageToFieldDefender(FieldDefenderMovement fieldDefenderMovement)
+    {
+        Health enemyHealth = fieldDefenderMovement.GetComponent<Health>();
+        if (enemyHealth != null)
+        {
+            charactersToDealDamage.Add(fieldDefenderMovement.gameObject);
+            StartCoroutine(ProcessDealingDamageTFieldDefender(fieldDefenderMovement));
+        }
+    }
+
+    IEnumerator ProcessDealingDamageTFieldDefender(FieldDefenderMovement fieldDefenderMovement)
+    {
+        yield return new WaitForSeconds(attackTimeRate);
+
+        if (charactersToDealDamage.Contains(fieldDefenderMovement.gameObject))
+        {
+            Health fieldDefenderHealth = fieldDefenderMovement.GetComponent<Health>();
+            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor);
+            StartCoroutine(ProcessDealingDamageTFieldDefender(fieldDefenderMovement));
         }
     }
 }

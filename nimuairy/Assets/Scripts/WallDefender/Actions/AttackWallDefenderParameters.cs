@@ -6,9 +6,8 @@ public class AttackWallDefenderParameters : MonoBehaviour
 {
 
     [SerializeField] float attackPower = 10f;
+    [SerializeField] float fieldDefenderDamagingFactor = 0.1f;
 
-    public float GetAttackPower()
-    {
-        return attackPower;
-    }
+    public float AttackPower => attackPower;
+    public float FieldDefenderDamagingFactor => fieldDefenderDamagingFactor;
 }

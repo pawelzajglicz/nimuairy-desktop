@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AttackWallDefenderParameters))]
 public class AttackWallDefenderPenetrating : WallDefenderAction
 {
+    // TODO: refactoring
+
     private AttackWallDefenderParameters attackParameters;
 
     private void Awake()
@@ -19,6 +22,12 @@ public class AttackWallDefenderPenetrating : WallDefenderAction
         {
             DealDamageToEnemy(collision);
         }
+
+        FieldDefenderMovement fieldDefenderMovement = collision.gameObject.GetComponent<FieldDefenderMovement>();
+        if (fieldDefenderMovement != null && fieldDefenderMovement.GetComponent<StateManager>().IsInAttackingState())
+        {
+            DealDamageToFieldDefender(collision);
+        }
     }
 
     private void DealDamageToEnemy(Collider2D collision)
@@ -26,7 +35,16 @@ public class AttackWallDefenderPenetrating : WallDefenderAction
         Health enemyHealth = collision.GetComponent<Health>();
         if (enemyHealth != null)
         {
-            enemyHealth.DealDamage(attackParameters.GetAttackPower());
+            enemyHealth.DealDamage(attackParameters.AttackPower);
+        }
+    }
+
+    private void DealDamageToFieldDefender(Collider2D collision)
+    {
+        Health fieldDefenderHealth = collision.GetComponent<Health>();
+        if (fieldDefenderHealth != null && collision)
+        {
+            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor);
         }
     }
 }
