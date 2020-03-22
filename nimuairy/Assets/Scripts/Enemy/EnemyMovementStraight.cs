@@ -6,26 +6,12 @@ public class EnemyMovementStraight : EnemyMovement
 {
 
     [SerializeField] float timeToWaitToRotate = 0.75f;
-    [SerializeField] bool arrivedAtWall;
 
     public BoxCollider2D collider;
 
     private void Awake()
     {
         collider = GetComponent<BoxCollider2D>();
-    }
-
-    void Start()
-    {
-        isStandardMoveAllowed = true;
-    }
-    
-    void Update()
-    {
-        if (isStandardMoveAllowed && !arrivedAtWall)
-        {
-            ProcessStandardMove();
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -36,9 +22,9 @@ public class EnemyMovementStraight : EnemyMovement
         }
     }
 
-    private void ProcessStandardMove()
+    protected override void ProcessStandardMove()
     {
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
     }
 
     public override void SetStandardMoveAllowed(bool newValue)

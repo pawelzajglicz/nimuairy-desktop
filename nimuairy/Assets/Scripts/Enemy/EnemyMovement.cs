@@ -3,11 +3,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public abstract class EnemyMovement : MonoBehaviour
 {
 
-    [SerializeField] public float speed = 0.5f;
+    [SerializeField] public float startSpeed = 0.5f;
+    [SerializeField] public float currentSpeed = 0.5f;
     [SerializeField] public bool isStandardMoveAllowed;
+    [SerializeField] protected bool arrivedAtWall;
+
+    [SerializeField] protected TimeManager timeManager;
+    [SerializeField] protected EnemyTimeManagerReacting enemyTimeManagerReacting;
+
+
+    void Start()
+    {
+        isStandardMoveAllowed = true;
+
+        enemyTimeManagerReacting = GetComponent<EnemyTimeManagerReacting>();
+        timeManager = FindObjectOfType<TimeManager>();
+    }
+
+    void Update()
+    {
+        if (enemyTimeManagerReacting.isReactingToFieldDefenderTimeFactor)
+        {
+            currentSpeed = startSpeed * timeManager.GetPlayerTimeFactor();
+        }
+
+        if (isStandardMoveAllowed && !arrivedAtWall)
+        {
+            ProcessStandardMove();
+        }
+    }
+
+    protected abstract void ProcessStandardMove();
 
     public virtual void SetStandardMoveAllowed(bool newValue)
     {
