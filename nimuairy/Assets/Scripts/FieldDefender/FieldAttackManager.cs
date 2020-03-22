@@ -62,7 +62,8 @@ public class FieldAttackManager : MonoBehaviour
 
     private void TryForPushAwayComboAttack()
     {
-        if (lastAttacks.Count >=3 && lastAttacks[0].GetComponent<QuickAttack>() && lastAttacks[1].GetComponent<QuickAttack>() && lastAttacks[2].GetComponent<SlowAttack>())
+        int lastAttacksNumber = lastAttacks.Count;
+        if (lastAttacks.Count >=3 && lastAttacks[lastAttacksNumber - 3].GetComponent<QuickAttack>() && lastAttacks[lastAttacksNumber - 2].GetComponent<QuickAttack>() && lastAttacks[lastAttacksNumber - 1].GetComponent<SlowAttack>())
         {
             lastAttacks.Clear();
             Instantiate(pushAwayComboAttack, transform.position, Quaternion.identity);

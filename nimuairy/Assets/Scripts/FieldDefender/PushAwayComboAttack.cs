@@ -34,7 +34,7 @@ public class PushAwayComboAttack : ComboAttack
 
         Vector2 destination = (Vector2)transform.position + (direction * pushDistance);
 
-        while (elapsedTime < pushDuration)
+        while (elapsedTime < pushDuration && enemyToPush)
         {
             enemyToPush.transform.position = Vector2.Lerp(start, destination, (elapsedTime / pushDuration));
             elapsedTime += Time.deltaTime;
