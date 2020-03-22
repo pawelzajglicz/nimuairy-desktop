@@ -208,7 +208,7 @@ MonoBehaviour:
   slowAttack: {fileID: 457339538516085497, guid: 3c4c3ca29c38c414786ca6e394bdadce,
     type: 3}
   horizontalXAttackInterspace: 0.6
-  attackPowerFactor: 0.3
+  attackPowerFactor: 1
   isNowAttacking: 0
 --- !u!114 &3330457126080496692
 MonoBehaviour:
@@ -275,7 +275,6 @@ MonoBehaviour:
   lastAttacks: []
   timeToBreakCombo: 1
   timeFromLastAttack: 0
-  horizontalXAttackInterspace: 0.3
   pushAwayComboAttack: {fileID: 8459751326929860599, guid: ed7fde554e04fdf44b30b02d0ba3c51e,
     type: 3}
 --- !u!1001 &2086091354240476326
