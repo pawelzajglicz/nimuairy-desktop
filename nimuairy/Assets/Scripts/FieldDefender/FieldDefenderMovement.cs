@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class FieldDefenderMovement : MonoBehaviour
 {
+    [SerializeField] public float timeFactor = 0;
+
     [SerializeField] float speedHorizontal = 0;
     [SerializeField] float speedVertical = 0;
     [SerializeField] float maxHorizontalSpeed = 10;
@@ -56,6 +58,7 @@ public class FieldDefenderMovement : MonoBehaviour
         direction = vectorOffset.normalized;
         transform.position += (Vector3)vectorOffset;
         HandleFacingDirection();
+        UpdateTimeFactor();
     }
 
     // TODO: refactoring
@@ -141,5 +144,18 @@ public class FieldDefenderMovement : MonoBehaviour
     internal void ModifyAccelerationByFactor(float speedBuffFactor)
     {
         acceleration *= speedBuffFactor;
+    }
+
+    public float GetTimeFactor()
+    {
+        return timeFactor;
+    }
+
+    private void UpdateTimeFactor()
+    {
+        float horizontalTimeFactor = speedHorizontal / maxHorizontalSpeed;
+        float verticalTimeFactor = speedVertical / maxVerticalSpeed;
+
+        timeFactor = (horizontalTimeFactor + verticalTimeFactor) / 2;
     }
 }
