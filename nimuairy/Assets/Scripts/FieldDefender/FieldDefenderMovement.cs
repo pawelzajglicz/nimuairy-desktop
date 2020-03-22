@@ -153,9 +153,9 @@ public class FieldDefenderMovement : MonoBehaviour
 
     private void UpdateTimeFactor()
     {
-        float horizontalTimeFactor = speedHorizontal / maxHorizontalSpeed;
-        float verticalTimeFactor = speedVertical / maxVerticalSpeed;
+        float horizontalTimeFactor = Mathf.Abs(speedHorizontal / maxHorizontalSpeed);
+        float verticalTimeFactor = Mathf.Abs(speedVertical / maxVerticalSpeed);
 
-        timeFactor = Mathf.Abs((horizontalTimeFactor + verticalTimeFactor) / 2) * 1.5f;
+        timeFactor = (horizontalTimeFactor + verticalTimeFactor) / 2 * 1.2f;
     }
 }
