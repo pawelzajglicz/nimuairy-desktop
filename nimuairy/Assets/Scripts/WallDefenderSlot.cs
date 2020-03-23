@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class WallDefenderSlot : MonoBehaviour
 {
-    [SerializeField] WallDefender wallDefender;
+    [SerializeField] WallDefender wallDefender = null;
 
     private void Start()
     {
-        wallDefender.transform.position = transform.position;
+        if (wallDefender)
+        {
+            wallDefender.transform.position = transform.position;
+        }
     }
 }

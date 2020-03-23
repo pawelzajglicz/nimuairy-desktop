@@ -10,8 +10,7 @@ public abstract class EnemyMovement : MonoBehaviour
     [SerializeField] public float currentSpeed = 0.5f;
     [SerializeField] public bool isStandardMoveAllowed;
     [SerializeField] protected bool arrivedAtWall;
-
-    [SerializeField] protected TimeManager timeManager;
+    
     [SerializeField] protected EnemyTimeManagerReacting enemyTimeManagerReacting;
 
 
@@ -20,14 +19,13 @@ public abstract class EnemyMovement : MonoBehaviour
         isStandardMoveAllowed = true;
 
         enemyTimeManagerReacting = GetComponent<EnemyTimeManagerReacting>();
-        timeManager = FindObjectOfType<TimeManager>();
     }
 
     void Update()
     {
         if (enemyTimeManagerReacting.isReactingToFieldDefenderTimeFactor)
         {
-            currentSpeed = startSpeed * timeManager.GetPlayerTimeFactor();
+            currentSpeed = startSpeed * TimeManager.playerTimeFactor;
         }
 
         if (isStandardMoveAllowed && !arrivedAtWall)

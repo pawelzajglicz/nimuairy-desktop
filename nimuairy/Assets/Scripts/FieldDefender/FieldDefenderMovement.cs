@@ -157,5 +157,7 @@ public class FieldDefenderMovement : MonoBehaviour
         float verticalTimeFactor = Mathf.Abs(speedVertical / maxVerticalSpeed);
 
         timeFactor = (horizontalTimeFactor + verticalTimeFactor) / 2 * 1.2f;
+
+        TimeManager.playerTimeFactor = timeFactor;
     }
 }

@@ -48,7 +48,7 @@ public class EnemyMovementSlanting : EnemyMovement
         float timeFactor = 1f;
         if (enemyTimeManagerReacting.isReactingToFieldDefenderTimeFactor)
         {
-            timeFactor = timeManager.GetPlayerTimeFactor();
+            timeFactor = TimeManager.playerTimeFactor;
         }
 
         timeElapsedSinceLastDirectionChange += Time.deltaTime * timeFactor;
