@@ -9,6 +9,8 @@ public class TargetFinderPriestess : TargetFinder
     [SerializeField] GameObject fieldDefenderGameObject;
     [SerializeField] GameObject wallGameObject;
 
+    public bool isManualTargeting;
+
     private void Start()
     {
         fieldDefender = FindObjectOfType<FieldDefenderMovement>();

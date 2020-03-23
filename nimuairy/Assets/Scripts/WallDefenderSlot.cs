@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class WallDefenderSlot : MonoBehaviour
 {
-    [SerializeField] WallDefender wallDefender = null;
+    [SerializeField] int slotNumber;
+    [SerializeField] bool isWallDefenderManualDefending;
+    [SerializeField] public WallDefender wallDefender;
+    [SerializeField] TargetForWallDefender targetPrefab;
+    [SerializeField] TargetForWallDefender target;
+
 
     private void Start()
     {
         if (wallDefender)
         {
             wallDefender.transform.position = transform.position;
+            wallDefender.slot = this;
+            isWallDefenderManualDefending = wallDefender.isManualTargeting;
         }
+    }
+
+    public void SetTargetPosition(Vector3 newPosition)
+    {
+        target.transform.position = newPosition;
     }
 }

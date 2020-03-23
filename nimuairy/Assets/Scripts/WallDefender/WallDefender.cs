@@ -7,6 +7,9 @@ public class WallDefender : MonoBehaviour
 {
     [SerializeField] protected WallDefenderAction fastAction;
     [SerializeField] protected WallDefenderAction slowAction;
+    [SerializeField] public WallDefenderSlot slot;
+
+    public bool isManualTargeting;
 
     [SerializeField] protected float fastActionInterval = 1f;
     [SerializeField] protected float slowActionInterval = 6f;
