@@ -14,6 +14,9 @@ public class WallDefender : MonoBehaviour
     [SerializeField] protected float timeToFastAction;
     [SerializeField] protected float timeToSlowAction;
 
+
+    [SerializeField] protected TimeManager timeManager;
+
     protected TargetFinder targetFinder;
 
     private void Awake()
@@ -25,6 +28,7 @@ public class WallDefender : MonoBehaviour
     {
         timeToFastAction = fastActionInterval;
         timeToSlowAction = slowActionInterval;
+        timeManager = FindObjectOfType<TimeManager>();
     }
     
     void Update()
@@ -40,7 +44,7 @@ public class WallDefender : MonoBehaviour
 
     protected virtual void HandleFastAttack()
     {
-        timeToFastAction -= Time.deltaTime;
+        timeToFastAction -= Time.deltaTime * timeManager.GetPlayerTimeFactor();
 
         if (timeToFastAction < 0)
         {
@@ -60,7 +64,7 @@ public class WallDefender : MonoBehaviour
 
     protected virtual void HandleSlowAttack()
     {
-        timeToSlowAction -= Time.deltaTime;
+        timeToSlowAction -= Time.deltaTime * timeManager.GetPlayerTimeFactor();
 
         if (timeToSlowAction < 0)
         {
