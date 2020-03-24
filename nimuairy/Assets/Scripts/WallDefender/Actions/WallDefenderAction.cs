@@ -21,7 +21,7 @@ public class WallDefenderAction : MonoBehaviour
     public void SetTarget(Vector2 newTarget)
     {
         targetPosition = newTarget;
-        if (newTarget != Vector2.zero)
+        if (newTarget != Vector2.zero && ((Vector2)this.transform.position != targetPosition))
         {
             transform.up = HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(newTarget)).ToVector();
         }

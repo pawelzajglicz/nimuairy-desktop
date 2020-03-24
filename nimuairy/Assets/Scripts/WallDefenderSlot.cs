@@ -25,4 +25,9 @@ public class WallDefenderSlot : MonoBehaviour
     {
         target.transform.position = newPosition;
     }
+
+    public Vector2 GetTargetPosition()
+    {
+        return target.transform.position;
+    }
 }

@@ -80,6 +80,14 @@ public class WallDefender : MonoBehaviour
     protected virtual void InstantiateSlowAttack()
     {
         WallDefenderAction slowAttackInstance = Instantiate(slowAction, transform.position, transform.rotation) as WallDefenderAction;
-        slowAttackInstance.SetTarget(targetFinder.FindTarget());
+
+        if (isManualTargeting)
+        {
+            slowAttackInstance.SetTarget(slot.GetTargetPosition());
+        }
+        else
+        {
+            slowAttackInstance.SetTarget(targetFinder.FindTarget());
+        }
     }
 }
