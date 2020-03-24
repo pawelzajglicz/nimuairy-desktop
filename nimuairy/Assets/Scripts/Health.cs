@@ -10,7 +10,7 @@ public class Health : MonoBehaviour
     [SerializeField] float currenttHealth;
     [SerializeField] float healFactor = 1f;
     [SerializeField] float damageFactor = 1f;
-    [SerializeField] HealthBar healthBar;
+    [SerializeField] PercentageBar healthBar;
 
 
     void Start()
@@ -68,7 +68,7 @@ public class Health : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            HealthBar childHealthBar = child.transform.gameObject.GetComponent<HealthBar>();
+            PercentageBar childHealthBar = child.transform.gameObject.GetComponent<PercentageBar>();
             if (childHealthBar)
             {
                 healthBar = childHealthBar;

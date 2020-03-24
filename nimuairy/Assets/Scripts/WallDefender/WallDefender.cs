@@ -11,11 +11,11 @@ public class WallDefender : MonoBehaviour
 
     public bool isManualTargeting;
 
-    [SerializeField] protected float fastActionInterval = 1f;
-    [SerializeField] protected float slowActionInterval = 6f;
+    [SerializeField] public float fastActionInterval = 1f;
+    [SerializeField] public float slowActionInterval = 6f;
 
-    [SerializeField] protected float timeToFastAction;
-    [SerializeField] protected float timeToSlowAction;
+    [SerializeField] public float timeToFastAction;
+    [SerializeField] public float timeToSlowAction;
 
     
 

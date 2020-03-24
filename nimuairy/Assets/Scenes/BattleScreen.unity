@@ -4701,6 +4701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallDefenderArcher
       objectReference: {fileID: 0}
+    - target: {fileID: 8101106169585316338, guid: 6d1eb5d629fdd5f489073f5bec3e64ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1851040236120536281, guid: 6d1eb5d629fdd5f489073f5bec3e64ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4864,6 +4869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallDefenderGunner
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390958763228164751, guid: 8b191e9708b557546927d7dc07f7345b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8294495251711250730, guid: 8b191e9708b557546927d7dc07f7345b,
         type: 3}

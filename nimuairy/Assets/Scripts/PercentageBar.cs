@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthBar : MonoBehaviour
+public class PercentageBar : MonoBehaviour
 {
 
     private float startXScale;
