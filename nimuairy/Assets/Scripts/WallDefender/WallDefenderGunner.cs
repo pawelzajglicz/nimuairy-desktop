@@ -14,13 +14,11 @@ public class WallDefenderGunner : WallDefender
         {
             return;
         }
-
-        Debug.Log(enemies.Length);
+        
         foreach (Enemy enemy in enemies)
         {
             WallDefenderAction fastAttackInstance = Instantiate(fastAction, transform.position, Quaternion.identity) as WallDefenderAction;
             fastAttackInstance.SetTarget(enemy.transform.position);
-            Debug.Log("a");
         }
 
     }

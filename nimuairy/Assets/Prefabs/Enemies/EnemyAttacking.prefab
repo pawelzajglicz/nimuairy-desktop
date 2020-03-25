@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attack: {fileID: 6166608907981684208, guid: f9bff08c52a939d4cbaa0be56b443710, type: 3}
+  attackTimeRate: 1.4
 --- !u!61 &7558128375352647928
 BoxCollider2D:
   m_ObjectHideFlags: 0

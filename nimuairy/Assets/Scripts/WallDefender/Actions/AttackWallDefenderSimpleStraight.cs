@@ -13,12 +13,17 @@ public class AttackWallDefenderSimpleStraight : WallDefenderAction
         MoveTotarget();
     }
 
-    private void CheckTargetAchieving(float distance)
+    protected void CheckTargetAchieving(float distance)
     {
         if (distance < stoppingDistance || transform.position.x >= targetPosition.x)
         {
-            Destroy(gameObject);
+            TargetAchievedAction();
         }
+    }
+
+    protected virtual void TargetAchievedAction()
+    {
+        Destroy(gameObject);
     }
 
     private void MoveTotarget()

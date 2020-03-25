@@ -245,10 +245,10 @@ MonoBehaviour:
   currentSpeed: 0.5
   isStandardMoveAllowed: 0
   arrivedAtWall: 0
-  timeManager: {fileID: 0}
   enemyTimeManagerReacting: {fileID: 0}
   timeToWaitToRotate: 0.75
   timeToChangeVerticalDirection: 2
+  timeElapsedSinceLastDirectionChange: 0
   verticalDirection: 1
   collider: {fileID: 0}
 --- !u!1 &7673413336028625026
@@ -321,7 +321,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 5d96b58466ce9d5439cd066bc4eb4c5d, type: 3}
-  m_Color: {r: 0.4056604, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.41509432, g: 0.3191527, b: 0.3191527, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class EnemyAttacking : MonoBehaviour
 {
-    [SerializeField] EnemyAttack attack;
+    [SerializeField] public EnemyAttack attack;
+
     [SerializeField] float attackTimeRate = 1.4f;
+    [SerializeField] public float attackPowerFactor = 1.4f;
 
     private HashSet<GameObject> objectsToDealDamage;
 
@@ -54,6 +56,7 @@ public class EnemyAttacking : MonoBehaviour
     private void InstantiateAttack()
     {
         EnemyAttack attackInstance = Instantiate(AttackPrefab, transform.position, Quaternion.identity) as EnemyAttack;
+        attackInstance.attackPower *= attackPowerFactor;
         attackInstance.transform.parent = transform;
     }
 

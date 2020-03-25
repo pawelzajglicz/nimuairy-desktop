@@ -12,7 +12,7 @@ public abstract class TargetFinder : MonoBehaviour
     virtual public Vector2 FindTargetPosition() { return GetDefaultTarget(); }
 
 
-    private void Start()
+    protected virtual void Start()
     {
         wallDefender = GetComponent<WallDefender>();
     }
