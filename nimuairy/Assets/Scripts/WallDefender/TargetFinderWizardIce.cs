@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetFinderArcher: TargetFinder
+public class TargetFinderWizardIce : TargetFinder
 {
     public override Vector2 FindTargetPosition()
-    {   
+    {
         return FindTarget().transform.position;
     }
 
@@ -18,17 +18,17 @@ public class TargetFinderArcher: TargetFinder
             return null;
         }
 
-        Enemy closestToWallEnemy = FindClosestToWallEnemy(enemies);
+        Enemy closestToWallEnemy = FindFarestToWallEnemy(enemies);
 
         return closestToWallEnemy.gameObject;
     }
 
-    private Enemy FindClosestToWallEnemy(Enemy[] enemies)
+    private Enemy FindFarestToWallEnemy(Enemy[] enemies)
     {
         Enemy closestEnemy = enemies[0];
         foreach (Enemy enemy in enemies)
         {
-            if (enemy.transform.position.x < closestEnemy.transform.position.x)
+            if (enemy.transform.position.x > closestEnemy.transform.position.x)
             {
                 closestEnemy = enemy;
             }
