@@ -198,7 +198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   biggerity: 1
   biggerityModificatorMinRange: 0
-  biggerityModificatorMaxRange: 3
+  biggerityModificatorMaxRange: 0.75
 --- !u!50 &8378914008262768228
 Rigidbody2D:
   serializedVersion: 4

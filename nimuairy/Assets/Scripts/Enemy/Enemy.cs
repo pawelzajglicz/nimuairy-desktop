@@ -5,8 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] public float biggerity = 1;
-    [SerializeField] float biggerityModificatorMinRange = 0;
-    [SerializeField] float biggerityModificatorMaxRange = 3;
+    [SerializeField] float biggerityModificatorMinRange = 0f;
+    [SerializeField] float biggerityModificatorMaxRange = 1.3f;
 
     private void Awake()
     {
@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        
+        transform.localScale *= biggerity;
     }
     
     void Update()
