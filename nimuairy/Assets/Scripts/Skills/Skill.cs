@@ -6,25 +6,45 @@ using UnityEngine;
 public abstract class Skill : MonoBehaviour
 {
     [SerializeField] public float cooldown = 4f;
-    [SerializeField] public bool canBeActivated = true;
+    [SerializeField] public float cooldownRemaining;
+
+    [SerializeField] public bool stillCooldown = false;
 
     public KeyCode activationKey;
 
     void Update()
     {
-        if (Input.GetKeyDown(activationKey) && canBeActivated)
+        ManageCooldownTime();
+        ManageSkillActivability();
+        ManageSkillUsing();
+    }
+
+    private void ManageCooldownTime()
+    {
+        if (cooldownRemaining > 0)
+        {
+            cooldownRemaining -= (Time.deltaTime * TimeManager.playerTimeFactor);
+        }
+    }
+
+    private void ManageSkillActivability()
+    {
+        if (cooldownRemaining <= 0)
+        {
+            stillCooldown = false;
+        }
+    }
+
+    private void ManageSkillUsing()
+    {
+        if (Input.GetKeyDown(activationKey) && !stillCooldown)
         {
             ActivateSkill();
-            StartCoroutine(ManageCooldown());
+            stillCooldown = true;
+            cooldownRemaining = cooldown;
         }
     }
 
     protected abstract void ActivateSkill();
 
-    protected IEnumerator ManageCooldown()
-    {
-        canBeActivated = false;
-        yield return new WaitForSeconds(cooldown);
-        canBeActivated = true;
-    }
 }

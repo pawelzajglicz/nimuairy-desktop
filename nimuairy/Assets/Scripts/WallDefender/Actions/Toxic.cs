@@ -27,7 +27,6 @@ public class Toxic : MonoBehaviour
 
     private void AffectEnemy()
     {
-        enemyAttacking.attackPowerFactor *= poisonAttackFactor;
         enemyMovement.currentSpeed *= poisonSpeedFactor;
     }
 
