@@ -44,7 +44,7 @@ public class BlackHole : MonoBehaviour
         {
             return;
         }
-        Debug.Log("aaaa");
+		
         enemy.transform.position += (Vector3)(direction * pullingForceValue);
     }
 }
