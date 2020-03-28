@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class AttackWallDefenderSimpleStraight : WallDefenderAction
 {
-    float stoppingDistance = 0.1f;
+    float stoppingDistance = 0.05f;
+    public bool isDirectingToRight = true;
 
     void Update()
     {
@@ -15,9 +16,21 @@ public class AttackWallDefenderSimpleStraight : WallDefenderAction
 
     protected void CheckTargetAchieving(float distance)
     {
-        if (distance < stoppingDistance || transform.position.x >= targetPosition.x)
+        if (distance < stoppingDistance || GoTooFar())
         {
             TargetAchievedAction();
+        }
+    }
+
+    private bool GoTooFar()
+    {
+        if (isDirectingToRight)
+        {
+            return transform.position.x >= targetPosition.x;
+        }
+        else
+        {
+            return transform.position.x <= targetPosition.x;
         }
     }
 
