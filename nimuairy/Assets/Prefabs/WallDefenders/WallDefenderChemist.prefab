@@ -55,7 +55,7 @@ MonoBehaviour:
   slot: {fileID: 0}
   isManualTargeting: 1
   fastActionInterval: 1
-  slowActionInterval: 2
+  slowActionInterval: 5
   timeToFastAction: 0
   timeToSlowAction: 0
 --- !u!114 &4059377871336292100

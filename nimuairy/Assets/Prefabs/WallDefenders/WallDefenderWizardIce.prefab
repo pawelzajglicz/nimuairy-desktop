@@ -130,7 +130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fastAction: {fileID: 5395054948887891885, guid: 13b21485dc763fa48973271322ec29d7,
     type: 3}
-  slowAction: {fileID: 0}
+  slowAction: {fileID: -4665466613597123711, guid: bb2a6c6ac2d4bca40a90d18e12bdb521,
+    type: 3}
   slot: {fileID: 0}
   isManualTargeting: 1
   fastActionInterval: 1

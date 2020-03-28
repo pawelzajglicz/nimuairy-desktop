@@ -163,7 +163,6 @@ MonoBehaviour:
   currentSpeed: 0.5
   isStandardMoveAllowed: 0
   arrivedAtWall: 0
-  timeManager: {fileID: 0}
   enemyTimeManagerReacting: {fileID: 0}
   timeToWaitToRotate: 0.75
   collider: {fileID: 0}
@@ -220,7 +219,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &16012164028904324
 MonoBehaviour:
   m_ObjectHideFlags: 0
