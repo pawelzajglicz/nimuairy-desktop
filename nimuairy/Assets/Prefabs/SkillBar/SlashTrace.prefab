@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1726838846461669880}
   - component: {fileID: 5372780947743694638}
   - component: {fileID: 4717404437249158386}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SlashTrace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,6 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f291ddfd29ffbb645b23eec7a9486fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackPower: 35
+  lifeTime: 1
+  traceCollidingTime: 0.3
 --- !u!61 &4717404437249158386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -81,7 +84,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4887864125715865469}
   - component: {fileID: 7234779942141914389}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SlashTrace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
