@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class TargetForWallDefender : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] WallDefender wallDefender;
+    [SerializeField] WallDefenderSlot slot;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        wallDefender = slot.wallDefender;
+        if (wallDefender && wallDefender.isManualTargeting)
+        {
+            transform.position = new Vector2(Camera.main.transform.position.x, Camera.main.transform.position.y);
+        }
     }
 }
