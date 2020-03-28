@@ -8,16 +8,8 @@ public class TargetFinderWizardLightning : TargetFinder
 
     public override Vector2 FindTargetPosition()
     {
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
 
-        if (enemies.Length == 0)
-        {
-            return GetDefaultTarget();
-        }
-
-        Enemy biggestEnemy = FindBiggestEnemy(enemies);
-
-        return biggestEnemy.transform.position;
+        return FindTarget().transform.position;
     }
 
     public override GameObject FindTarget()

@@ -28,26 +28,22 @@ public class TargetFinderChemist : TargetFinder
             return null;
         }
 
-        Enemy closestToWallEnemy = FindClosestFieldDefender(enemies);
+        Enemy closestToWallEnemy = FindSmallestEnemy(enemies);
 
         return closestToWallEnemy.gameObject;
     }
 
-    private Enemy FindClosestFieldDefender(Enemy[] enemies)
+    private Enemy FindSmallestEnemy(Enemy[] enemies)
     {
-        Enemy closestEnemy = enemies[0];
-        float smallestDistance = Vector2.Distance(fieldDefender.transform.position, closestEnemy.transform.position);
-
+        Enemy smallestEnemy = enemies[0];
         foreach (Enemy enemy in enemies)
         {
-            float distance = Vector2.Distance(fieldDefender.transform.position, enemy.transform.position);
-            if (distance < smallestDistance)
+            if (enemy.biggerity < smallestEnemy.biggerity)
             {
-                closestEnemy = enemy;
-                smallestDistance = distance;
+                smallestEnemy = enemy;
             }
         }
 
-        return closestEnemy;
+        return smallestEnemy;
     }
 }
