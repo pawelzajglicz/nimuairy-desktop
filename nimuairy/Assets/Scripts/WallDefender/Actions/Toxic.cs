@@ -16,7 +16,7 @@ public class Toxic : MonoBehaviour
     
     private void Update()
     {
-        timeSinceLastPoisonEffect += Time.deltaTime;
+        timeSinceLastPoisonEffect += (Time.deltaTime * TimeManager.playerTimeFactor);
 
         if (timeSinceLastPoisonEffect > poisonInterval)
         {

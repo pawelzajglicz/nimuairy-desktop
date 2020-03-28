@@ -20,7 +20,7 @@ public class Burning : MonoBehaviour
 
     private void Update()
     {
-        timeSinceLastBurnDamage += Time.deltaTime;
+        timeSinceLastBurnDamage += (Time.deltaTime * TimeManager.playerTimeFactor);
 
         if (timeSinceLastBurnDamage > burnInterval)
         {
