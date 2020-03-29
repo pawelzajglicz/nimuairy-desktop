@@ -17,9 +17,9 @@ public class Enemy : MonoBehaviour
     {
         transform.localScale *= biggerity;
     }
-    
-    void Update()
+
+    private void OnDestroy()
     {
-        
+        FindObjectOfType<EnemiesNumberShower>().HandleEnemyDeath();
     }
 }
