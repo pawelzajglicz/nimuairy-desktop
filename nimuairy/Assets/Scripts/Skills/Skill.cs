@@ -37,7 +37,7 @@ public abstract class Skill : MonoBehaviour
 
     private void ManageSkillUsing()
     {
-        if (Input.GetKeyDown(activationKey) && !stillCooldown)
+        if (Input.GetKeyDown(activationKey) && !stillCooldown && GameManager.IsBattle)
         {
             ActivateSkill();
             stillCooldown = true;

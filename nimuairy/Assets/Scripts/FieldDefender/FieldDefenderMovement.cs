@@ -46,7 +46,10 @@ public class FieldDefenderMovement : MonoBehaviour
 
     void Update()
     {
-        HandleMoving();
+        if (GameManager.IsBattle)
+        {
+            HandleMoving();
+        }
     }
 
     private void HandleMoving()

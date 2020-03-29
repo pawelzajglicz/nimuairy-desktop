@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8fec6dc1d87eb2b499771441ef6340da
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FairydustB
+  fontNames:
+  - FairydustB
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ba4726bb715077f47bf8cd24788cb67f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
