@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BattleButton : MonoBehaviour
+public class StartBattleButton : MonoBehaviour
 {
-
     public void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            CameraPositioner.GoToBattleScreen();
-            FindObjectOfType<EnemiesGenerator>().ProcessGeneratingEnemies();
+            GameManager.IsBattle = true;
         }
     }
 }

@@ -5,25 +5,25 @@ using UnityEngine;
 
 public class EnemiesGenerator : MonoBehaviour
 {
-    [SerializeField] float xLeftLimitInstantiate = -10f;
-    [SerializeField] float xRightLimitInstantiate = 14f;
-    [SerializeField] float yUpperLimitInstantiate = 3f;
-    [SerializeField] float yBottomLimitInstantiate = -4f;
+    [SerializeField] float XLeftLimitInstantiate = -10f;
+    [SerializeField] float XRightLimitInstantiate = 14f;
+    [SerializeField] float YUpperLimitInstantiate = 3f;
+    [SerializeField] float YBottomLimitInstantiate = -4f;
 
     [SerializeField] float xOffsetForNoReactingForTimeFactorEnemies = 26f;
 
-    [SerializeField] int numberOfEnemiesReactingToTimeFactor = 18;
-    [SerializeField] int numberOfEnemiesNoReactingToTimeFactor = 26;
+    [SerializeField] public int NumberOfEnemiesReactingToTimeFactor = 18;
+    [SerializeField] public int NumberOfEnemiesNoReactingToTimeFactor = 26;
     int allEnemiesAmount;
 
     [SerializeField] int numberOfEnemiesWalkingStraight = 26;
    /* [SerializeField]*/ int numberOfEnemiesWalkingSlant;
 
-    [SerializeField] int numberAngelModificators = 15;
-    [SerializeField] int numberDevilModificators = 15;
+    [SerializeField] public int NumberAngelModificators = 15;
+    [SerializeField] public int NumberDevilModificators = 15;
        
-    [SerializeField] float biggerityMin = 0.3f;
-    [SerializeField] float biggerityMax = 2.3f;
+    [SerializeField] public float BiggerityMin = 0.3f;
+    [SerializeField] public float BiggerityMax = 2.3f;
 
     HashSet<int> indicesForAngelModificators;
     HashSet<int> indicesForDevilModificators;
@@ -41,10 +41,10 @@ public class EnemiesGenerator : MonoBehaviour
 
     void Start()
     {
-       // ProcessGeneratingEnemies();
+        //ProcessGeneratingEnemies();
     }
 
-    private void ProcessGeneratingEnemies()
+    public void ProcessGeneratingEnemies()
     {
         HandleModificatorsAmount();
         GenerateModificatorsIndices();
@@ -53,15 +53,15 @@ public class EnemiesGenerator : MonoBehaviour
 
     private void HandleModificatorsAmount()
     {
-        allEnemiesAmount = numberOfEnemiesReactingToTimeFactor + numberOfEnemiesNoReactingToTimeFactor;
+        allEnemiesAmount = NumberOfEnemiesReactingToTimeFactor + NumberOfEnemiesNoReactingToTimeFactor;
 
-        if (numberOfEnemiesReactingToTimeFactor < 0) numberOfEnemiesReactingToTimeFactor = 0;
-        if (numberOfEnemiesNoReactingToTimeFactor < 0) numberOfEnemiesNoReactingToTimeFactor = 0;
+        if (NumberOfEnemiesReactingToTimeFactor < 0) NumberOfEnemiesReactingToTimeFactor = 0;
+        if (NumberOfEnemiesNoReactingToTimeFactor < 0) NumberOfEnemiesNoReactingToTimeFactor = 0;
 
-        if (numberAngelModificators < 0) numberAngelModificators = 0;
-        if (numberDevilModificators < 0) numberDevilModificators = 0;
-        if (numberAngelModificators > allEnemiesAmount) numberAngelModificators = allEnemiesAmount;
-        if (numberDevilModificators > allEnemiesAmount) numberDevilModificators = allEnemiesAmount;
+        if (NumberAngelModificators < 0) NumberAngelModificators = 0;
+        if (NumberDevilModificators < 0) NumberDevilModificators = 0;
+        if (NumberAngelModificators > allEnemiesAmount) NumberAngelModificators = allEnemiesAmount;
+        if (NumberDevilModificators > allEnemiesAmount) NumberDevilModificators = allEnemiesAmount;
 
         if (numberOfEnemiesWalkingStraight < 0) numberOfEnemiesWalkingStraight = 0;
         if (numberOfEnemiesWalkingStraight > allEnemiesAmount) numberOfEnemiesWalkingStraight = allEnemiesAmount;
@@ -71,8 +71,8 @@ public class EnemiesGenerator : MonoBehaviour
 
     private void GenerateModificatorsIndices()
     {
-       indicesForAngelModificators = DrawIntegers(numberAngelModificators, allEnemiesAmount);
-       indicesForDevilModificators = DrawIntegers(numberDevilModificators, allEnemiesAmount);
+       indicesForAngelModificators = DrawIntegers(NumberAngelModificators, allEnemiesAmount);
+       indicesForDevilModificators = DrawIntegers(NumberDevilModificators, allEnemiesAmount);
         walkingTypesToGenerate = new List<int>();
 
        for (int i = 0; i <= numberOfEnemiesWalkingStraight; i++)
@@ -116,17 +116,17 @@ public class EnemiesGenerator : MonoBehaviour
             }
 
 
-            float xPos = UnityEngine.Random.Range(xLeftLimitInstantiate, xRightLimitInstantiate);
-            float yPos = UnityEngine.Random.Range(yBottomLimitInstantiate, yUpperLimitInstantiate);
+            float xPos = UnityEngine.Random.Range(XLeftLimitInstantiate, XRightLimitInstantiate);
+            float yPos = UnityEngine.Random.Range(YBottomLimitInstantiate, YUpperLimitInstantiate);
 
-            if (i >= numberOfEnemiesReactingToTimeFactor)
+            if (i >= NumberOfEnemiesReactingToTimeFactor)
             {
                 xPos += xOffsetForNoReactingForTimeFactorEnemies;
             }
 
             Enemy enemyInstance = Instantiate(prefab, new Vector2(xPos, yPos), Quaternion.identity) as Enemy;
 
-            if (i < numberOfEnemiesReactingToTimeFactor)
+            if (i < NumberOfEnemiesReactingToTimeFactor)
             {
                 enemyInstance.GetComponent<EnemyTimeManagerReacting>().isReactingToFieldDefenderTimeFactor = true;
             }
@@ -140,7 +140,7 @@ public class EnemiesGenerator : MonoBehaviour
                 Instantiate(devilModifier, enemyInstance.transform.position, Quaternion.identity).transform.parent = enemyInstance.transform;
             }
 
-            float biggerityFactor = UnityEngine.Random.Range(biggerityMin, biggerityMax);
+            float biggerityFactor = UnityEngine.Random.Range(BiggerityMin, BiggerityMax);
             enemyInstance.transform.localScale *= biggerityFactor;
         }
     }

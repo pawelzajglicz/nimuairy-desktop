@@ -12,7 +12,7 @@ public class TargetForWallDefender : MonoBehaviour
         wallDefender = slot.wallDefender;
         if (wallDefender && wallDefender.isManualTargeting)
         {
-            transform.position = new Vector2(Camera.main.transform.position.x, Camera.main.transform.position.y);
+            transform.position = Vector2.zero;
         }
     }
 }
