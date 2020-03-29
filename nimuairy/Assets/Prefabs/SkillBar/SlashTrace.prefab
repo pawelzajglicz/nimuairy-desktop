@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPower: 35
-  lifeTime: 1
+  lifeTime: 2
   traceCollidingTime: 0.3
 --- !u!61 &4717404437249158386
 BoxCollider2D:
