@@ -17,6 +17,7 @@ public abstract class EnemyMovement : MonoBehaviour
     void Start()
     {
         isStandardMoveAllowed = true;
+        currentSpeed = startSpeed;
 
         enemyTimeManagerReacting = GetComponent<EnemyTimeManagerReacting>();
     }
