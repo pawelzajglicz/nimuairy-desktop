@@ -9,16 +9,18 @@ public class WallDefenderSlot : MonoBehaviour
     [SerializeField] public WallDefender wallDefender;
     [SerializeField] TargetForWallDefender targetPrefab;
     [SerializeField] TargetForWallDefender target;
+    [SerializeField] SelectedWallDefenderSetter setter;
 
 
     private void Start()
     {
-        if (wallDefender)
+        setter = FindObjectOfType<SelectedWallDefenderSetter>();
+        /*if (wallDefender)
         {
             wallDefender.transform.position = transform.position;
             wallDefender.slot = this;
             isWallDefenderManualDefending = wallDefender.isManualTargeting;
-        }
+        }*/
     }
 
     public void SetTargetPosition(Vector3 newPosition)
@@ -29,5 +31,31 @@ public class WallDefenderSlot : MonoBehaviour
     public Vector2 GetTargetPosition()
     {
         return target.transform.position;
+    }
+
+    public void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            SetDefender(setter.wallDefender);
+        }
+    }
+
+    public void SetDefender(WallDefender wallDefender)
+    {
+        if (this.wallDefender != null)
+        {
+            this.wallDefender.ReturnToPlaceholder(); ;
+        }
+        if (wallDefender.slot != null)
+        {
+            wallDefender.slot.wallDefender = null;
+        }
+
+        this.wallDefender = wallDefender;
+        wallDefender.slot = this;
+        wallDefender.transform.position = transform.position;
+        isWallDefenderManualDefending = wallDefender.isManualTargeting;
+        wallDefender.isActive = true;
     }
 }

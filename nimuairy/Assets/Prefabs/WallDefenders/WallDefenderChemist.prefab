@@ -58,6 +58,7 @@ MonoBehaviour:
   slowActionInterval: 5
   timeToFastAction: 0
   timeToSlowAction: 0
+  isActive: 0
 --- !u!114 &4059377871336292100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,7 +160,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 45
   m_Sprite: {fileID: 21300000, guid: 28d1e09f5ab833e4b80216c95b2a24a2, type: 3}
   m_Color: {r: 0.110422604, g: 0.31132078, b: 0.0073424703, a: 1}
   m_FlipX: 0

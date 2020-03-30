@@ -8,6 +8,7 @@ public class WallDefender : MonoBehaviour
     [SerializeField] protected WallDefenderAction fastAction;
     [SerializeField] protected WallDefenderAction slowAction;
     [SerializeField] public WallDefenderSlot slot;
+    [SerializeField] public WallDefenderPlaceHolder placeholder;
 
     public bool isManualTargeting;
 
@@ -16,6 +17,8 @@ public class WallDefender : MonoBehaviour
 
     [SerializeField] public float timeToFastAction;
     [SerializeField] public float timeToSlowAction;
+
+    [SerializeField] public bool isActive;
 
     
 
@@ -34,7 +37,10 @@ public class WallDefender : MonoBehaviour
     
     void Update()
     {
-        HandleAttacks();
+        if (isActive)
+        {
+            HandleAttacks();
+        }
     }
 
     private void HandleAttacks()
@@ -89,5 +95,14 @@ public class WallDefender : MonoBehaviour
         {
             slowAttackInstance.SetTarget(targetFinder.FindTarget());
         }
+    }
+
+    public void ReturnToPlaceholder()
+    {
+        Debug.Log("dsds");
+        transform.position = placeholder.transform.position;
+        isActive = false;
+        slot.wallDefender = null;
+        slot = null;
     }
 }
