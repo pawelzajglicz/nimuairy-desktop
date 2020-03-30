@@ -13,8 +13,9 @@ public class SkillDragonBreath : Skill
         activationKey = KeyCode.S;;
     }
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         fieldDefenderMovement = FindObjectOfType<FieldDefenderMovement>();
     }
 

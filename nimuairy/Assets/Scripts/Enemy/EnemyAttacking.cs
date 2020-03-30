@@ -21,7 +21,7 @@ public class EnemyAttacking : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject collided = collision.gameObject;
-        if (IsGameObjectAttackable(collided) && GameManager.IsBattle)
+        if (IsGameObjectAttackable(collided) && FindObjectOfType<GameManager>().IsBattle)
         {
             AttackGameObject(collided);
         }

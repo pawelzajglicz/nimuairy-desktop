@@ -12,6 +12,14 @@ public abstract class Skill : MonoBehaviour
 
     public KeyCode activationKey;
 
+
+    GameManager gameManager;
+
+    protected virtual void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
+
     void Update()
     {
         ManageCooldownTime();
@@ -37,7 +45,7 @@ public abstract class Skill : MonoBehaviour
 
     private void ManageSkillUsing()
     {
-        if (Input.GetKeyDown(activationKey) && !stillCooldown && GameManager.IsBattle)
+        if (Input.GetKeyDown(activationKey) && !stillCooldown && gameManager.IsBattle)
         {
             ActivateSkill();
             stillCooldown = true;

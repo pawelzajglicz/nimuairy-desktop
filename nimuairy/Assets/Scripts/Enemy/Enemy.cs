@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] float biggerityModificatorMinRange = 0f;
     [SerializeField] float biggerityModificatorMaxRange = 1.3f;
 
+    GameManager gameManager;
+
     private void Awake()
     {
         biggerity += Random.Range(biggerityModificatorMinRange, biggerityModificatorMaxRange);
@@ -17,11 +19,12 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         transform.localScale *= biggerity;
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     private void OnDestroy()
     {
-        FindObjectOfType<EnemiesNumberShower>().HandleEnemyDeath();
+        gameManager.HandleEnemyDeath();
         FindObjectOfType<ResourcesManager>().AddMagicCrystals(magicCrystalReward);
     }
 }

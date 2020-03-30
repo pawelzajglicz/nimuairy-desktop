@@ -15,8 +15,9 @@ public class SkillDash : Skill
         activationKey = KeyCode.A;
     }
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         fieldDefenderMovement = FindObjectOfType<FieldDefenderMovement>();
     }
 

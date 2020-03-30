@@ -11,7 +11,7 @@ public class BattleButton : MonoBehaviour
         {
             CameraPositioner.GoToBattleScreen();
             FindObjectOfType<EnemiesGenerator>().ProcessGeneratingEnemies();
-            FindObjectOfType<EnemiesNumberShower>().CountEnemies();
+            FindObjectOfType<GameManager>().CountEnemies();
         }
     }
 }

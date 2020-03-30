@@ -13,8 +13,9 @@ public class SkillBlackHole : Skill
         activationKey = KeyCode.F;
     }
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         fieldDefenderMovement = FindObjectOfType<FieldDefenderMovement>();
     }
 

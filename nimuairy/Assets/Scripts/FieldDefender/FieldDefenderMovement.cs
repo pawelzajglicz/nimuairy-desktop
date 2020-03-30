@@ -27,6 +27,7 @@ public class FieldDefenderMovement : MonoBehaviour
 
     public State State => state;
     public int FacingRightValue => facingRight;
+    GameManager gameManager;
 
     int facingRight = 1;
 
@@ -42,11 +43,13 @@ public class FieldDefenderMovement : MonoBehaviour
         {
             SetState(stateManager.getCurrentState());
         }
+
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     void Update()
     {
-        if (GameManager.IsBattle)
+        if (gameManager.IsBattle)
         {
             HandleMoving();
         }

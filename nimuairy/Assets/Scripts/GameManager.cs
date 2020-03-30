@@ -1,8 +1,32 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class GameManager
+public class GameManager : MonoBehaviour
 {
-    public static bool IsBattle;
+    public bool IsBattle;
+    static int enemiesNumber;  
+
+    public void HandleEnemyDeath()
+    {
+        enemiesNumber--;
+        UpdateDisplayers();
+    }
+
+    public void CountEnemies()
+    {
+        enemiesNumber = FindObjectsOfType<Enemy>().Length;
+        UpdateDisplayers();
+    }
+
+    private void UpdateDisplayers()
+    {
+        EnemiesNumberShower[] showers = FindObjectsOfType<EnemiesNumberShower>();
+        foreach (EnemiesNumberShower shower in showers)
+        {
+            shower.SetEnemiesNumber(enemiesNumber);
+        }
+    }
+
 }

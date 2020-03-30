@@ -99,7 +99,6 @@ public class WallDefender : MonoBehaviour
 
     public void ReturnToPlaceholder()
     {
-        Debug.Log("dsds");
         transform.position = placeholder.transform.position;
         isActive = false;
         slot.wallDefender = null;

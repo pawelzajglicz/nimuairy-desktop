@@ -29,7 +29,7 @@ public abstract class EnemyMovement : MonoBehaviour
             currentSpeed = startSpeed * TimeManager.playerTimeFactor;
         }
 
-        if (isStandardMoveAllowed && !arrivedAtWall && GameManager.IsBattle)
+        if (isStandardMoveAllowed && !arrivedAtWall && FindObjectOfType<GameManager>().IsBattle)
         {
             ProcessStandardMove();
         }

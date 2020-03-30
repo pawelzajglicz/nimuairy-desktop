@@ -14,7 +14,6 @@ public class EnemiesNumberShower : MonoBehaviour
     private void Start()
     {
         FindText();
-        CountEnemies();
     }
 
     private void FindText()
@@ -23,21 +22,15 @@ public class EnemiesNumberShower : MonoBehaviour
         startingText = text.text;
     }
 
-    public void HandleEnemyDeath()
-    {
-        enemiesNumber--;
-        UpdateText();
-    }
-
-    public void CountEnemies()
-    {
-        enemiesNumber = FindObjectsOfType<Enemy>().Length;
-        UpdateText();
-    }
-
     public void UpdateText()
     {
         text.text = startingText + " " + enemiesNumber;
+    }
+
+    public void SetEnemiesNumber(int number)
+    {
+        enemiesNumber = number;
+        UpdateText();
     }
 }
 

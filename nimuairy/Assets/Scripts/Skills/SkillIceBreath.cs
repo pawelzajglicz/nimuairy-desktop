@@ -18,8 +18,9 @@ public class SkillIceBreath : Skill
         activationKey = KeyCode.D; ;
     }
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         fieldDefenderMovement = FindObjectOfType<FieldDefenderMovement>();
     }
 
