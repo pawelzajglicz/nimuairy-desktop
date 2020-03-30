@@ -8,6 +8,23 @@ public class GameManager : MonoBehaviour
     public bool IsBattle;
     static int enemiesNumber;  
 
+    public void StartBattle()
+    {
+        IsBattle = true;
+        WallDefenderSlot[] slots = FindObjectsOfType<WallDefenderSlot>();
+
+        foreach (WallDefenderSlot slot in slots)
+        {
+            slot.SetTargetDefaultPosition();
+        }
+    }
+
+    public void StopBattle()
+    {
+        IsBattle = false;
+    }
+
+
     public void HandleEnemyDeath()
     {
         enemiesNumber--;

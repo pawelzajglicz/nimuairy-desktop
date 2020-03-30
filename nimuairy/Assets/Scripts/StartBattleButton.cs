@@ -16,7 +16,7 @@ public class StartBattleButton : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            gameManager.IsBattle = true;
+            gameManager.StartBattle();
         }
     }
 }

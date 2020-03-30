@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,10 @@ public class WallDefenderSlot : MonoBehaviour
     [SerializeField] TargetForWallDefender target;
     [SerializeField] SelectedWallDefenderSetter setter;
 
+    internal void SetTargetDefaultPosition()
+    {
+        SetTargetPosition(new Vector3(0, 0, 0));
+    }
 
     private void Start()
     {
