@@ -5,7 +5,7 @@ using UnityEngine;
 public static class CameraPositioner
 {
     static Vector3 battlePosition = new Vector3(0, 0, -10);
-    static Vector3 cityPosition = new Vector3(-50, 0, -10);
+    static Vector3 cityPosition = new Vector3(0, -50, -10);
 
     public static void GoToBattleScreen()
     {

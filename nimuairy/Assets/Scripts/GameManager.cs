@@ -5,8 +5,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] SuccessDisplayer success;
+    [SerializeField] FailureDisplayer failure;
+
     public bool IsBattle;
     static int enemiesNumber;  
+
 
     public void StartBattle()
     {
@@ -29,6 +33,16 @@ public class GameManager : MonoBehaviour
     {
         enemiesNumber--;
         UpdateDisplayers();
+
+        if (enemiesNumber <= 0)
+        {
+            ProcessDefenceSuccess();
+        }
+    }
+
+    private void ProcessDefenceSuccess()
+    {
+        success.gameObject.SetActive(true);
     }
 
     public void CountEnemies()
