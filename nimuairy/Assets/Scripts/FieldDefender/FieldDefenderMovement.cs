@@ -166,4 +166,9 @@ public class FieldDefenderMovement : MonoBehaviour
 
         TimeManager.playerTimeFactor = timeFactor;
     }
+
+    private void OnDestroy()
+    {
+        FindObjectOfType<GameManager>().ProcessDefenceFailure();
+    }
 }

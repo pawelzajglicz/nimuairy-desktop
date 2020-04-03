@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class Wall : MonoBehaviour
 {
-    
+    private void OnDestroy()
+    {
+        FindObjectOfType<GameManager>().ProcessDefenceFailure();
+    }
 }

@@ -15,6 +15,7 @@ public class SuccessDisplayer : MonoBehaviour
     {
         yield return new WaitForSeconds(waitingToReturnToCityTime);
         CameraPositioner.GoToCityScreen();
+        this.gameObject.SetActive(false);
     }
 
 

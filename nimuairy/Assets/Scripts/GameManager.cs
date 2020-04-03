@@ -40,9 +40,50 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void ProcessDefenceSuccess()
+    public void ProcessDefenceSuccess()
     {
+        IsBattle = false;
         success.gameObject.SetActive(true);
+        TimeManager.playerTimeFactor = 0;
+
+        ResetTimers();
+        ResetHealth();
+    }
+
+    private void ResetHealth()
+    {
+        foreach (Health health in FindObjectsOfType<Health>())
+        {
+            health.Reset();
+        }
+    }
+
+    public void ProcessDefenceFailure()
+    {
+        failure.gameObject.SetActive(true);
+    }
+
+    private void ResetTimers()
+    {
+        ResetWallDefendersTimers();
+        ResetSkillTimers();
+    }
+
+    private void ResetWallDefendersTimers()
+    {
+        foreach (WallDefender defender in FindObjectsOfType<WallDefender>())
+        {
+            defender.timeToFastAction = defender.fastActionInterval;
+            defender.timeToSlowAction = defender.slowActionInterval;
+        }
+    }
+
+    private void ResetSkillTimers()
+    {
+        foreach (Skill skill in FindObjectsOfType<Skill>())
+        {
+            skill.cooldownRemaining = 0;
+        }
     }
 
     public void CountEnemies()

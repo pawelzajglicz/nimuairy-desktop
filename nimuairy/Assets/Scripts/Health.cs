@@ -20,6 +20,12 @@ public class Health : MonoBehaviour
         TryGetHealthBar();
     }
 
+    public void Reset()
+    {
+        currenttHealth = startHealth;
+        healthBar.SetPercentage(100);
+    }
+
     public void DealDamage(float damage)
     {
         currenttHealth -= damage * damageFactor;
