@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class ParamUpgrader : MonoBehaviour
 {
@@ -23,11 +24,11 @@ public class ParamUpgrader : MonoBehaviour
     [SerializeField] public int nextValue;
     [SerializeField] public int cost;
 
-    [SerializeField] public float nextValueFactor = 0.05f;
+    [SerializeField] public float nextValueFactor = 0.3f;
     [SerializeField] public int addingValue = 2;
 
-    [SerializeField] public float costFactor = 0.05f;
-    [SerializeField] public int addingCost = 2;
+    [SerializeField] public float costFactor = 0.45f;
+    [SerializeField] public int addingCost = 3;
 
     void Start()
     {
@@ -35,15 +36,17 @@ public class ParamUpgrader : MonoBehaviour
         startNextValueText = nextValueTMP.text;
         startCostText = costTMP.text;
 
+        nextValue = startCurrentValue + (int)(level * nextValueFactor + addingValue);
+
         UpdateNumbers();
         UpdateTexts();
     }
 
     void UpdateNumbers()
     {
-        currentValue = (int)(level * nextValueFactor + addingValue);
-        nextValue = (int)((level + 1) * nextValueFactor + addingValue);
-        cost = (int)(level * costFactor + addingCost);
+        currentValue += (int)(level * nextValueFactor + addingValue);
+        nextValue = currentValue + (int)((level + 1) * nextValueFactor + addingValue);
+        cost += (int)(level * costFactor + addingCost);
     }
 
     void UpdateTexts()
@@ -51,5 +54,21 @@ public class ParamUpgrader : MonoBehaviour
         currentValueTMP.text = startCurrentValueText + currentValue;
         nextValueTMP.text = startNextValueText + nextValue;
         costTMP.text = startCostText + cost;
+    }
+    
+
+    public void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            ManageNextLevel();
+        }
+    }
+
+    private void ManageNextLevel()
+    {
+        level++;
+        UpdateNumbers();
+        UpdateTexts();
     }
 }
