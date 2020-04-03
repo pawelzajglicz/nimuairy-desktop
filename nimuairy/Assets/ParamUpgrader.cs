@@ -9,12 +9,14 @@ public class ParamUpgrader : MonoBehaviour
     [SerializeField] protected TextMeshPro currentValueTMP;
     [SerializeField] protected TextMeshPro nextValueTMP;
     [SerializeField] protected TextMeshPro costTMP;
+    [SerializeField] protected TextMeshPro maxLevelTMP;
 
     [SerializeField] public Param param;
 
     private string startCurrentValueText;
     private string startNextValueText;
     private string startCostText;
+    private bool levelableUp = true;
 
     [SerializeField] public int level = 1;
     [SerializeField] public int startCurrentValue = 5;
@@ -30,6 +32,9 @@ public class ParamUpgrader : MonoBehaviour
     [SerializeField] public float costFactor = 0.45f;
     [SerializeField] public int addingCost = 3;
 
+    [SerializeField] public bool isMaxLevel;
+    [SerializeField] public int maxLevel = 20;
+
     void Start()
     {
         startCurrentValueText = currentValueTMP.text;
@@ -37,9 +42,16 @@ public class ParamUpgrader : MonoBehaviour
         startCostText = costTMP.text;
 
         nextValue = startCurrentValue + (int)(level * nextValueFactor + addingValue);
-
         UpdateNumbers();
         UpdateTexts();
+
+    }
+
+    private void ShowMax()
+    {
+        nextValueTMP.gameObject.SetActive(false);
+        costTMP.gameObject.SetActive(false);
+        maxLevelTMP.gameObject.SetActive(true);
     }
 
     void UpdateNumbers()
@@ -59,7 +71,7 @@ public class ParamUpgrader : MonoBehaviour
 
     public void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && levelableUp)
         {
             ManageNextLevel();
         }
@@ -70,5 +82,11 @@ public class ParamUpgrader : MonoBehaviour
         level++;
         UpdateNumbers();
         UpdateTexts();
+
+        if (isMaxLevel && level >= maxLevel)
+        {
+            ShowMax();
+            levelableUp = false;
+        }
     }
 }
