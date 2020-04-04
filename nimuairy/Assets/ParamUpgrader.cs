@@ -88,5 +88,7 @@ public class ParamUpgrader : MonoBehaviour
             ShowMax();
             levelableUp = false;
         }
+
+        param.ParamValue = currentValue;
     }
 }

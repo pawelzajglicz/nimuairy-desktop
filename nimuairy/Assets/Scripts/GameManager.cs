@@ -101,4 +101,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void UpdateParamizables()
+    {
+        Paramizable[] paramizables = FindObjectsOfType<Paramizable>();
+        foreach (Paramizable paramizable in paramizables)
+        {
+            paramizable.UpdateParams();
+        }
+    }
+
 }

@@ -3,14 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FieldDefenderMovement : MonoBehaviour
+public class FieldDefenderMovement : Paramizable
 {
     [SerializeField] public float timeFactor = 0;
 
     [SerializeField] float speedHorizontal = 0;
     [SerializeField] float speedVertical = 0;
     [SerializeField] float maxHorizontalSpeed = 10;
-    [SerializeField] float maxVerticalSpeed = 8;
+    [SerializeField] Param speedParam;
+    [SerializeField] float maxVerticalSpeed;// = 8;
     [SerializeField] float acceleration = 10;
     [SerializeField] float deceleration = 10;
 
@@ -33,10 +34,8 @@ public class FieldDefenderMovement : MonoBehaviour
 
     private void Start()
     {
-        startAcceleration = acceleration;
-        startDeceleration = deceleration;
-        startMaxHorizontalSpeed = maxHorizontalSpeed;
-        startMaxVerticalSpeed = maxVerticalSpeed;
+        UpdateParams();
+        UpdateSpeed();
 
         stateManager = GetComponent<StateManager>();
         if (stateManager)
@@ -53,6 +52,21 @@ public class FieldDefenderMovement : MonoBehaviour
         {
             HandleMoving();
         }
+    }
+
+    public override void UpdateParams()
+    {
+        maxHorizontalSpeed = (int)(speedParam.ParamValue * 0.1f) + 1;
+        UpdateSpeed();
+    }
+
+    private void UpdateSpeed()
+    {
+        maxVerticalSpeed = maxHorizontalSpeed * 0.8f;
+        startAcceleration = acceleration;
+        startDeceleration = deceleration;
+        startMaxHorizontalSpeed = maxHorizontalSpeed;
+        startMaxVerticalSpeed = maxVerticalSpeed;
     }
 
     private void HandleMoving()
