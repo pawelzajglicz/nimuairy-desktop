@@ -18,7 +18,7 @@ public class ParamUpgrader : MonoBehaviour
     private string startCostText;
     private bool levelableUp = true;
 
-    [SerializeField] public int level = 1;
+    [SerializeField] public int level = 0;
     [SerializeField] public int startCurrentValue = 5;
     [SerializeField] public int startCost = 2;
 
@@ -41,9 +41,12 @@ public class ParamUpgrader : MonoBehaviour
         startNextValueText = nextValueTMP.text;
         startCostText = costTMP.text;
 
+        currentValue = startCurrentValue;
         nextValue = startCurrentValue + (int)(level * nextValueFactor + addingValue);
         UpdateNumbers();
         UpdateTexts();
+        param.ParamValue = currentValue;
+        FindObjectOfType<GameManager>().UpdateParamizables();
 
     }
 

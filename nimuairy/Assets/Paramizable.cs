@@ -5,8 +5,5 @@ using UnityEngine;
 public abstract class Paramizable : MonoBehaviour
 {
 
-    public virtual void UpdateParams()
-    {
-        
-    }
+    public abstract void UpdateParams();
 }

@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class Health : Paramizable
 {
     [SerializeField] float startHealth = 100f;
+    [SerializeField] Param startHealthParam;
     [SerializeField] float maxHealth;
     [SerializeField] float currenttHealth;
     [SerializeField] float healFactor = 1f;
@@ -80,6 +81,16 @@ public class Health : MonoBehaviour
                 healthBar = childHealthBar;
                 break;
             }
+        }
+    }
+
+    public override void UpdateParams()
+    {
+        Debug.Log("sss");
+        if (startHealthParam != null)
+        {
+            Debug.Log("sss11");
+            startHealth = startHealthParam.paramValue;
         }
     }
 }

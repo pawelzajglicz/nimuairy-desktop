@@ -5,8 +5,8 @@ using UnityEngine;
 public class Param : MonoBehaviour
 {
 
-    private int paramValue = 10;
-    public int ParamValue
+    public float paramValue = 10f;
+    [SerializeField] public float ParamValue
     {
         get { return paramValue; }
         set

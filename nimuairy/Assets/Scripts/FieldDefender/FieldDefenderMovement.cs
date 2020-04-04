@@ -56,7 +56,7 @@ public class FieldDefenderMovement : Paramizable
 
     public override void UpdateParams()
     {
-        maxHorizontalSpeed = (int)(speedParam.ParamValue * 0.1f) + 1;
+        maxHorizontalSpeed = speedParam.ParamValue * 0.1f + 1;
         UpdateSpeed();
     }
 

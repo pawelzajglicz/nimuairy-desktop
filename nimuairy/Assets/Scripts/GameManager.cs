@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     {
         level = 1;
         GenerateLevel();
+        UpdateParamizables();
     }
 
     private void GenerateLevel()

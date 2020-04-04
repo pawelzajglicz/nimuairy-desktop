@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(FieldDefenderMovement))]
-public class FieldDefenderAttacking : MonoBehaviour
+public class FieldDefenderAttacking : Paramizable
 {
     [SerializeField] AttackFieldDefender quickAttack;
     [SerializeField] AttackFieldDefender slowAttack;
 
     [SerializeField] float horizontalXAttackInterspace = 0.3f;
     [SerializeField] float attackPowerFactor = 1f;
+    [SerializeField] Param attackPowerFactorParam;
 
     [SerializeField] bool isNowAttacking = false;
 
@@ -26,6 +27,11 @@ public class FieldDefenderAttacking : MonoBehaviour
     void Update()
     {
         HandleAttacking();
+    }
+
+    public override void UpdateParams()
+    {
+        attackPowerFactor = attackPowerFactorParam.paramValue * 0.1f + 1;
     }
 
     private void HandleAttacking()
