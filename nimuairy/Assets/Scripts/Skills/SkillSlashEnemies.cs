@@ -14,7 +14,8 @@ public class SkillSlashEnemies : Skill
 
     protected override void ActivateSkill()
     {
-        Instantiate(enemySlasher, Camera.main.transform.position, Quaternion.identity);
+        EnemySlasher enemySlasherinstance = Instantiate(enemySlasher, Camera.main.transform.position, Quaternion.identity) as EnemySlasher;
+        enemySlasherinstance.paramAttackPowerValue = paramValue;
     }
 
 }

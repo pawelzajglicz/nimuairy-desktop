@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Skill : MonoBehaviour
+public abstract class Skill : Paramizable
 {
     [SerializeField] public float cooldown = 4f;
     [SerializeField] public float cooldownRemaining;
 
     [SerializeField] public bool stillCooldown = false;
+
+    [SerializeField] public float paramValue;
+    [SerializeField] Param param;
 
     public KeyCode activationKey;
 
@@ -50,6 +53,14 @@ public abstract class Skill : MonoBehaviour
             ActivateSkill();
             stillCooldown = true;
             cooldownRemaining = cooldown;
+        }
+    }
+
+    public override void UpdateParams()
+    {
+        if (param != null)
+        {
+            paramValue = param.paramValue;
         }
     }
 

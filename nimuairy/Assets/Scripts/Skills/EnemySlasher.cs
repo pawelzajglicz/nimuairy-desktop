@@ -17,6 +17,7 @@ public class EnemySlasher : MonoBehaviour
     [SerializeField] float yUpperLimitInstantiate = 3f;
     [SerializeField] float yBottomLimitInstantiate = -4f;
 
+    public float paramAttackPowerValue;
     
     void Start()
     {
@@ -36,7 +37,8 @@ public class EnemySlasher : MonoBehaviour
         float yPosition = UnityEngine.Random.Range(yBottomLimitInstantiate, yUpperLimitInstantiate);
         float rotation = UnityEngine.Random.Range(0, 90);
 
-        Instantiate(slashTrace, new Vector2(xPosition, yPosition), Quaternion.Euler(0, 0, rotation));
+        SlashTrace slashTraceInstance = Instantiate(slashTrace, new Vector2(xPosition, yPosition), Quaternion.Euler(0, 0, rotation)) as SlashTrace;
+        slashTraceInstance.attackPower = paramAttackPowerValue;
 
         yield return new WaitForSeconds(tracesShowingInterval);
         HandleNextActivity();

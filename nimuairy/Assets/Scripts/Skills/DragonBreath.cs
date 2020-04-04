@@ -7,6 +7,7 @@ public class DragonBreath : MonoBehaviour
 {
     [SerializeField] public float lifeTime = 0.5f;
     [SerializeField] public Burning burning;
+    [SerializeField] public float paramValue;
 
     private void Start()
     {
@@ -39,6 +40,7 @@ public class DragonBreath : MonoBehaviour
     private void SetFireTo(Enemy enemy)
     {
         Burning burningInstance = Instantiate(burning, enemy.transform.position, Quaternion.identity) as Burning;
+        burningInstance.burnDamage = paramValue;
         burning.burn(enemy);
         burningInstance.transform.parent = enemy.transform;
     }

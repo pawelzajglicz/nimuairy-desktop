@@ -22,7 +22,8 @@ public class SkillBlackHole : Skill
 
     protected override void ActivateSkill()
     {
-        Instantiate(blackHole, fieldDefenderMovement.transform.position, Quaternion.identity);
+        BlackHole blackHoleinstance = Instantiate(blackHole, fieldDefenderMovement.transform.position, Quaternion.identity) as BlackHole;
+        blackHoleinstance.pullingForceValue = paramValue * 0.0003f;
     }
 
    

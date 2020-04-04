@@ -19,15 +19,15 @@ public class ParamUpgrader : MonoBehaviour
     private bool levelableUp = true;
 
     [SerializeField] public int level = 0;
-    [SerializeField] public int startCurrentValue = 5;
+    [SerializeField] public float startCurrentValue = 5;
     [SerializeField] public int startCost = 2;
 
-    [SerializeField] public int currentValue;
-    [SerializeField] public int nextValue;
+    [SerializeField] public float currentValue;
+    [SerializeField] public float nextValue;
     [SerializeField] public int cost;
 
     [SerializeField] public float nextValueFactor = 0.3f;
-    [SerializeField] public int addingValue = 2;
+    [SerializeField] public float addingValue = 2;
 
     [SerializeField] public float costFactor = 0.45f;
     [SerializeField] public int addingCost = 3;

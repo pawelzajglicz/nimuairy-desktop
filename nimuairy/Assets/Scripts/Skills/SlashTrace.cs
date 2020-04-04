@@ -8,6 +8,7 @@ public class SlashTrace : MonoBehaviour
     [SerializeField] public float lifeTime = 1f;
     [SerializeField] float traceCollidingTime = 0.3f;
 
+
     private void Start()
     {
         StartCoroutine(TurnOffColliding());

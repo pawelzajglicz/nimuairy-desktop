@@ -19,7 +19,7 @@ public class HealWallDefender : WallDefenderAction
     {
         if (targetHealth)
         {
-            targetHealth.Heal(healPoints * factorFromWallDefender));
+            targetHealth.Heal(healPoints * factorFromWallDefender);
         }
     }
 }

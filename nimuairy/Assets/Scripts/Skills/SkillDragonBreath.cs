@@ -23,6 +23,7 @@ public class SkillDragonBreath : Skill
     {
         Vector2 dragonBreathPosition = (Vector2)fieldDefenderMovement.transform.position + offset * fieldDefenderMovement.FacingRightValue;
         DragonBreath dragonBreathInstance = Instantiate(dragonBreath, dragonBreathPosition, Quaternion.identity) as DragonBreath;
+        dragonBreathInstance.paramValue = paramValue;
         dragonBreathInstance.transform.parent = fieldDefenderMovement.transform;
     }
 

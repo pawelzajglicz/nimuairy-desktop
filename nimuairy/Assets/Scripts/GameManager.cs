@@ -34,7 +34,10 @@ public class GameManager : MonoBehaviour
 
         foreach (WallDefenderSlot slot in slots)
         {
-            slot.SetTargetDefaultPosition();
+            if (slot.wallDefender != null && slot.wallDefender.isManualTargeting)
+            {
+                slot.SetTargetDefaultPosition();
+            }
         }
     }
 
