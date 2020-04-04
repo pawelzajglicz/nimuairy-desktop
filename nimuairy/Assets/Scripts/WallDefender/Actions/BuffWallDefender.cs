@@ -31,19 +31,19 @@ public class BuffWallDefender : WallDefenderAction
 
     private void GiveBuff()
     {
-        fieldDefenderMovement.ModifyAccelerationByFactor(speedBuffFactor);
-        fieldDefenderMovement.ModifyMaxHorizontalSpeedByFactor(speedBuffFactor);
-        fieldDefenderMovement.ModifyMaxVerticalSpeedByFactor(speedBuffFactor);
+        fieldDefenderMovement.ModifyAccelerationByFactor(speedBuffFactor * factorFromWallDefender);
+        fieldDefenderMovement.ModifyMaxHorizontalSpeedByFactor(speedBuffFactor * factorFromWallDefender);
+        fieldDefenderMovement.ModifyMaxVerticalSpeedByFactor(speedBuffFactor * factorFromWallDefender);
 
-        fieldDefenderAttacking.ModifyAttackPowerFactorByFactor(attackBuffFactor);
+        fieldDefenderAttacking.ModifyAttackPowerFactorByFactor(attackBuffFactor * factorFromWallDefender);
     }
 
     private void TakeBuff()
     {
-        fieldDefenderMovement.ModifyAccelerationByFactor(1 / speedBuffFactor);
-        fieldDefenderMovement.ModifyMaxHorizontalSpeedByFactor(1 / speedBuffFactor);
-        fieldDefenderMovement.ModifyMaxVerticalSpeedByFactor(1 / speedBuffFactor);
+        fieldDefenderMovement.ModifyAccelerationByFactor(1 / (speedBuffFactor * factorFromWallDefender));
+        fieldDefenderMovement.ModifyMaxHorizontalSpeedByFactor(1 / (speedBuffFactor * factorFromWallDefender));
+        fieldDefenderMovement.ModifyMaxVerticalSpeedByFactor(1 / (speedBuffFactor * factorFromWallDefender));
 
-        fieldDefenderAttacking.ModifyAttackPowerFactorByFactor(1 / attackBuffFactor);
+        fieldDefenderAttacking.ModifyAttackPowerFactorByFactor(1 / (attackBuffFactor * factorFromWallDefender));
     }
 }

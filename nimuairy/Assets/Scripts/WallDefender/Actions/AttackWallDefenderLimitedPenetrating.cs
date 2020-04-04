@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackWallDefenderLimitedPenetrating : MonoBehaviour
+public class AttackWallDefenderLimitedPenetrating : WallDefenderAction
 {
     // TODO: refactoring
 
@@ -48,7 +48,7 @@ public class AttackWallDefenderLimitedPenetrating : MonoBehaviour
         Health enemyHealth = collision.GetComponent<Health>();
         if (enemyHealth != null)
         {
-            enemyHealth.DealDamage(attackParameters.AttackPower);
+            enemyHealth.DealDamage(attackParameters.AttackPower * factorFromWallDefender);
         }
     }
 
@@ -57,7 +57,7 @@ public class AttackWallDefenderLimitedPenetrating : MonoBehaviour
         Health fieldDefenderHealth = collision.GetComponent<Health>();
         if (fieldDefenderHealth != null && collision)
         {
-            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor);
+            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor * factorFromWallDefender);
         }
     }
 }

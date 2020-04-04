@@ -35,7 +35,7 @@ public class AttackWallDefenderPenetrating : WallDefenderAction
         Health enemyHealth = collision.GetComponent<Health>();
         if (enemyHealth != null)
         {
-            enemyHealth.DealDamage(attackParameters.AttackPower);
+            enemyHealth.DealDamage(attackParameters.AttackPower * factorFromWallDefender);
         }
     }
 
@@ -44,7 +44,7 @@ public class AttackWallDefenderPenetrating : WallDefenderAction
         Health fieldDefenderHealth = collision.GetComponent<Health>();
         if (fieldDefenderHealth != null && collision)
         {
-            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor);
+            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor * factorFromWallDefender);
         }
     }
 }

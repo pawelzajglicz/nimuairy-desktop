@@ -17,6 +17,7 @@ public class WallDefenderPriestess : WallDefender
     {
         GameObject target = targetFinder.FindTarget();
         WallDefenderAction fastActionInstance = Instantiate(fastAction, target.transform.position, Quaternion.identity) as WallDefenderAction;
+        fastActionInstance.factorFromWallDefender = actionFactor;
         fastActionInstance.transform.parent = target.transform;
         fastActionInstance.SetTarget(target);
     }
@@ -24,6 +25,7 @@ public class WallDefenderPriestess : WallDefender
     protected override void InstantiateSlowAttack()
     {
         WallDefenderAction slowActionInstance = Instantiate(slowAction, fieldDefenderGameObject.transform.position, Quaternion.identity) as WallDefenderAction;
+        slowActionInstance.factorFromWallDefender = actionFactor;
         slowActionInstance.transform.parent = fieldDefenderGameObject.transform;
         slowActionInstance.SetTarget(fieldDefenderGameObject);
     }

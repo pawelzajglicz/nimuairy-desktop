@@ -91,7 +91,7 @@ public class AttackWallDefenderContinuos : WallDefenderAction
         if (enemy && charactersToDealDamage.Contains(enemy.gameObject))
         {
             Health enemyHealth = enemy.GetComponent<Health>();
-            enemyHealth.DealDamage(attackParameters.AttackPower);
+            enemyHealth.DealDamage(attackParameters.AttackPower * factorFromWallDefender);
             StartCoroutine(ProcessDealingDamageToEnemy(enemy));
         }
     }
@@ -113,7 +113,7 @@ public class AttackWallDefenderContinuos : WallDefenderAction
         if (charactersToDealDamage.Contains(fieldDefenderMovement.gameObject))
         {
             Health fieldDefenderHealth = fieldDefenderMovement.GetComponent<Health>();
-            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor);
+            fieldDefenderHealth.DealDamage(attackParameters.AttackPower * attackParameters.FieldDefenderDamagingFactor * factorFromWallDefender);
             StartCoroutine(ProcessDealingDamageTFieldDefender(fieldDefenderMovement));
         }
     }

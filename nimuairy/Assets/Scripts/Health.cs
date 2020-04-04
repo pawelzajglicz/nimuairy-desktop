@@ -86,10 +86,8 @@ public class Health : Paramizable
 
     public override void UpdateParams()
     {
-        Debug.Log("sss");
         if (startHealthParam != null)
         {
-            Debug.Log("sss11");
             startHealth = startHealthParam.paramValue;
         }
     }

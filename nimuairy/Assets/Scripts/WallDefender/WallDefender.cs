@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallDefender : MonoBehaviour
+public class WallDefender : Paramizable
 {
     [SerializeField] protected WallDefenderAction fastAction;
     [SerializeField] protected WallDefenderAction slowAction;
@@ -20,7 +20,11 @@ public class WallDefender : MonoBehaviour
 
     [SerializeField] public bool isActive;
 
-    
+
+    [SerializeField] protected float actionFactor = 1f;
+    [SerializeField] Param actionFactorParam;
+
+
 
     protected TargetFinder targetFinder;
 
@@ -49,6 +53,14 @@ public class WallDefender : MonoBehaviour
         HandleSlowAttack();
     }
 
+    public override void UpdateParams()
+    {
+        if (actionFactorParam != null)
+        {
+            actionFactor = actionFactorParam.paramValue * 0.1f + 1;
+        }
+    }
+
     protected virtual void HandleFastAttack()
     {
         timeToFastAction -= Time.deltaTime * TimeManager.playerTimeFactor;
@@ -66,6 +78,7 @@ public class WallDefender : MonoBehaviour
     protected virtual void InstantiateFastAttack()
     {
         WallDefenderAction fastAttackInstance = Instantiate(fastAction, transform.position, transform.rotation) as WallDefenderAction;
+        fastAttackInstance.factorFromWallDefender = actionFactorParam.paramValue;
         fastAttackInstance.SetTarget(targetFinder.FindTarget());
     }
 

@@ -8,6 +8,8 @@ public class WallDefenderAction : MonoBehaviour
     [SerializeField] public Vector2 targetPosition;
     [SerializeField] public GameObject targetGameObject;
 
+    [SerializeField] public float factorFromWallDefender;
+
     public void SetTarget()
     {
 
