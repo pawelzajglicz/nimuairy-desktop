@@ -13,6 +13,7 @@ public class EnemiesGenerator : MonoBehaviour
     [SerializeField] float xOffsetForNoReactingForTimeFactorEnemies = 26f;
 
     [SerializeField] public int NumberOfEnemiesReactingToTimeFactor = 18;
+
     [SerializeField] public int NumberOfEnemiesNoReactingToTimeFactor = 26;
     int allEnemiesAmount;
 
@@ -39,13 +40,38 @@ public class EnemiesGenerator : MonoBehaviour
 
     private int[] modificatorsTable;
 
+    [SerializeField] public int level;
+
     void Start()
     {
         //ProcessGeneratingEnemies();
     }
 
+    internal void SetLevel(int level)
+    {
+        this.level = level;
+        UpdateGeneratParams();
+    }
+
+    int minNumberOfEnemiesReactingToTimeFactor = 3;
+    float numberOfEnemiesReactingToTimeFactorPerLevelFactor = 0.6f;
+
+    int minNumberOfEnemiesNoReactingToTimeFactor = 5;
+    float numberOfEnemiesNoReactingToTimeFactorPerLevelFactor = 0.4f;
+
+    private void UpdateGeneratParams()
+    {
+        NumberOfEnemiesReactingToTimeFactor = (int)(minNumberOfEnemiesReactingToTimeFactor + numberOfEnemiesReactingToTimeFactorPerLevelFactor * level);
+        NumberOfEnemiesNoReactingToTimeFactor = (int)(minNumberOfEnemiesNoReactingToTimeFactor + numberOfEnemiesNoReactingToTimeFactorPerLevelFactor * level);
+        int allEnemies = NumberOfEnemiesReactingToTimeFactor + NumberOfEnemiesNoReactingToTimeFactor;
+        numberOfEnemiesWalkingStraight = UnityEngine.Random.Range(0, allEnemies);
+        NumberAngelModificators = UnityEngine.Random.Range(0, allEnemies);
+        NumberDevilModificators = UnityEngine.Random.Range(0, allEnemies);
+    }
+
     public void ProcessGeneratingEnemies()
     {
+        UpdateGeneratParams();
         HandleModificatorsAmount();
         GenerateModificatorsIndices();
         GenerateEnemies();

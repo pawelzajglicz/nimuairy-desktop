@@ -8,9 +8,23 @@ public class GameManager : MonoBehaviour
     [SerializeField] SuccessDisplayer success;
     [SerializeField] FailureDisplayer failure;
 
-    public bool IsBattle;
-    static int enemiesNumber;  
+    [SerializeField] public int level;
 
+    public bool IsBattle;
+    static int enemiesNumber;
+
+    private void Start()
+    {
+        level = 1;
+        GenerateLevel();
+    }
+
+    private void GenerateLevel()
+    {
+        FindObjectOfType<EnemiesGenerator>().SetLevel(level);
+        FindObjectOfType<EnemiesGenerator>().ProcessGeneratingEnemies();
+        CountEnemies();
+    }
 
     public void StartBattle()
     {
@@ -42,8 +56,11 @@ public class GameManager : MonoBehaviour
 
     public void ProcessDefenceSuccess()
     {
+        level++;
         IsBattle = false;
+        FindObjectOfType<EnemiesGenerator>().SetLevel(level);
         success.gameObject.SetActive(true);
+        success.CelebrateSuccess();
         TimeManager.playerTimeFactor = 0;
 
         ResetTimers();

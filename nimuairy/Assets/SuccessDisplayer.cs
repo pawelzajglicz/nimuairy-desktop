@@ -8,6 +8,10 @@ public class SuccessDisplayer : MonoBehaviour
 
     void Start()
     {
+    }
+
+    public void CelebrateSuccess()
+    {
         StartCoroutine(ProcessReturnToCity());
     }
 
