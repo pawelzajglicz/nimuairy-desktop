@@ -8,10 +8,12 @@ public class EnemyModifierAngel : EnemyModifier
     [SerializeField] public float angelModifierSpeed = 2.5f;
 
     [SerializeField] EnemyMovement enemyMovement;
+    [SerializeField] GameManager gameManager;
 
     private void Start()
     {
         fieldDefenderMovement = FindObjectOfType<FieldDefenderMovement>();
+        gameManager = FindObjectOfType<GameManager>();
         enemyMovement = transform.parent.gameObject.GetComponent<EnemyMovement>();
     }
 
@@ -19,7 +21,7 @@ public class EnemyModifierAngel : EnemyModifier
 
     protected override void CheckModifierActivationConditions()
     {
-        isModifierActive = IsFieldDefenderInAttackingState();
+        isModifierActive = IsFieldDefenderInAttackingState() && gameManager.IsBattle;
     }
 
     private bool IsFieldDefenderInAttackingState()
