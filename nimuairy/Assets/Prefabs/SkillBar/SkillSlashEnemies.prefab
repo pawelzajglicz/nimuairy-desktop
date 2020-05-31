@@ -65,6 +65,8 @@ MonoBehaviour:
   cooldown: 20
   cooldownRemaining: 0
   stillCooldown: 0
+  paramValue: 0
+  param: {fileID: 0}
   activationKey: 0
   enemySlasher: {fileID: 3561007801311736025, guid: 1694b89ca90d3d04eb3a218ee3d8ba20,
     type: 3}
@@ -92,13 +94,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8966847145047903657}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.2699142, w: 0.9628844}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 6764187036750710959}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -31.318}
 --- !u!212 &4358015503000172833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -137,12 +139,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 35
-  m_Sprite: {fileID: 21300000, guid: e1508968bed42034c84a6fe4209297ff, type: 3}
-  m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
+  m_Sprite: {fileID: 21300000, guid: cba5cbe7b85ee064db96c4f064bd909a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.39, y: 10.42}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

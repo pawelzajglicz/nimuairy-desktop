@@ -5,9 +5,12 @@ using UnityEngine;
 public class EnemyAttacking : MonoBehaviour
 {
     [SerializeField] public EnemyAttack attack;
+    [SerializeField] public EnemyMovement enemyMovement;
 
     [SerializeField] float attackTimeRate = 1.4f;
     [SerializeField] public float attackPowerFactor = 1.4f;
+
+    Animator animator;
 
     private HashSet<GameObject> objectsToDealDamage;
 
@@ -16,6 +19,7 @@ public class EnemyAttacking : MonoBehaviour
     private void Awake()
     {
         objectsToDealDamage = new HashSet<GameObject>();
+        animator = transform.parent.gameObject.GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -38,12 +42,16 @@ public class EnemyAttacking : MonoBehaviour
         if (IsGameObjectAttackable(collided))
         {
             StopDealDamageToGameObject(collided);
+            animator.SetBool("IsAttacking", false);
+            enemyMovement.currentSpeed = enemyMovement.startSpeed;
         }
     }
 
     private void AttackGameObject(GameObject gameObjectToGetDamage)
     {
         MakeAttack(gameObjectToGetDamage);
+        animator.SetBool("IsAttacking", true);
+        enemyMovement.currentSpeed = 0f;
         StartCoroutine(ProcessAttacking(gameObjectToGetDamage));
     }
 

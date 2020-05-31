@@ -9,13 +9,11 @@ public class EnemyModifiersManager : MonoBehaviour
     [SerializeField] EnemyMovement enemyMovement;
 
     [SerializeField] bool isAnyModifierActive = false;
-
     private void Start()
     {
         enemyModifiers = new List<EnemyModifier>();
  
         FillEnemyModifiersCollection();
-
         enemyMovement = GetComponent<EnemyMovement>();
     }
 
@@ -34,6 +32,11 @@ public class EnemyModifiersManager : MonoBehaviour
 
     private void Update()
     {
+        ManageStandardMove();
+    }
+
+    private void ManageStandardMove()
+    {
         isAnyModifierActive = false;
         foreach (EnemyModifier modifier in enemyModifiers)
         {
@@ -46,11 +49,11 @@ public class EnemyModifiersManager : MonoBehaviour
 
         if (isAnyModifierActive)
         {
-            enemyMovement.DontMove();
+            enemyMovement.DontMoveInStandardWay();
         }
         else
         {
-            enemyMovement.StartMove();
+            enemyMovement.StartMoveInStandardWay();
         }
     }
 }

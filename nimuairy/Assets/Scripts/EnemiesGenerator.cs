@@ -41,6 +41,8 @@ public class EnemiesGenerator : MonoBehaviour
     private int[] modificatorsTable;
 
     [SerializeField] public int level;
+    [SerializeField] public int additionalHealthPerLevel = 44;
+    [SerializeField] public float additionalAttackRatioPerLevel = 0.244f;
 
     void Start()
     {
@@ -54,10 +56,10 @@ public class EnemiesGenerator : MonoBehaviour
     }
 
     int minNumberOfEnemiesReactingToTimeFactor = 3;
-    float numberOfEnemiesReactingToTimeFactorPerLevelFactor = 0.6f;
+    float numberOfEnemiesReactingToTimeFactorPerLevelFactor = 8f;
 
     int minNumberOfEnemiesNoReactingToTimeFactor = 5;
-    float numberOfEnemiesNoReactingToTimeFactorPerLevelFactor = 0.4f;
+    float numberOfEnemiesNoReactingToTimeFactorPerLevelFactor = 10f;
 
     private void UpdateGeneratParams()
     {
@@ -152,6 +154,18 @@ public class EnemiesGenerator : MonoBehaviour
 
             Enemy enemyInstance = Instantiate(prefab, new Vector2(xPos, yPos), Quaternion.identity) as Enemy;
 
+            Health health = enemyInstance.gameObject.GetComponent<Health>();
+            if (health != null)
+            {
+                health.addHealth(additionalHealthPerLevel * level);
+            }
+
+            EnemyAttacking enemyAttacking = enemyInstance.gameObject.GetComponent<EnemyAttacking>();
+            if (enemyAttacking != null)
+            {
+                enemyAttacking.attackPowerFactor += (additionalAttackRatioPerLevel * level);
+            }
+
             if (i < NumberOfEnemiesReactingToTimeFactor)
             {
                 enemyInstance.GetComponent<EnemyTimeManagerReacting>().isReactingToFieldDefenderTimeFactor = true;
@@ -163,7 +177,13 @@ public class EnemiesGenerator : MonoBehaviour
             }
             if (indicesForDevilModificators.Contains(i))
             {
-                Instantiate(devilModifier, enemyInstance.transform.position, Quaternion.identity).transform.parent = enemyInstance.transform;
+                EnemyModifierDevil emd = Instantiate(devilModifier, enemyInstance.transform.position, Quaternion.identity) as EnemyModifierDevil;
+                emd.transform.parent = enemyInstance.transform;
+                if (prefab == enemySlant)
+                {
+                    emd.transform.localScale = new Vector2(0.5f, 0.5f);
+                    emd.transform.localPosition = new Vector2(emd.transform.localPosition.x - 0.095f, transform.localPosition.y - 0.234f);
+                }
             }
 
             float biggerityFactor = UnityEngine.Random.Range(BiggerityMin, BiggerityMax);

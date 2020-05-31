@@ -1,0 +1,2155 @@
+fileFormatVersion: 2
+guid: d1e3489f3eb6d7b44aec3f863328fdb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3778441394796300823
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_0
+  - first:
+      213: -8078510210524589987
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_1
+  - first:
+      213: -487277926745774108
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_2
+  - first:
+      213: 43297862827060309
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_3
+  - first:
+      213: 2048484874439247496
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_4
+  - first:
+      213: 7568252564950983072
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_5
+  - first:
+      213: -4284834105204357017
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_6
+  - first:
+      213: 6595134959800158623
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_7
+  - first:
+      213: 4046589822208468972
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_8
+  - first:
+      213: -7032222962702645736
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_9
+  - first:
+      213: -3895398185618350441
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_10
+  - first:
+      213: 3883732668066287371
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_11
+  - first:
+      213: 425526728548660755
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_12
+  - first:
+      213: 2737750006927585287
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_13
+  - first:
+      213: -133002155621479230
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_14
+  - first:
+      213: -5311494813246141675
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_15
+  - first:
+      213: 6287573997567955773
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_16
+  - first:
+      213: -9075182720228167566
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_17
+  - first:
+      213: -2355258654734327906
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_18
+  - first:
+      213: -1020241544943925989
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_19
+  - first:
+      213: -3087504967060515659
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_20
+  - first:
+      213: 4039982130189470131
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_21
+  - first:
+      213: 1102264652631341666
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_22
+  - first:
+      213: 5388164710189962217
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_23
+  - first:
+      213: 7310457654027336685
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_24
+  - first:
+      213: -333712217833610094
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_25
+  - first:
+      213: 1375670575140209486
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_26
+  - first:
+      213: 3360989111113776421
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_27
+  - first:
+      213: -4544529777809380797
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_28
+  - first:
+      213: -3691473278490220471
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_29
+  - first:
+      213: -2405488877150655278
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_30
+  - first:
+      213: 299841563542173118
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_31
+  - first:
+      213: -7555191639849872647
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_32
+  - first:
+      213: -2838221534180482549
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_33
+  - first:
+      213: -5554311940454404509
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_34
+  - first:
+      213: -8590962073559674865
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_35
+  - first:
+      213: 186275105860467741
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_36
+  - first:
+      213: 5474099392728701654
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_37
+  - first:
+      213: -5265588967686261081
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_38
+  - first:
+      213: -8659900090761809918
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_39
+  - first:
+      213: -5565142441912579611
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_40
+  - first:
+      213: 2021602755619626324
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_41
+  - first:
+      213: 846974242744185235
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_42
+  - first:
+      213: 1204151741976949833
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_43
+  - first:
+      213: 8571383655465078467
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_44
+  - first:
+      213: 425792240392122558
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_45
+  - first:
+      213: -6448083186542463970
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_46
+  - first:
+      213: -3709992324512028206
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_47
+  - first:
+      213: -9114614572225476058
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_48
+  - first:
+      213: 8966788122756753089
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_49
+  - first:
+      213: -6482825060942544714
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_50
+  - first:
+      213: -7423172478550738974
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_51
+  - first:
+      213: -2707586019063060958
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_52
+  - first:
+      213: 2119388229030134652
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_53
+  - first:
+      213: 5392056956428757659
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_54
+  - first:
+      213: -5237400882620731879
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_55
+  - first:
+      213: 2195523846784539429
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_56
+  - first:
+      213: 5136172387332148684
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_57
+  - first:
+      213: 5259312979507434766
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_58
+  - first:
+      213: 3605025486334332299
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_59
+  - first:
+      213: 1625190813060935083
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_60
+  - first:
+      213: -5243015100680025787
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_61
+  - first:
+      213: -5645872769935216126
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_62
+  - first:
+      213: -3179114863624804800
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_63
+  - first:
+      213: -7342207397027507560
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_64
+  - first:
+      213: 6047597714286706039
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_65
+  - first:
+      213: 5838030774818391354
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_66
+  - first:
+      213: -9192198969800391864
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_67
+  - first:
+      213: -7645210377960368806
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_68
+  - first:
+      213: 2131616577548587271
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_69
+  - first:
+      213: -3437452884019010582
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_70
+  - first:
+      213: 8903393034619491840
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_71
+  - first:
+      213: -2310923076981161225
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_72
+  - first:
+      213: 6024191382148306995
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_73
+  - first:
+      213: 6026548469008221117
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_74
+  - first:
+      213: -8266868707507959549
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_75
+  - first:
+      213: 7941188730274732767
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_76
+  - first:
+      213: 2149577002801969155
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_77
+  - first:
+      213: 6693157507386734332
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_78
+  - first:
+      213: 2090815025048574250
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_79
+  - first:
+      213: -5124214797543682498
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_80
+  - first:
+      213: 1299690919618250069
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_81
+  - first:
+      213: -5611332561926831670
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_82
+  - first:
+      213: 6638729208933527191
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_83
+  - first:
+      213: -4644409959817412167
+    second: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_84
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2364
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a2fec7dd95e424e819923bc2692cba
+      internalID: 3778441394796300823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2364
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acce8b1f9a0adf4caae00e1c9452652
+      internalID: -8078510210524589987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2364
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c44b6c917f31946bd9e6dd81a0592d
+      internalID: -487277926745774108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2364
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717f7a5fcdd9bd64a8f53222341e5746
+      internalID: 43297862827060309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2364
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb0bfcc047b0e0498e65155ff5bafc5
+      internalID: 2048484874439247496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2364
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2073b68d7de0854484d133ed1549e94
+      internalID: 7568252564950983072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2364
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5547feb6bfd174c4cb89bd0512445bb6
+      internalID: -4284834105204357017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2167
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30c71c7e77e0fc44903f3e09072383d
+      internalID: 6595134959800158623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2167
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3b25f3eaaff8a489a4e8656edcdb8e
+      internalID: 4046589822208468972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2167
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd3a35c88fea6c4d9b4287c2a935753
+      internalID: -7032222962702645736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2167
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b49df0fdf1c7145a8ed37df144f307
+      internalID: -3895398185618350441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2167
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a165d488b6ada4e9aeadf8d99c13a8
+      internalID: 3883732668066287371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_12
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2167
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4512fe4d5f04f4daefcf416f761935
+      internalID: 425526728548660755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_13
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2167
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da28857368aea1b4c9e88176ad565d09
+      internalID: 2737750006927585287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1970
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b77fdca2b3f6a42968e8691ee135c2
+      internalID: -133002155621479230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1970
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fbf28c0b31da34ea659ee0631b0b0a
+      internalID: -5311494813246141675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1970
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d319dcd35891dd445b1a050295df2e1e
+      internalID: 6287573997567955773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1970
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c9d149e9eb1cd4898e27d962203ed0
+      internalID: -9075182720228167566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1970
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8172afe9ab3f44cb86e81c49f0bbc7
+      internalID: -2355258654734327906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_19
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1970
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e0e6baba227134398ea2042c57692b
+      internalID: -1020241544943925989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1970
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f97d318eddaca43b5887f1c8908814
+      internalID: -3087504967060515659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1773
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f230e2f5ebd53ec44a0d689fa5189f58
+      internalID: 4039982130189470131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1773
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c5d9d9c788ff14bab8eb8ae038454b
+      internalID: 1102264652631341666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1773
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d3a1a6534902d4fa784652f2b24fb8
+      internalID: 5388164710189962217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_24
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1773
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbeb42a1919fb24d8f3401eb032c789
+      internalID: 7310457654027336685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1773
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035efd4f902bafc44aa15d026652b6a1
+      internalID: -333712217833610094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_26
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1773
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05df574c6dc319648b28358c5734b705
+      internalID: 1375670575140209486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_27
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1773
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9006dfcc2f9b41348bd7d92170865096
+      internalID: 3360989111113776421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1576
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe3c0394a5b912418b4a3372b6c8fc7
+      internalID: -4544529777809380797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1576
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64db44087d774a5428ddd8f2593ea7ee
+      internalID: -3691473278490220471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1576
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac8f8528b81f0844b1f8420c67e7997
+      internalID: -2405488877150655278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1576
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9409ea707e0fa8749821884fd6bcb8d7
+      internalID: 299841563542173118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1576
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f337624f397214995dd2235a98ea79
+      internalID: -7555191639849872647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1576
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e015906117b7fe469d1f63db96234ab
+      internalID: -2838221534180482549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_34
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1576
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24197bf12187ca40bdb06218b9caa25
+      internalID: -5554311940454404509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1379
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f9954332dbc8246881b21d74763ad1
+      internalID: -8590962073559674865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1379
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4e05bfb8a1c6b4dbc84fadad9159a5
+      internalID: 186275105860467741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1379
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5e8f3d3648068498cec91a6838aa82
+      internalID: 5474099392728701654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_38
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1379
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430b12bc8528464fbe2059c9bf12756
+      internalID: -5265588967686261081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_39
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1379
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fe2d8a311333541bc57bf417c2aa7e
+      internalID: -8659900090761809918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_40
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1379
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd395768d0bb9f240b8072a995b83f5f
+      internalID: -5565142441912579611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_41
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1379
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3716c707d118142a3fadab7daf40c9
+      internalID: 2021602755619626324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1182
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0730cb8ea48758d49bf1ce484c2a0242
+      internalID: 846974242744185235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_43
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1182
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59a081caa9398f4d88b8a16e0ee1f3b
+      internalID: 1204151741976949833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1182
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5a4a3055dc4a241b24e187cac377a2
+      internalID: 8571383655465078467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1182
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735659c9fe396f44db5acac7e645d9db
+      internalID: 425792240392122558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_46
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1182
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76b2f785c76a11469fe47755aa87520
+      internalID: -6448083186542463970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_47
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1182
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b06c413a82a21488d6068f561d8c42
+      internalID: -3709992324512028206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_48
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1182
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef762c1f977c5d944a2f4c6fd7184ed5
+      internalID: -9114614572225476058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 985
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27374a85f4b83654b9c401270c4efdb8
+      internalID: 8966788122756753089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_50
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 985
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207b5633a927d5143895ffa018e62f1a
+      internalID: -6482825060942544714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 985
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe0221444e5604448da5bb9988b8cfb
+      internalID: -7423172478550738974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_52
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 985
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a550c4efcdc174ebac60fee0898acb
+      internalID: -2707586019063060958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_53
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 985
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a5e08c24f53f438a8ed4cd248ef51
+      internalID: 2119388229030134652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_54
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 985
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c4221c7a70ae84c9c5d2de3436facf
+      internalID: 5392056956428757659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_55
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 985
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afadf8368b136b6458172327f8206c6b
+      internalID: -5237400882620731879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d03e1aae347c374faff2da7c169ca9a
+      internalID: 2195523846784539429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_57
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 788
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcc936133475ef4f9bd7fe54d0c4947
+      internalID: 5136172387332148684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 788
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4ee6e05948a4948bb42bc58035be87
+      internalID: 5259312979507434766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 788
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f5d1dc853552a44a11bb2cb61b04e5
+      internalID: 3605025486334332299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 788
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8390132ec58c51941a8ad414c014a8df
+      internalID: 1625190813060935083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_61
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 788
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c2798e6ec2abf46adc928b58230a6b
+      internalID: -5243015100680025787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_62
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 788
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b5607fb44087d4ab3dd1d0100070ea
+      internalID: -5645872769935216126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48b47108ce88744fa5fccbd5fffbf46
+      internalID: -3179114863624804800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_64
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 591
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2063dba741cf2804db63231668ff2029
+      internalID: -7342207397027507560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_65
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 591
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539a7991de3fe0a468145062e739e7d8
+      internalID: 6047597714286706039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_66
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 591
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6247728003340b145b55fb0466bab8f6
+      internalID: 5838030774818391354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_67
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 591
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f492ee5cc2a84c14caed9f4afafba796
+      internalID: -9192198969800391864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_68
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 591
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43568cc957ec764aada4e86dbb8ee9e
+      internalID: -7645210377960368806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_69
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 591
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69be40a02dcc36842940a8402bfa3623
+      internalID: 2131616577548587271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 394
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cee6bd19ad5f874eb57aa367f6b35a8
+      internalID: -3437452884019010582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 394
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861f77c75ff5811479d6bbff565ccf6a
+      internalID: 8903393034619491840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 394
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844f7d41261c6644793920e8c97c8792
+      internalID: -2310923076981161225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_73
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 394
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16b9201a78550046b4cf7e5f74f187b
+      internalID: 6024191382148306995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_74
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 394
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28805e85c3c2c6549838b8e66d7252d2
+      internalID: 6026548469008221117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_75
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 394
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a88a5f52d31ab43a0ccc5c19a8e88a
+      internalID: -8266868707507959549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_76
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 394
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc6bef29de295447818675a537750de
+      internalID: 7941188730274732767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823116b1034255c4e8142c63c1ae65eb
+      internalID: 2149577002801969155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_78
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 197
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eb915cc7428ae41b61d8bf4290a238
+      internalID: 6693157507386734332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_79
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 197
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c367f16505b624088a27cedeb9bf30
+      internalID: 2090815025048574250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_80
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 197
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210011abc8ebd774a98814c492070f5e
+      internalID: -5124214797543682498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_81
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 197
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ac4fc39ef2f8d43893e5ed36ebbf5c
+      internalID: 1299690919618250069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_82
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 197
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0849364bb4bb98458bbfc61ab23ac68
+      internalID: -5611332561926831670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_83
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 197
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d074b46152f4e6649b51668da0c92397
+      internalID: 6638729208933527191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_groddle_base_base_L1dirt_bottom_bottom_L1LeafSkirt_eyes_eyes_L1eyes1_skull_skull_L1dirt_top_top_L1LeafSprout_x1_idle_hold_png_1354834986_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a12c9ca9d295d4686a8681bb001dd2
+      internalID: -4644409959817412167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

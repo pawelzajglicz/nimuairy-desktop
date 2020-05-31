@@ -7,6 +7,7 @@ public class AttackWallDefenderParameters : MonoBehaviour
 
     [SerializeField] float attackPower = 10f;
     [SerializeField] float fieldDefenderDamagingFactor = 0.1f;
+    [SerializeField] public float factorFromWallDefender;
 
     public float AttackPower => attackPower;
     public float FieldDefenderDamagingFactor => fieldDefenderDamagingFactor;

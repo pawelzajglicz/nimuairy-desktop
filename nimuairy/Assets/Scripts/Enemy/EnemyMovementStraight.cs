@@ -33,7 +33,7 @@ public class EnemyMovementStraight : EnemyMovement
         StartCoroutine(ProcessRotatingAfterAWhile());
     }
 
-    public override void StartMove()
+    public override void StartMoveInStandardWay()
     {
         if (!isStandardMoveAllowed)
         {

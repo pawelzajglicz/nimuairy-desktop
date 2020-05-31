@@ -33,6 +33,12 @@ public class AttackWallDefenderContinuos : WallDefenderAction
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        CheckEnemyExitCollision(collision);
+        CheckFieldDefenderExitCollision(collision);
+    }
+
     private void CheckFieldDefenderCollision(Collider2D collision)
     {
         FieldDefenderMovement fieldDefenderMovement = collision.gameObject.GetComponent<FieldDefenderMovement>();
@@ -40,12 +46,6 @@ public class AttackWallDefenderContinuos : WallDefenderAction
         {
             DealDamageToFieldDefender(fieldDefenderMovement);
         }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        CheckEnemyExitCollision(collision);
-        CheckFieldDefenderExitCollision(collision);
     }
 
     private void CheckEnemyExitCollision(Collider2D collision)

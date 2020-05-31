@@ -1,0 +1,1171 @@
+fileFormatVersion: 2
+guid: f1d19f1dbed7b974984bf3c24eb39d79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8749203609255022197
+    second: npc_cactus__x1_idle_png_1354833520_0
+  - first:
+      213: -3207031919188433771
+    second: npc_cactus__x1_idle_png_1354833520_1
+  - first:
+      213: 4184094414043184882
+    second: npc_cactus__x1_idle_png_1354833520_2
+  - first:
+      213: 7866508095207370441
+    second: npc_cactus__x1_idle_png_1354833520_3
+  - first:
+      213: 2285327923145178935
+    second: npc_cactus__x1_idle_png_1354833520_4
+  - first:
+      213: -1341317316859509172
+    second: npc_cactus__x1_idle_png_1354833520_5
+  - first:
+      213: -464591043661098134
+    second: npc_cactus__x1_idle_png_1354833520_6
+  - first:
+      213: -8124104742338927827
+    second: npc_cactus__x1_idle_png_1354833520_7
+  - first:
+      213: -7048645916258070983
+    second: npc_cactus__x1_idle_png_1354833520_8
+  - first:
+      213: 6316733591307438277
+    second: npc_cactus__x1_idle_png_1354833520_9
+  - first:
+      213: -923865268920339397
+    second: npc_cactus__x1_idle_png_1354833520_10
+  - first:
+      213: -2436860858345906818
+    second: npc_cactus__x1_idle_png_1354833520_11
+  - first:
+      213: 6544617509194700635
+    second: npc_cactus__x1_idle_png_1354833520_12
+  - first:
+      213: 4320230571401126312
+    second: npc_cactus__x1_idle_png_1354833520_13
+  - first:
+      213: 6063934033754551137
+    second: npc_cactus__x1_idle_png_1354833520_14
+  - first:
+      213: 1652119520369671986
+    second: npc_cactus__x1_idle_png_1354833520_15
+  - first:
+      213: 2316787145501373193
+    second: npc_cactus__x1_idle_png_1354833520_16
+  - first:
+      213: 779445620094861239
+    second: npc_cactus__x1_idle_png_1354833520_17
+  - first:
+      213: -4470222739040903132
+    second: npc_cactus__x1_idle_png_1354833520_18
+  - first:
+      213: -766175152108399906
+    second: npc_cactus__x1_idle_png_1354833520_19
+  - first:
+      213: 4124932372394282081
+    second: npc_cactus__x1_idle_png_1354833520_20
+  - first:
+      213: 6017125251639512306
+    second: npc_cactus__x1_idle_png_1354833520_21
+  - first:
+      213: -5984220930429877653
+    second: npc_cactus__x1_idle_png_1354833520_22
+  - first:
+      213: 7783277136592116577
+    second: npc_cactus__x1_idle_png_1354833520_23
+  - first:
+      213: 5749904971638831427
+    second: npc_cactus__x1_idle_png_1354833520_24
+  - first:
+      213: -1639347626628196601
+    second: npc_cactus__x1_idle_png_1354833520_25
+  - first:
+      213: -6612635890063579590
+    second: npc_cactus__x1_idle_png_1354833520_26
+  - first:
+      213: -4205737543159711095
+    second: npc_cactus__x1_idle_png_1354833520_27
+  - first:
+      213: 1992596497440424689
+    second: npc_cactus__x1_idle_png_1354833520_28
+  - first:
+      213: -5391504645642500231
+    second: npc_cactus__x1_idle_png_1354833520_29
+  - first:
+      213: -1913462594016284101
+    second: npc_cactus__x1_idle_png_1354833520_30
+  - first:
+      213: 6074177342396063632
+    second: npc_cactus__x1_idle_png_1354833520_31
+  - first:
+      213: 3217637958397612308
+    second: npc_cactus__x1_idle_png_1354833520_32
+  - first:
+      213: 7040051035532274888
+    second: npc_cactus__x1_idle_png_1354833520_33
+  - first:
+      213: 6898147425495045635
+    second: npc_cactus__x1_idle_png_1354833520_34
+  - first:
+      213: 2273038669507377159
+    second: npc_cactus__x1_idle_png_1354833520_35
+  - first:
+      213: 2169394847244203240
+    second: npc_cactus__x1_idle_png_1354833520_36
+  - first:
+      213: 5286179949430329691
+    second: npc_cactus__x1_idle_png_1354833520_37
+  - first:
+      213: -3859929368180528250
+    second: npc_cactus__x1_idle_png_1354833520_38
+  - first:
+      213: -2614388103090364470
+    second: npc_cactus__x1_idle_png_1354833520_39
+  - first:
+      213: 1112010061353572356
+    second: npc_cactus__x1_idle_png_1354833520_40
+  - first:
+      213: -2183219839817864672
+    second: npc_cactus__x1_idle_png_1354833520_41
+  - first:
+      213: 703937413884061423
+    second: npc_cactus__x1_idle_png_1354833520_42
+  - first:
+      213: 473912419680328007
+    second: npc_cactus__x1_idle_png_1354833520_43
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f89017d101af2d47ae3a9ad50ed896d
+      internalID: 8749203609255022197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 882
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9933a676ed6ab694d8e898f9e60eb592
+      internalID: -3207031919188433771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 882
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd14f9926673114f84bf65a10f448ee
+      internalID: 4184094414043184882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 882
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5091105d0ce74447a931be096a77846
+      internalID: 7866508095207370441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_4
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 882
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1936698315437a479486343342b82a6
+      internalID: 2285327923145178935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_5
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 882
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d7178fe2c9c6346b85cb65d6e927d8
+      internalID: -1341317316859509172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243b946924cbaec4a9f875f365dd751c
+      internalID: -464591043661098134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 756
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3a2f92e76ee444396b0df414f582de
+      internalID: -8124104742338927827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 756
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd645e38e3337a442b72c5c665a6df3b
+      internalID: -7048645916258070983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 756
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1340eb965f95d484e964a9959163ce8b
+      internalID: 6316733591307438277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_10
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 756
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dd8cacfd93f68458451f522002d0a1
+      internalID: -923865268920339397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_11
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 756
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0763fe74d0ffcc143af46543203766d8
+      internalID: -2436860858345906818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd778498a17602a49b3733ba765df418
+      internalID: 6544617509194700635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_13
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 630
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413c10c164b11864eb089d4cdb0a452f
+      internalID: 4320230571401126312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 630
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9366f8aecd5156b4a9259da00de840f0
+      internalID: 6063934033754551137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_15
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 630
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db32adb2884377847a32354c83f34378
+      internalID: 1652119520369671986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_16
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 630
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55758e09406e41a46acc648fd159f006
+      internalID: 2316787145501373193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_17
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 630
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113d952fe959a2e44b5dde57154bab17
+      internalID: 779445620094861239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62acc5b70382ff74d8165c5c9a5d7286
+      internalID: -4470222739040903132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 504
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccb790321a7cf44ba420ef2de6ed739
+      internalID: -766175152108399906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 504
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3935683188f4346893abb766d8e971
+      internalID: 4124932372394282081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_21
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 504
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca08b23a7a00ef47bd59eadd8f23d5c
+      internalID: 6017125251639512306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_22
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 504
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74391e75a7fea6249b5685bfae9cf7f1
+      internalID: -5984220930429877653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_23
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 504
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c028f7bdcc3d4a143976dc906ddecebb
+      internalID: 7783277136592116577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72addba9f2e5b46498924863ad3f18fd
+      internalID: 5749904971638831427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_25
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 378
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d5a84b86b915048a87d9095c922def
+      internalID: -1639347626628196601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_26
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 378
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6056864274bcd74cad9e1ca7f840186
+      internalID: -6612635890063579590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_27
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 378
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59608cf449ccf1f4b977e97632fd882d
+      internalID: -4205737543159711095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_28
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 378
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ebcdfb325a7fd42ab911543ce90689
+      internalID: 1992596497440424689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_29
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 378
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3f5f844b0c6d343b9152ee45b7bdde
+      internalID: -5391504645642500231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9743ed34c7bc5a04ab1ee4f4401a25fb
+      internalID: -1913462594016284101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 252
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356ec21279aac67458d87306fe97955f
+      internalID: 6074177342396063632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_32
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 252
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369ba44dea02e9d4aa67793c86dd5de7
+      internalID: 3217637958397612308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_33
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 252
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dec5ed50b4d0c54189a078492dcd732
+      internalID: 7040051035532274888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_34
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 252
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8cd8f28fb42854487a5de44a33e26b
+      internalID: 6898147425495045635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_35
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 252
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f377e0277bbd744999c1abbd184a1e
+      internalID: 2273038669507377159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47197579a53791a4f8ebb5582cf44cd3
+      internalID: 2169394847244203240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_37
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 126
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97accae30f626e4a82c90f0910d61db
+      internalID: 5286179949430329691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_38
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 126
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c43c4e5c180944d8dd7e7591e4546a
+      internalID: -3859929368180528250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_39
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 126
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635b6ae7deb15d040b39457a7768cb17
+      internalID: -2614388103090364470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_40
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 126
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b9c6c20850d4848a6bcf71cbb3bce3
+      internalID: 1112010061353572356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_41
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 126
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5490ebd701103fd46948a9937f8de9b7
+      internalID: -2183219839817864672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48a73b6bceb12a47a37444d449906ba
+      internalID: 703937413884061423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_cactus__x1_idle_png_1354833520_43
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 157
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d1747a46249794da15cc56a0a0a85e
+      internalID: 473912419680328007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

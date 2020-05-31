@@ -33,6 +33,7 @@ public class AttackWallDefenderPenetrating : WallDefenderAction
     private void DealDamageToEnemy(Collider2D collision)
     {
         Health enemyHealth = collision.GetComponent<Health>();
+
         if (enemyHealth != null)
         {
             enemyHealth.DealDamage(attackParameters.AttackPower * factorFromWallDefender);

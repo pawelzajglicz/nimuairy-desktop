@@ -21,6 +21,19 @@ public class Health : Paramizable
         TryGetHealthBar();
     }
 
+    public void setHealth(int healthValue)
+    {
+        startHealth = healthValue;
+        maxHealth = healthValue;
+    }
+
+
+    public void addHealth(int healthValue)
+    {
+        startHealth += healthValue;
+        maxHealth = startHealth;
+    }
+
     public void Reset()
     {
         currenttHealth = startHealth;
@@ -89,6 +102,8 @@ public class Health : Paramizable
         if (startHealthParam != null)
         {
             startHealth = startHealthParam.paramValue;
+            currenttHealth = startHealth;
+            maxHealth = startHealth;
         }
     }
 }

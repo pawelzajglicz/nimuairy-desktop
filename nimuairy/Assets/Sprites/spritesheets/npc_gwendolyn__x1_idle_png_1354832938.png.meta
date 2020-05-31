@@ -1,0 +1,1939 @@
+fileFormatVersion: 2
+guid: 27b59cda76658f346b8eceaa3d9b5f3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1370583687091837856
+    second: npc_gwendolyn__x1_idle_png_1354832938_0
+  - first:
+      213: -335507222053592897
+    second: npc_gwendolyn__x1_idle_png_1354832938_1
+  - first:
+      213: -8229348858212140891
+    second: npc_gwendolyn__x1_idle_png_1354832938_2
+  - first:
+      213: 3494810855014775322
+    second: npc_gwendolyn__x1_idle_png_1354832938_3
+  - first:
+      213: 793400455065706312
+    second: npc_gwendolyn__x1_idle_png_1354832938_4
+  - first:
+      213: -6992044247722202354
+    second: npc_gwendolyn__x1_idle_png_1354832938_5
+  - first:
+      213: -4785685288840821639
+    second: npc_gwendolyn__x1_idle_png_1354832938_6
+  - first:
+      213: 4024006823043028753
+    second: npc_gwendolyn__x1_idle_png_1354832938_7
+  - first:
+      213: -8747320809544976414
+    second: npc_gwendolyn__x1_idle_png_1354832938_8
+  - first:
+      213: 3691889084160774077
+    second: npc_gwendolyn__x1_idle_png_1354832938_9
+  - first:
+      213: 4901528766522536140
+    second: npc_gwendolyn__x1_idle_png_1354832938_10
+  - first:
+      213: -3508030046464406094
+    second: npc_gwendolyn__x1_idle_png_1354832938_11
+  - first:
+      213: 7534481285718607619
+    second: npc_gwendolyn__x1_idle_png_1354832938_12
+  - first:
+      213: 698152993241675692
+    second: npc_gwendolyn__x1_idle_png_1354832938_13
+  - first:
+      213: 2578829487533515142
+    second: npc_gwendolyn__x1_idle_png_1354832938_14
+  - first:
+      213: -6025965393358302316
+    second: npc_gwendolyn__x1_idle_png_1354832938_15
+  - first:
+      213: -2820212534114553624
+    second: npc_gwendolyn__x1_idle_png_1354832938_16
+  - first:
+      213: -100437501418502529
+    second: npc_gwendolyn__x1_idle_png_1354832938_17
+  - first:
+      213: 2371242486198716494
+    second: npc_gwendolyn__x1_idle_png_1354832938_18
+  - first:
+      213: 5273505102166897649
+    second: npc_gwendolyn__x1_idle_png_1354832938_19
+  - first:
+      213: -4371854869068157554
+    second: npc_gwendolyn__x1_idle_png_1354832938_20
+  - first:
+      213: 5067935288438462885
+    second: npc_gwendolyn__x1_idle_png_1354832938_21
+  - first:
+      213: -2300383993487538470
+    second: npc_gwendolyn__x1_idle_png_1354832938_22
+  - first:
+      213: -5110267800421590377
+    second: npc_gwendolyn__x1_idle_png_1354832938_23
+  - first:
+      213: 9122868320550538763
+    second: npc_gwendolyn__x1_idle_png_1354832938_24
+  - first:
+      213: -7134384982526758906
+    second: npc_gwendolyn__x1_idle_png_1354832938_25
+  - first:
+      213: 4001177335835572037
+    second: npc_gwendolyn__x1_idle_png_1354832938_26
+  - first:
+      213: 7544057497072009848
+    second: npc_gwendolyn__x1_idle_png_1354832938_27
+  - first:
+      213: -4428227096597557518
+    second: npc_gwendolyn__x1_idle_png_1354832938_28
+  - first:
+      213: -8747276942049892942
+    second: npc_gwendolyn__x1_idle_png_1354832938_29
+  - first:
+      213: 5430879157715059208
+    second: npc_gwendolyn__x1_idle_png_1354832938_30
+  - first:
+      213: 7790970827592695164
+    second: npc_gwendolyn__x1_idle_png_1354832938_31
+  - first:
+      213: -2418350544623008273
+    second: npc_gwendolyn__x1_idle_png_1354832938_32
+  - first:
+      213: 1272581239294941480
+    second: npc_gwendolyn__x1_idle_png_1354832938_33
+  - first:
+      213: -661798717740148022
+    second: npc_gwendolyn__x1_idle_png_1354832938_34
+  - first:
+      213: 1177657446505892555
+    second: npc_gwendolyn__x1_idle_png_1354832938_35
+  - first:
+      213: -7729812004315795644
+    second: npc_gwendolyn__x1_idle_png_1354832938_36
+  - first:
+      213: 4745144648136268772
+    second: npc_gwendolyn__x1_idle_png_1354832938_37
+  - first:
+      213: -6885481621549434179
+    second: npc_gwendolyn__x1_idle_png_1354832938_38
+  - first:
+      213: -1706088226030839439
+    second: npc_gwendolyn__x1_idle_png_1354832938_39
+  - first:
+      213: 5145896974971683814
+    second: npc_gwendolyn__x1_idle_png_1354832938_40
+  - first:
+      213: -420810473438374790
+    second: npc_gwendolyn__x1_idle_png_1354832938_41
+  - first:
+      213: -5151702431693459022
+    second: npc_gwendolyn__x1_idle_png_1354832938_42
+  - first:
+      213: 367909614221845504
+    second: npc_gwendolyn__x1_idle_png_1354832938_43
+  - first:
+      213: 1793654140655645416
+    second: npc_gwendolyn__x1_idle_png_1354832938_44
+  - first:
+      213: 8659991266110558325
+    second: npc_gwendolyn__x1_idle_png_1354832938_45
+  - first:
+      213: 5920036269234451436
+    second: npc_gwendolyn__x1_idle_png_1354832938_46
+  - first:
+      213: 4774273432902508885
+    second: npc_gwendolyn__x1_idle_png_1354832938_47
+  - first:
+      213: 7478426579479046352
+    second: npc_gwendolyn__x1_idle_png_1354832938_48
+  - first:
+      213: -8652684770863561290
+    second: npc_gwendolyn__x1_idle_png_1354832938_49
+  - first:
+      213: 9203287514013579199
+    second: npc_gwendolyn__x1_idle_png_1354832938_50
+  - first:
+      213: -3200927567941881635
+    second: npc_gwendolyn__x1_idle_png_1354832938_51
+  - first:
+      213: 2824392119431140789
+    second: npc_gwendolyn__x1_idle_png_1354832938_52
+  - first:
+      213: -7260600140756027400
+    second: npc_gwendolyn__x1_idle_png_1354832938_53
+  - first:
+      213: -2393700860607466743
+    second: npc_gwendolyn__x1_idle_png_1354832938_54
+  - first:
+      213: 7139431431419247100
+    second: npc_gwendolyn__x1_idle_png_1354832938_55
+  - first:
+      213: 4764752726642730827
+    second: npc_gwendolyn__x1_idle_png_1354832938_56
+  - first:
+      213: 3701440520739735174
+    second: npc_gwendolyn__x1_idle_png_1354832938_57
+  - first:
+      213: 1742595945928957833
+    second: npc_gwendolyn__x1_idle_png_1354832938_58
+  - first:
+      213: -6765726073276937713
+    second: npc_gwendolyn__x1_idle_png_1354832938_59
+  - first:
+      213: 6166693834636714293
+    second: npc_gwendolyn__x1_idle_png_1354832938_60
+  - first:
+      213: 3890226782899051470
+    second: npc_gwendolyn__x1_idle_png_1354832938_61
+  - first:
+      213: 1298396031399996703
+    second: npc_gwendolyn__x1_idle_png_1354832938_62
+  - first:
+      213: 1899027023262150496
+    second: npc_gwendolyn__x1_idle_png_1354832938_63
+  - first:
+      213: 1875784068601503966
+    second: npc_gwendolyn__x1_idle_png_1354832938_64
+  - first:
+      213: 4229469457182693967
+    second: npc_gwendolyn__x1_idle_png_1354832938_65
+  - first:
+      213: -8501752237740611231
+    second: npc_gwendolyn__x1_idle_png_1354832938_66
+  - first:
+      213: 5574116984495507144
+    second: npc_gwendolyn__x1_idle_png_1354832938_67
+  - first:
+      213: 8559040501010180862
+    second: npc_gwendolyn__x1_idle_png_1354832938_68
+  - first:
+      213: 7905537317701317911
+    second: npc_gwendolyn__x1_idle_png_1354832938_69
+  - first:
+      213: 8882616566593144071
+    second: npc_gwendolyn__x1_idle_png_1354832938_70
+  - first:
+      213: 2828713106874111933
+    second: npc_gwendolyn__x1_idle_png_1354832938_71
+  - first:
+      213: -805388703812881044
+    second: npc_gwendolyn__x1_idle_png_1354832938_72
+  - first:
+      213: 5915997658307213524
+    second: npc_gwendolyn__x1_idle_png_1354832938_73
+  - first:
+      213: 1797132543216628249
+    second: npc_gwendolyn__x1_idle_png_1354832938_74
+  - first:
+      213: 3204625886454420122
+    second: npc_gwendolyn__x1_idle_png_1354832938_75
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868e4e032be6dff4b8e88b841aa1c3f8
+      internalID: -1370583687091837856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11497987d8b3bb048915a67c2b1e390b
+      internalID: -335507222053592897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3138cf09a359c2249a3ceb48facba1f0
+      internalID: -8229348858212140891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d673096bcd30b049802242356f47c5a
+      internalID: 3494810855014775322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213663b430f3fda428e09f47e2dd632a
+      internalID: 793400455065706312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb7d11514421b946923737bed870ef9
+      internalID: -6992044247722202354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88520007435d7c94596a2f732915449e
+      internalID: -4785685288840821639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1719
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f014f023e780b429f113a71e6ff146
+      internalID: 4024006823043028753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f6417a70c876e43bac1fa59b1eb035
+      internalID: -8747320809544976414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d67c466c04fd7c419b6849c620d0f04
+      internalID: 3691889084160774077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a527347a6330dc640a19b643a2726e25
+      internalID: 4901528766522536140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57d31db780cf5141b2248876761b89d
+      internalID: -3508030046464406094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_12
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344df8f4eb3f0e049bcadcfdbc9d9271
+      internalID: 7534481285718607619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_13
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080b347125f464c4cb3e76d371a23ec7
+      internalID: 698152993241675692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_14
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc0bb35a6cf0e9489afc8c151c5286e
+      internalID: 2578829487533515142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_15
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1528
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e73099761fd9a478ce9e32b850e895
+      internalID: -6025965393358302316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e340dbfdcbf307745a4a0f6cb4e144a6
+      internalID: -2820212534114553624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e0caf93945e6e44aa1a7ac6812034d
+      internalID: -100437501418502529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94cb55d12b945141ba49d4948a85bae
+      internalID: 2371242486198716494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_19
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca93cdc211223244a9ef22669dcf3d3e
+      internalID: 5273505102166897649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_20
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e462865d1998992418c5bc6ffeb5d47d
+      internalID: -4371854869068157554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_21
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc73cf8fabbb5bf408af76470b2059b1
+      internalID: 5067935288438462885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_22
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7069ed4dd144b764c9dd4b6a475cbfe4
+      internalID: -2300383993487538470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_23
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1337
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e202062ebd73464f852f6b8333b82e4
+      internalID: -5110267800421590377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29db770a48f20e44d875904f3e6e2032
+      internalID: 9122868320550538763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c62ebf764acbb049b84e961d385c56b
+      internalID: -7134384982526758906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_26
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bad5d02066e9a46b6ae0af3e0873a9
+      internalID: 4001177335835572037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_27
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9f96b8ae8bb194bac02bfc81545b0a
+      internalID: 7544057497072009848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c724326be4da53498628515e033735c
+      internalID: -4428227096597557518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_29
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b998aa6b12cce4dbf1723343a19f73
+      internalID: -8747276942049892942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_30
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df51c8b22be14543bda74e6f276ac60
+      internalID: 5430879157715059208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_31
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1146
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9678db406db90574eba95cde31eec0ad
+      internalID: 7790970827592695164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c691a0b5583193249af91feea336ebd8
+      internalID: -2418350544623008273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d653cc0ea72ae3e48b1c4367a0624bbc
+      internalID: 1272581239294941480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d027a1ce0635ab47b0b2594de1c04d4
+      internalID: -661798717740148022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_35
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926efbaeeb1ca044fab24c4b3b2d4f6f
+      internalID: 1177657446505892555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_36
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae57ee626f6859429f23146ae327644
+      internalID: -7729812004315795644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e366d63f22df342841e613504182e2
+      internalID: 4745144648136268772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_38
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd68a10dc90385e4f831172afaca6800
+      internalID: -6885481621549434179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_39
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 955
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497994585d1a82d42a3da5c61897aa1d
+      internalID: -1706088226030839439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cba9da956735d548ad93e4288d62a7a
+      internalID: 5145896974971683814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_41
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c972b34a54de34dafd9e9253e0cabc
+      internalID: -420810473438374790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_42
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665780ab2a0abaf4895b5941b9d3a1b9
+      internalID: -5151702431693459022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e770d1b268c64b45ab27334bee3c7f3
+      internalID: 367909614221845504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_44
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7e7997b5ffe2148b0be3ba0849a6f3
+      internalID: 1793654140655645416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_45
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8ac9c16c2b80c4999d9a82ecd53d94
+      internalID: 8659991266110558325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_46
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7c4010365911a449d6343e386b677f
+      internalID: 5920036269234451436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_47
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 764
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4389a34bc00229c47a548628abf18af1
+      internalID: 4774273432902508885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b178f8a2dcc86ef4090619e346074887
+      internalID: 7478426579479046352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d792d90c5dba241a88139cd7b2918c
+      internalID: -8652684770863561290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_50
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cc2905ca77ad84aa178c4c9a669169
+      internalID: 9203287514013579199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_51
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a1ceeb6d4c90b4ebabfd9a4e308a97
+      internalID: -3200927567941881635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_52
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702813ea7ec74bd4181d3b6f7980716f
+      internalID: 2824392119431140789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_53
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64142e07c569d64d8cc962c734dc418
+      internalID: -7260600140756027400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_54
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61e9fe194a651a449654a40cbdfb535
+      internalID: -2393700860607466743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_55
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 573
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db868f8d8bdb7044d8c81192b1be513b
+      internalID: 7139431431419247100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6965889a578f96648a10997bba7ae627
+      internalID: 4764752726642730827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_57
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe7de2042acab345a9c59ae93e8545e
+      internalID: 3701440520739735174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_58
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91a818bcd5dd9d4fbf27e3ac27bbad7
+      internalID: 1742595945928957833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_59
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67adfd4b17238b4eb3076fb29288615
+      internalID: -6765726073276937713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_60
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a460d77e1a356db449d551a9bea372f5
+      internalID: 6166693834636714293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_61
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77cf8ede33c9364a9cecc6d2460401a
+      internalID: 3890226782899051470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_62
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ce9fe6adb1ec741a9d8685ee1c1ac6
+      internalID: 1298396031399996703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_63
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 382
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3a2129a52519a469fa0b11688b0b70
+      internalID: 1899027023262150496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12cc22290c30c143b7ea670ec8e1abd
+      internalID: 1875784068601503966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_65
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537aac95381e9ad4180dfd6e5b8c9162
+      internalID: 4229469457182693967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207fe755409f7174dac3f8a23e27e014
+      internalID: -8501752237740611231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_67
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480249193fce9b24e8099724b670a27d
+      internalID: 5574116984495507144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_68
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc997e3efcf8ff47b45722c29699010
+      internalID: 8559040501010180862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_69
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd8f022954a02244a9523f5952b878b
+      internalID: 7905537317701317911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_70
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1475a70eccf61b34d92576c8d5eb058b
+      internalID: 8882616566593144071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_71
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 191
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1593bba6aa006d14f85af68f53379b9a
+      internalID: 2828713106874111933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a922cdfaead451440a66e3481eb8dfd9
+      internalID: -805388703812881044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_73
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe15940cd9ed184d878ed2eef595e07
+      internalID: 5915997658307213524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_74
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2347f5fc0dc2b9e4283647c7c694ec6a
+      internalID: 1797132543216628249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gwendolyn__x1_idle_png_1354832938_75
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 116
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ee03600b0feb247b385e2acd0b826f
+      internalID: 3204625886454420122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

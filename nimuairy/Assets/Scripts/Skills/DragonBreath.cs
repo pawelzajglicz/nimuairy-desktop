@@ -24,6 +24,14 @@ public class DragonBreath : MonoBehaviour
         }
     }
 
+    private void SetFireTo(Enemy enemy)
+    {
+        Burning burningInstance = Instantiate(burning, enemy.transform.position, Quaternion.identity) as Burning;
+        burningInstance.burnDamage = paramValue;
+        burningInstance.burn(enemy);
+        burningInstance.transform.parent = enemy.transform;
+    }
+
     private bool IsNotBurning(Enemy enemy)
     {
         foreach (Transform child in enemy.transform)
@@ -35,13 +43,5 @@ public class DragonBreath : MonoBehaviour
             }
         }
         return true;
-    }
-
-    private void SetFireTo(Enemy enemy)
-    {
-        Burning burningInstance = Instantiate(burning, enemy.transform.position, Quaternion.identity) as Burning;
-        burningInstance.burnDamage = paramValue;
-        burning.burn(enemy);
-        burningInstance.transform.parent = enemy.transform;
     }
 }

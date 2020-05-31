@@ -25,12 +25,16 @@ public class WallDefender : Paramizable
     [SerializeField] Param actionFactorParam;
 
 
+    Animator animator;
+
+
 
     protected TargetFinder targetFinder;
 
     private void Awake()
     {
         targetFinder = GetComponent<TargetFinder>();
+        animator = GetComponent<Animator>();
     }
     
     protected virtual void Start()
@@ -67,18 +71,30 @@ public class WallDefender : Paramizable
 
         if (timeToFastAction < 0)
         {
+            //animator.SetBool("IsProcessingAction", true);
+            animator.SetTrigger("ProcessAction");
             timeToFastAction = fastActionInterval;
             if (FindObjectsOfType<Enemy>().Length > 0)
             {
                 InstantiateFastAttack();
             }
+            //animator.SetBool("IsProcessingAction", false);
         }
     }
 
     protected virtual void InstantiateFastAttack()
     {
         WallDefenderAction fastAttackInstance = Instantiate(fastAction, transform.position, transform.rotation) as WallDefenderAction;
-        fastAttackInstance.factorFromWallDefender = actionFactorParam.paramValue;
+        fastAttackInstance.setFactorFromWallDefender(actionFactorParam.paramValue);
+
+        WallDefenderAction[] acs = fastAttackInstance.gameObject.GetComponents<WallDefenderAction>();
+
+        foreach (WallDefenderAction action in acs)
+        {
+            action.setFactorFromWallDefender(actionFactorParam.paramValue);
+        }
+
+      //  fastAttackInstance.factorFromWallDefender = actionFactorParam.paramValue;
         fastAttackInstance.SetTarget(targetFinder.FindTarget());
     }
 
@@ -88,6 +104,7 @@ public class WallDefender : Paramizable
 
         if (timeToSlowAction < 0)
         {
+            animator.SetTrigger("ProcessAction");
             timeToSlowAction = slowActionInterval;
             if (FindObjectsOfType<Enemy>().Length > 0)
             {
@@ -113,6 +130,7 @@ public class WallDefender : Paramizable
     public void ReturnToPlaceholder()
     {
         transform.position = placeholder.transform.position;
+        transform.parent = placeholder.transform;
         isActive = false;
         slot.wallDefender = null;
         slot = null;

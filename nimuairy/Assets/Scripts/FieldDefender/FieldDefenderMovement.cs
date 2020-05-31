@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class FieldDefenderMovement : Paramizable
 {
+    private float playerTimeFactorModifier = 1.2f;
     [SerializeField] public float timeFactor = 0;
 
     [SerializeField] float speedHorizontal = 0;
@@ -176,7 +177,7 @@ public class FieldDefenderMovement : Paramizable
         float horizontalTimeFactor = Mathf.Abs(speedHorizontal / maxHorizontalSpeed);
         float verticalTimeFactor = Mathf.Abs(speedVertical / maxVerticalSpeed);
 
-        timeFactor = (horizontalTimeFactor + verticalTimeFactor) / 2 * 1.2f;
+        timeFactor = (horizontalTimeFactor + verticalTimeFactor) / 2 * playerTimeFactorModifier;
 
         TimeManager.playerTimeFactor = timeFactor;
     }

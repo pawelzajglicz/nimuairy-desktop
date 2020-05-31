@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackTimerShower : MonoBehaviour
+public class AttackTimerDisplayer : MonoBehaviour
 {
     [SerializeField] public float fastAttackInterval;
     [SerializeField] public float timeSinceFastAttack;

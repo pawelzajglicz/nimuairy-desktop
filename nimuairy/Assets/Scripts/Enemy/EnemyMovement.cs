@@ -13,6 +13,8 @@ public abstract class EnemyMovement : MonoBehaviour
     
     [SerializeField] protected EnemyTimeManagerReacting enemyTimeManagerReacting;
 
+    protected Animator animator;
+
 
     void Start()
     {
@@ -20,18 +22,23 @@ public abstract class EnemyMovement : MonoBehaviour
         currentSpeed = startSpeed;
 
         enemyTimeManagerReacting = GetComponent<EnemyTimeManagerReacting>();
+        animator = GetComponent<Animator>();
+        animator.speed = 0;
     }
 
     void Update()
     {
+
+        if (isStandardMoveAllowed && /*!arrivedAtWall &&*/ FindObjectOfType<GameManager>().IsBattle)
+        {
+            ProcessStandardMove();
+            animator.speed = 1;
+        }
+
         if (enemyTimeManagerReacting.isReactingToFieldDefenderTimeFactor)
         {
             currentSpeed = startSpeed * TimeManager.playerTimeFactor;
-        }
-
-        if (isStandardMoveAllowed && !arrivedAtWall && FindObjectOfType<GameManager>().IsBattle)
-        {
-            ProcessStandardMove();
+            animator.speed = TimeManager.playerTimeFactor;
         }
     }
 
@@ -42,7 +49,7 @@ public abstract class EnemyMovement : MonoBehaviour
         isStandardMoveAllowed = newValue;
     }
 
-    public virtual void DontMove()
+    public virtual void DontMoveInStandardWay()
     {
         if (isStandardMoveAllowed)
         {
@@ -50,7 +57,7 @@ public abstract class EnemyMovement : MonoBehaviour
         }
     }
 
-    public virtual void StartMove()
+    public virtual void StartMoveInStandardWay()
     {
         if (!isStandardMoveAllowed)
         {

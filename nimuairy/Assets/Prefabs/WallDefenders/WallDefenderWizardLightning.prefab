@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4694064810645699788}
   - component: {fileID: 5455570908224250771}
   - component: {fileID: 7981931155568045486}
+  - component: {fileID: 8974506552431714441}
   m_Layer: 0
   m_Name: WallDefenderWizardLightning
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 395835421628879793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children:
   - {fileID: 5717725137099136420}
   - {fileID: 79702544433133895}
@@ -74,8 +75,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 45
-  m_Sprite: {fileID: 21300000, guid: 5da16e59a3fb7ef4cba75c71b4c65798, type: 3}
-  m_Color: {r: 0.01744394, g: 0.07593635, b: 0.5283019, a: 1}
+  m_Sprite: {fileID: 7012665831284526862, guid: d94d0aaeb03e36b42a7afb9b29473e1c,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,12 +104,15 @@ MonoBehaviour:
   slowAction: {fileID: -1121673378926055585, guid: 66e49456f195b08489d48641751c7483,
     type: 3}
   slot: {fileID: 0}
+  placeholder: {fileID: 0}
   isManualTargeting: 0
   fastActionInterval: 1
   slowActionInterval: 6
   timeToFastAction: 0
   timeToSlowAction: 0
   isActive: 0
+  actionFactor: 1
+  actionFactorParam: {fileID: 0}
 --- !u!114 &5455570908224250771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +145,25 @@ MonoBehaviour:
   fastAttackBar: {fileID: 3114723370792758688}
   slowAttackBar: {fileID: 7312686748147484995}
   wallDefender: {fileID: 4694064810645699788}
+--- !u!95 &8974506552431714441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395835421628879793}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a8b71a2bc2ed6f4f9d8b37dbe9cef28, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &3455950857955383418
 PrefabInstance:
   m_ObjectHideFlags: 0

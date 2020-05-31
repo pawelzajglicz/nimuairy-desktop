@@ -9,6 +9,7 @@ public class EnemyMovementSlanting : EnemyMovement
     [SerializeField] float timeToChangeVerticalDirection = 5f;
     [SerializeField] float timeElapsedSinceLastDirectionChange = 0f;
     [SerializeField] int verticalDirection  = 1;
+	
 
     public BoxCollider2D collider;
 
@@ -37,18 +38,13 @@ public class EnemyMovementSlanting : EnemyMovement
         HandleMovement();
     }
 
-    private void HandleMovement()
-    {
-        Vector2 direction = Vector2.left + Vector2.up * verticalDirection;
-        transform.Translate(direction * currentSpeed * Time.deltaTime);
-    }
-
     private void HandleVerticalDirection()
     {
         float timeFactor = 1f;
         if (enemyTimeManagerReacting.isReactingToFieldDefenderTimeFactor)
         {
             timeFactor = TimeManager.playerTimeFactor;
+            animator.speed = TimeManager.playerTimeFactor;
         }
 
         timeElapsedSinceLastDirectionChange += Time.deltaTime * timeFactor;
@@ -59,13 +55,19 @@ public class EnemyMovementSlanting : EnemyMovement
         }
     }
 
+    private void HandleMovement()
+    {
+        Vector2 direction = Vector2.left + Vector2.up * verticalDirection;
+        transform.Translate(direction * currentSpeed * Time.deltaTime);
+    }
+
     public override void SetStandardMoveAllowed(bool newValue)
     {
         base.SetStandardMoveAllowed(newValue);
         StartCoroutine(ProcessRotatingAfterAWhile());
     }
 
-    public override void StartMove()
+    public override void StartMoveInStandardWay()
     {
         if (!isStandardMoveAllowed)
         {

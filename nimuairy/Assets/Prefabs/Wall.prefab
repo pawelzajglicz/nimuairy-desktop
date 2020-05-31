@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 1500
+  startHealthParam: {fileID: 0}
   maxHealth: 0
   currenttHealth: 0
   healFactor: 2
@@ -256,12 +257,12 @@ PrefabInstance:
     - target: {fileID: 1421011549648426405, guid: 58773a9cf75a51f4da2b9584337213b5,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.3379874
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 1421011549648426405, guid: 58773a9cf75a51f4da2b9584337213b5,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7863534
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4765772254536431113, guid: 58773a9cf75a51f4da2b9584337213b5,
         type: 3}

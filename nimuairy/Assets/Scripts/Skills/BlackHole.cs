@@ -6,7 +6,6 @@ public class BlackHole : MonoBehaviour
 {
 
     [SerializeField] public float duration = 1.25f;
-    [SerializeField] public float elapsedTime;
     [SerializeField] public float pullingForceValue = 0.01f;
 
 
@@ -31,8 +30,6 @@ public class BlackHole : MonoBehaviour
                 PullEnemy(enemy);
             }
         }
-
-        elapsedTime += (Time.deltaTime * Time.deltaTime);
     }
 
     private void PullEnemy(Enemy enemy)

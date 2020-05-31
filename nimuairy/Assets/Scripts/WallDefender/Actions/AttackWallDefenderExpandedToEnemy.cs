@@ -38,6 +38,6 @@ public class AttackWallDefenderExpandedToEnemy : WallDefenderAction
         transform.position = new Vector2(newPositionX, newPositionY);
 
         float newScaleY = Mathf.Abs(target.x - source.x) + Mathf.Abs(target.y - source.y);
-        transform.localScale = new Vector2(transform.localScale.x, newScaleY);
+        transform.localScale = new Vector2(newScaleY, 5);
     }
 }

@@ -24,16 +24,19 @@ public class LevelManager : MonoBehaviour
 
     internal void RestartGame()
     {
+        TimeManager.playerTimeFactor = 0;
         GoToMainMenu();
     }
 
     public void ResetGame()
     {
+        TimeManager.playerTimeFactor = 0;
         SceneManager.LoadScene(1);
     }
 
     public void GoToMainMenu()
     {
+        TimeManager.playerTimeFactor = 0;
         SceneManager.LoadScene(0);
     }
 }

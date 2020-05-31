@@ -16,4 +16,9 @@ public class ResourcesManager : MonoBehaviour
             shower.UpdateCrystalAmount();
         }
     }
+
+    public void RemoveMagicCrystals(int amountToRemove)
+    {
+        AddMagicCrystals(amountToRemove * -1);
+    }
 }

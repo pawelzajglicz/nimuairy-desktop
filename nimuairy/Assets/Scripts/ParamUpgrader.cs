@@ -59,9 +59,14 @@ public class ParamUpgrader : MonoBehaviour
 
     void UpdateNumbers()
     {
-        currentValue += (int)(level * nextValueFactor + addingValue);
-        nextValue = currentValue + (int)((level + 1) * nextValueFactor + addingValue);
+        currentValue += additionalValuePerLevel(level);
+        nextValue = currentValue + additionalValuePerLevel(level + 1);
         cost += (int)(level * costFactor + addingCost);
+    }
+
+    int additionalValuePerLevel(int levelForAdditional)
+    {
+        return (int)(levelForAdditional * nextValueFactor + addingValue);
     }
 
     void UpdateTexts()
@@ -70,21 +75,31 @@ public class ParamUpgrader : MonoBehaviour
         nextValueTMP.text = startNextValueText + nextValue;
         costTMP.text = startCostText + cost;
     }
-    
+
 
     public void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0) && levelableUp)
         {
-            ManageNextLevel();
+            if (IsEnoughMagicCrystals())
+            {
+                ManageNextLevel();
+            }
         }
+    }
+
+    private bool IsEnoughMagicCrystals()
+    {
+        return cost <= FindObjectOfType<ResourcesManager>().MagicCrystalsAmount;
     }
 
     private void ManageNextLevel()
     {
         level++;
+        FindObjectOfType<ResourcesManager>().RemoveMagicCrystals(cost);
         UpdateNumbers();
         UpdateTexts();
+
 
         if (isMaxLevel && level >= maxLevel)
         {

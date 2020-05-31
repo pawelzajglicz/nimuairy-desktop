@@ -18,6 +18,8 @@ public class SuccessDisplayer : MonoBehaviour
     protected IEnumerator ProcessReturnToCity()
     {
         yield return new WaitForSeconds(waitingToReturnToCityTime);
+        FindObjectOfType<TopBar>().transform.localScale = new Vector3(0, 0, 0);
+        FindObjectOfType<SkillBar>().transform.localScale = new Vector3(0, 0, 0);
         CameraPositioner.GoToCityScreen();
         this.gameObject.SetActive(false);
     }

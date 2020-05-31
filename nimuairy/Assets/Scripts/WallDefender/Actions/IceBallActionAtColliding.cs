@@ -10,7 +10,7 @@ public class IceBallActionAtColliding : WallDefenderActionAtColliding
     protected override void PerformAction(Collider2D collision)
     {
         Enemy enemy = collision.GetComponent<Enemy>();
-        if (enemy && IsNotFreezed(enemy))
+        if (enemy != null && IsNotFreezed(enemy))
         {
             EnemyFozening frozeningInstance = Instantiate(enemyFozening, collision.transform.position, Quaternion.identity) as EnemyFozening;
             if (paramValueLifeTime != 0)

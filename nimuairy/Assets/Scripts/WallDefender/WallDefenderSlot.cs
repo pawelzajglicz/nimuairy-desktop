@@ -58,6 +58,7 @@ public class WallDefenderSlot : MonoBehaviour
         }
 
         this.wallDefender = wallDefender;
+        wallDefender.transform.parent = this.gameObject.transform;
         wallDefender.slot = this;
         wallDefender.transform.position = transform.position;
         isWallDefenderManualDefending = wallDefender.isManualTargeting;

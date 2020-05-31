@@ -10,7 +10,7 @@ public class WallDefenderAction : MonoBehaviour
 
     [SerializeField] public float factorFromWallDefender;
     [SerializeField] public float paramValue;
-
+    
     public void SetTarget()
     {
 
@@ -21,11 +21,17 @@ public class WallDefenderAction : MonoBehaviour
 
     }
 
+    public void setFactorFromWallDefender(float f)
+    {
+        factorFromWallDefender = f;
+    }
+
     public void SetTarget(Vector2 newTarget)
     {
         targetPosition = newTarget;
         if (newTarget != Vector2.zero && ((Vector2)this.transform.position != targetPosition))
         {
+            Debug.Log("aa " + HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(newTarget)).ToVector());
             transform.up = HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(newTarget)).ToVector();
         }
     }
@@ -39,6 +45,7 @@ public class WallDefenderAction : MonoBehaviour
 
             if (targetPosition != Vector2.zero && ((Vector2)this.transform.position != targetPosition))
             {
+                Debug.Log("aab " + HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(targetPosition)).ToVector());
                 transform.up = HolisticMath.LookAt2D(new Coords(transform.up), new Coords(this.transform.position), new Coords(targetPosition)).ToVector();
             }
         }

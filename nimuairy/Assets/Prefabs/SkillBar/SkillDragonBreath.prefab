@@ -49,6 +49,8 @@ MonoBehaviour:
   cooldown: 6
   cooldownRemaining: 0
   stillCooldown: 0
+  paramValue: 0
+  param: {fileID: 0}
   activationKey: 0
   offset: {x: 0, y: 0}
   fieldDefenderMovement: {fileID: 0}
@@ -96,7 +98,7 @@ Transform:
   m_GameObject: {fileID: 6196697600906764312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 6196697599236458667}
   m_RootOrder: 0
@@ -139,8 +141,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 35
-  m_Sprite: {fileID: 21300000, guid: e0800d1ba7a48e342a9123749ae76741, type: 3}
-  m_Color: {r: 0.7735849, g: 0.062907904, b: 0.025542913, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5500028522e3f804e976f48c99d41e56, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

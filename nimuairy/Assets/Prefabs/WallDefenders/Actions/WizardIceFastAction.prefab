@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3864111376324660142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 46a50bd9d63c49c40ae93d87f60ac207, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dff8d6c5c930b724483772156bf5de10, type: 3}
   m_Color: {r: 0.4156863, g: 0.8588236, b: 0.8117648, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,18 +98,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.024314433, y: 0.00540334}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.59, y: 0.37}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5785492, y: 0.20032418}
   m_EdgeRadius: 0
 --- !u!114 &5395054948887891885
 MonoBehaviour:
@@ -126,6 +126,9 @@ MonoBehaviour:
   speed: 10
   targetPosition: {x: 0, y: 0}
   targetGameObject: {fileID: 0}
+  factorFromWallDefender: 0
+  paramValue: 0
+  isDirectingToRight: 1
 --- !u!114 &-3272820736345004845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackPower: 10
   fieldDefenderDamagingFactor: 0.1
+  factorFromWallDefender: 0
 --- !u!114 &8664357333080541724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +156,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0958c6aa09c50441a8d13ddf955eafc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  penetratesLimit: 1
+  speed: 1
+  targetPosition: {x: 0, y: 0}
+  targetGameObject: {fileID: 0}
+  factorFromWallDefender: 0
+  paramValue: 0
+  penetratesLimit: 10
   currentPenetrates: 0
 --- !u!114 &-3703189551264251032
 MonoBehaviour:
@@ -168,3 +177,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyFozening: {fileID: 8905270924646909315, guid: 9d76ab80a75c0f44c98dfacd7380e832,
     type: 3}
+  paramValueLifeTime: 0

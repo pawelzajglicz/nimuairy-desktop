@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: 9196271930ecf8a40b268b253a926189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4489116384403632144
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_0
+  - first:
+      213: -2845511543121917480
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_1
+  - first:
+      213: -6504692781359281533
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_2
+  - first:
+      213: -4506967147021218978
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_3
+  - first:
+      213: 1054284838499078306
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_4
+  - first:
+      213: 7035076237163958648
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_5
+  - first:
+      213: -4535160223711797344
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_6
+  - first:
+      213: -8605824886768617915
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_7
+  - first:
+      213: 2759914227584734112
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_8
+  - first:
+      213: 7335744386267514332
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_9
+  - first:
+      213: 8278148484777707739
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_10
+  - first:
+      213: -7222026312183723560
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_11
+  - first:
+      213: 1758064610222732304
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_12
+  - first:
+      213: -2413587166353779098
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_13
+  - first:
+      213: -6689682659620867166
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_14
+  - first:
+      213: -8658705894352310121
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_15
+  - first:
+      213: 7559726364885069994
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_16
+  - first:
+      213: 9165077755108302269
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_17
+  - first:
+      213: -865127671197456190
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_18
+  - first:
+      213: -7872337148961089739
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_19
+  - first:
+      213: -3824404510774013015
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_20
+  - first:
+      213: -3252614946600467844
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_21
+  - first:
+      213: -4103044547262847291
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_22
+  - first:
+      213: -3246449019172638725
+    second: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddecfa323f247d41b65f570e9831279
+      internalID: -4489116384403632144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 540
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc28ae5684d15d4fb3e5a5432663351
+      internalID: -2845511543121917480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 540
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc302c328604b429dc69f877a047d8
+      internalID: -6504692781359281533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 540
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06022e16bdca054a8df5b9bc87902da
+      internalID: -4506967147021218978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 540
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535fbf8716bfccb48b308bff526546e9
+      internalID: 1054284838499078306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_5
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 540
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781df9c2cbbfc7d4f9119933ebb28ac2
+      internalID: 7035076237163958648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e8916ae821ad4d9c7cfd963e28e97
+      internalID: -4535160223711797344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 360
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b52fd3725f83c45ae7e5e61d64b878
+      internalID: -8605824886768617915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 360
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d198bacc42ca07743b531d6c38268177
+      internalID: 2759914227584734112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_9
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 360
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d75b61748c2954c93db475d1641069
+      internalID: 7335744386267514332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_10
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 360
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f53cc79d9f89874ea8bd0ad5ade2a8a
+      internalID: 8278148484777707739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_11
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 360
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7b484ee28088440a1cdb14ca4ab148
+      internalID: -7222026312183723560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43588395953d9324a9e6625dd6a93992
+      internalID: 1758064610222732304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 180
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f54acaa11230b47963e95d48baf7c9
+      internalID: -2413587166353779098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 180
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b99381f7bb5c3148b7ac70842daf1da
+      internalID: -6689682659620867166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_15
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 180
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bab4942df39aa4a88c94cfa9ddf1f3
+      internalID: -8658705894352310121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 180
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a3649e4f6106e49862fa7e246e148e
+      internalID: 7559726364885069994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_17
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 180
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2315ff89aa137404cad43e4c2979f681
+      internalID: 9165077755108302269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293ab5fb549bb7a44a4dd28309ee640e
+      internalID: -865127671197456190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cba98ee1a4e76d40a642c9ca8d3e431
+      internalID: -7872337148961089739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c839045143aa3840ad594c628ccb9b9
+      internalID: -3824404510774013015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_21
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0ee9570eea1bf4abb04afc0ec35165
+      internalID: -3252614946600467844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_22
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e675a34deed29147b8e8a42b2571bf8
+      internalID: -4103044547262847291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street_spirit_zutto_cap_capGreen_x1_groundIdle_png_1354833659_23
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 0
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e264bbb8675ccda40a4dbd1c4f1342a8
+      internalID: -3246449019172638725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
