@@ -49,7 +49,6 @@ public class HolisticMath
         if (HolisticMath.Cross(forwardVector, direction).z < 0)
             clockwise = true;
 
-        Debug.Log("angle: " + angle);
         Coords newDir = HolisticMath.Rotate(forwardVector, angle, clockwise);
 
         return newDir;
@@ -62,13 +61,10 @@ public class HolisticMath
             angle = 2 * Mathf.PI - angle;
         }
 
-        Debug.Log("angle2: " + angle);
         float xVal = vector.x * Mathf.Cos(angle) - vector.y * Mathf.Sin(angle);
         float yVal = vector.x * Mathf.Sin(angle) + vector.y * Mathf.Cos(angle);
         yVal *= -1;
 
-        Debug.Log("xVal: " + xVal);
-        Debug.Log("yVal: " + yVal);
         return new Coords(yVal, xVal, 0);
     }
 
