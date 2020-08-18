@@ -13,6 +13,9 @@ public abstract class Skill : Paramizable
     [SerializeField] public float paramValue;
     [SerializeField] Param param;
 
+    [SerializeField] protected AudioClip skillSound;
+    [SerializeField] protected float skillSoundVolume = 0.5f;
+
     public KeyCode activationKey;
 
 

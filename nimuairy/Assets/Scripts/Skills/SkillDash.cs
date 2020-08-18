@@ -24,6 +24,7 @@ public class SkillDash : Skill
     protected override void ActivateSkill()
     {
         StartCoroutine(Dashing());
+        AudioSource.PlayClipAtPoint(skillSound, Camera.main.transform.position, skillSoundVolume);
     }
 
     public IEnumerator Dashing()

@@ -48,6 +48,8 @@ MonoBehaviour:
   attackPower: 35
   lifeTime: 2
   traceCollidingTime: 0.3
+  slashSound: {fileID: 8300000, guid: 4e59e46da3e488f408d181332a4975e0, type: 3}
+  slashSoundVolume: 0.5
 --- !u!61 &4717404437249158386
 BoxCollider2D:
   m_ObjectHideFlags: 0

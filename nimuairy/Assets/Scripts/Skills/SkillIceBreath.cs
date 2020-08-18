@@ -36,5 +36,6 @@ public class SkillIceBreath : Skill
         wizardIceFastActionInstance.gameObject.GetComponent<WallDefenderAction>().speed = this.speed;
 
         Destroy(wizardIceFastActionInstance.gameObject, lifeTime);
+        AudioSource.PlayClipAtPoint(skillSound, Camera.main.transform.position, skillSoundVolume);
     }
 }

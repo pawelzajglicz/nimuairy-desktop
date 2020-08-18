@@ -8,11 +8,15 @@ public class SlashTrace : MonoBehaviour
     [SerializeField] public float lifeTime = 1f;
     [SerializeField] float traceCollidingTime = 0.3f;
 
+    [SerializeField] AudioClip slashSound;
+    [SerializeField] float slashSoundVolume = 0.5f;
+
 
     private void Start()
     {
         StartCoroutine(TurnOffColliding());
         Destroy(gameObject, lifeTime);
+        AudioSource.PlayClipAtPoint(slashSound, Camera.main.transform.position, slashSoundVolume);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

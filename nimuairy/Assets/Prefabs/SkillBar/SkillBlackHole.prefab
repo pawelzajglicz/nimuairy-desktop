@@ -65,6 +65,10 @@ MonoBehaviour:
   cooldown: 15
   cooldownRemaining: 0
   stillCooldown: 0
+  paramValue: 0
+  param: {fileID: 0}
+  skillSound: {fileID: 8300000, guid: 5cc7c27ac8d9e1c49938e768b3abf7df, type: 3}
+  skillSoundVolume: 0.5
   activationKey: 0
   fieldDefenderMovement: {fileID: 0}
   blackHole: {fileID: 5329071298947882804, guid: 37df2f4281e215b4c944bb331628e832,

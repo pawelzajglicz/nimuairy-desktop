@@ -51,6 +51,8 @@ MonoBehaviour:
   stillCooldown: 0
   paramValue: 0
   param: {fileID: 0}
+  skillSound: {fileID: 8300000, guid: 948b164d3b07e104a906bc5f70db28e5, type: 3}
+  skillSoundVolume: 0.5
   activationKey: 0
   offset: {x: 0, y: 0}
   fieldDefenderMovement: {fileID: 0}

@@ -24,6 +24,7 @@ public class SkillBlackHole : Skill
     {
         BlackHole blackHoleinstance = Instantiate(blackHole, fieldDefenderMovement.transform.position, Quaternion.identity) as BlackHole;
         blackHoleinstance.pullingForceValue = paramValue * 0.0003f;
+        AudioSource.PlayClipAtPoint(skillSound, Camera.main.transform.position, skillSoundVolume);
     }
 
    

@@ -25,6 +25,7 @@ public class SkillDragonBreath : Skill
         DragonBreath dragonBreathInstance = Instantiate(dragonBreath, dragonBreathPosition, Quaternion.identity) as DragonBreath;
         dragonBreathInstance.paramValue = paramValue;
         dragonBreathInstance.transform.parent = fieldDefenderMovement.transform;
+        AudioSource.PlayClipAtPoint(skillSound, Camera.main.transform.position, skillSoundVolume);
     }
 
 }

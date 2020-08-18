@@ -51,6 +51,8 @@ MonoBehaviour:
   stillCooldown: 0
   paramValue: 0
   param: {fileID: 0}
+  skillSound: {fileID: 8300000, guid: 61826ca8e5707ea41aba8f6a579db957, type: 3}
+  skillSoundVolume: 0.5
   activationKey: 0
   dashDistance: 3.5
   dashDuration: 0.25
