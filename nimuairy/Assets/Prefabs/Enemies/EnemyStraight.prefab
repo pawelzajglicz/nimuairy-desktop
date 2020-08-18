@@ -206,6 +206,8 @@ MonoBehaviour:
   deathVfx: {fileID: 6250570573556333211, guid: 3f89369d3456bba4ab8881108d8a0769,
     type: 3}
   durationOfDeathExplosion: 1
+  deathSound: {fileID: 8300000, guid: c3b940f5a307a6944bea859f8799d6c9, type: 3}
+  deathSoundVolume: 0.5
 --- !u!50 &8378914008262768228
 Rigidbody2D:
   serializedVersion: 4
@@ -581,6 +583,11 @@ PrefabInstance:
       propertyPath: enemyMovement
       value: 
       objectReference: {fileID: 8629640625927611560}
+    - target: {fileID: 3922419415226852668, guid: 22d521655442378429d8c46d09b17133,
+        type: 3}
+      propertyPath: attackSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c45066f077cc3284b89f12438d49911a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22d521655442378429d8c46d09b17133, type: 3}
 --- !u!4 &5691067925125377793 stripped

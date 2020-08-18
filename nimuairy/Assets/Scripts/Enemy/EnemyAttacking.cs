@@ -10,6 +10,9 @@ public class EnemyAttacking : MonoBehaviour
     [SerializeField] float attackTimeRate = 1.4f;
     [SerializeField] public float attackPowerFactor = 1.4f;
 
+    [SerializeField] AudioClip attackSound;
+    [SerializeField] float attackSoundVolume = 0.5f;
+
     Animator animator;
 
     private HashSet<GameObject> objectsToDealDamage;
@@ -59,6 +62,7 @@ public class EnemyAttacking : MonoBehaviour
     {
         InstantiateAttack();
         DealDamage(gameObjectToGetDamage);
+        AudioSource.PlayClipAtPoint(attackSound, Camera.main.transform.position, attackSoundVolume);
     }
 
     private void InstantiateAttack()

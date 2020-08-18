@@ -8,9 +8,11 @@ public class Enemy : MonoBehaviour
     [SerializeField] public int magicCrystalReward = 67;
     [SerializeField] float biggerityModificatorMinRange = 0f;
     [SerializeField] float biggerityModificatorMaxRange = 1.3f;
+
     [SerializeField] GameObject deathVfx;
     [SerializeField] float durationOfDeathExplosion;
-
+    [SerializeField] AudioClip deathSound;
+    [SerializeField] float deathSoundVolume = 0.5f;
 
     GameManager gameManager;
 
@@ -31,5 +33,6 @@ public class Enemy : MonoBehaviour
         Destroy(explosion, durationOfDeathExplosion);
         gameManager.HandleEnemyDeath();
         FindObjectOfType<ResourcesManager>().AddMagicCrystals(magicCrystalReward);
+        AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
     }
 }
