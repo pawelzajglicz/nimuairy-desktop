@@ -144,6 +144,10 @@ MonoBehaviour:
   isActive: 0
   actionFactor: 1
   actionFactorParam: {fileID: 0}
+  fastActionSound: {fileID: 8300000, guid: 08915052a3dee5e4eb8bcc9c62d09c07, type: 3}
+  fastActionSoundVolume: 0.5
+  slowActionSound: {fileID: 8300000, guid: 3f63fc2bcf6c5224392284e04cfb3f74, type: 3}
+  slowActionSoundVolume: 0.5
 --- !u!114 &974942158535217263
 MonoBehaviour:
   m_ObjectHideFlags: 0

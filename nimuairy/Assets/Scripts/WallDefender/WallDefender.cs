@@ -24,6 +24,12 @@ public class WallDefender : Paramizable
     [SerializeField] protected float actionFactor = 1f;
     [SerializeField] Param actionFactorParam;
 
+    [SerializeField] AudioClip fastActionSound;
+    [SerializeField] float fastActionSoundVolume = 0.5f;
+
+    [SerializeField] AudioClip slowActionSound;
+    [SerializeField] float slowActionSoundVolume = 0.5f;
+
 
     Animator animator;
 
@@ -77,6 +83,7 @@ public class WallDefender : Paramizable
             if (FindObjectsOfType<Enemy>().Length > 0)
             {
                 InstantiateFastAttack();
+                AudioSource.PlayClipAtPoint(fastActionSound, Camera.main.transform.position, fastActionSoundVolume);
             }
             //animator.SetBool("IsProcessingAction", false);
         }
@@ -109,6 +116,7 @@ public class WallDefender : Paramizable
             if (FindObjectsOfType<Enemy>().Length > 0)
             {
                 InstantiateSlowAttack();
+                AudioSource.PlayClipAtPoint(slowActionSound, Camera.main.transform.position, slowActionSoundVolume);
             }
         }
     }

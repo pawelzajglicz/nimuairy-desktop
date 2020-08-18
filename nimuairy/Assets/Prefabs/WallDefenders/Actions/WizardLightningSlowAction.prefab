@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.6, y: 0.2}
+    oldSize: {x: 0.6, y: 0.17}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   targetGameObject: {fileID: 0}
   factorFromWallDefender: 0
   paramValue: 0
-  lifeTimeLimit: 1.5
+  lifeTimeLimit: 2.5
 --- !u!114 &-515880246914718860
 MonoBehaviour:
   m_ObjectHideFlags: 0
