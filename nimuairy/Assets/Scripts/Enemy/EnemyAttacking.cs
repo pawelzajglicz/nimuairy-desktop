@@ -9,11 +9,14 @@ public class EnemyAttacking : MonoBehaviour
 
     [SerializeField] float attackTimeRate = 1.4f;
     [SerializeField] public float attackPowerFactor = 1.4f;
+    private float timeFromLastAttack = 0f;
 
     [SerializeField] AudioClip attackSound;
     [SerializeField] float attackSoundVolume = 0.5f;
 
     Animator animator;
+    [SerializeField] protected EnemyTimeManagerReacting enemyTimeManagerReacting;
+    private float timeModifier = 1f;
 
     private HashSet<GameObject> objectsToDealDamage;
 
@@ -23,6 +26,19 @@ public class EnemyAttacking : MonoBehaviour
     {
         objectsToDealDamage = new HashSet<GameObject>();
         animator = transform.parent.gameObject.GetComponent<Animator>();
+        enemyTimeManagerReacting = transform.parent.GetComponent<EnemyTimeManagerReacting>();
+    }
+
+    private void Update()
+    {
+        if (enemyTimeManagerReacting)
+        {
+            timeModifier = TimeManager.playerTimeFactor;
+        }
+        else
+        {
+            timeModifier = 1f;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -48,6 +64,11 @@ public class EnemyAttacking : MonoBehaviour
             animator.SetBool("IsAttacking", false);
             enemyMovement.currentSpeed = enemyMovement.startSpeed;
         }
+
+        if (objectsToDealDamage.Count == 0)
+        {
+            timeFromLastAttack = 0f;
+        }
     }
 
     private void AttackGameObject(GameObject gameObjectToGetDamage)
@@ -55,7 +76,7 @@ public class EnemyAttacking : MonoBehaviour
         MakeAttack(gameObjectToGetDamage);
         animator.SetBool("IsAttacking", true);
         enemyMovement.currentSpeed = 0f;
-        StartCoroutine(ProcessAttacking(gameObjectToGetDamage));
+        ProcessAttacking(gameObjectToGetDamage);
     }
 
     private void MakeAttack(GameObject gameObjectToGetDamage)
@@ -82,12 +103,13 @@ public class EnemyAttacking : MonoBehaviour
         }
     }
 
-    IEnumerator ProcessAttacking(GameObject gameObjectToGetDamage)
+    private void ProcessAttacking(GameObject gameObjectToGetDamage)
     {
-        yield return new WaitForSeconds(attackTimeRate);
+        timeFromLastAttack += Time.deltaTime * timeModifier;
 
-        if (objectsToDealDamage.Contains(gameObjectToGetDamage))
+        if (timeFromLastAttack > attackTimeRate && objectsToDealDamage.Contains(gameObjectToGetDamage))
         {
+            timeFromLastAttack = 0f;
             AttackGameObject(gameObjectToGetDamage);
         }
     }
