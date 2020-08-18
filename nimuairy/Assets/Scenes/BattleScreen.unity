@@ -430,6 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38027ff3c6c51b947927fdb2f8dd3b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: c96478e54e670114e8062f53622ad818, type: 3}
+  buttonSoundVolume: 0.5
 --- !u!61 &73233347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3540,6 +3542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1520a1677e24a34a819e248f6023d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: c96478e54e670114e8062f53622ad818, type: 3}
+  buttonSoundVolume: 0.5
 --- !u!61 &653493260
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7186,6 +7190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77db392f02d3d7a49a20671772c4a58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failureSound: {fileID: 8300000, guid: 745f199de57278145985065a949a11dd, type: 3}
+  failureSoundVolume: 3
 --- !u!212 &1644055303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7527,6 +7533,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eff8257228016e47bdecec76556a929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  successSound: {fileID: 8300000, guid: bb687a81bbea06e4085778c85a381666, type: 3}
+  successSoundVolume: 2
 --- !u!212 &1751183827
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8855,6 +8863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2bff8db10020042913152e3bd60244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: c96478e54e670114e8062f53622ad818, type: 3}
+  buttonSoundVolume: 0.5
   slidingTime: 5
   waitingToReturnTime: 2
 --- !u!4 &1941090229 stripped
@@ -8926,6 +8936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b60d4195eb841bf48f668cea2e5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: c96478e54e670114e8062f53622ad818, type: 3}
+  buttonSoundVolume: 0.5
 --- !u!61 &1991863303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9197,6 +9209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c190916cad011d241a9285e5b13a2eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: c96478e54e670114e8062f53622ad818, type: 3}
+  buttonSoundVolume: 0.5
 --- !u!61 &2089866037
 BoxCollider2D:
   m_ObjectHideFlags: 0

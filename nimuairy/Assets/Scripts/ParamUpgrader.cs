@@ -13,6 +13,9 @@ public class ParamUpgrader : MonoBehaviour
 
     [SerializeField] public Param param;
 
+    [SerializeField] AudioClip upgradeSound;
+    [SerializeField] float upgradeSoundVolume = 0.5f;
+
     private string startCurrentValueText;
     private string startNextValueText;
     private string startCostText;
@@ -108,5 +111,7 @@ public class ParamUpgrader : MonoBehaviour
         }
 
         param.ParamValue = currentValue;
+
+        AudioSource.PlayClipAtPoint(upgradeSound, Camera.main.transform.position, upgradeSoundVolume);
     }
 }

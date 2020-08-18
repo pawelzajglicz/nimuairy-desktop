@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PreviewEnemiesButton : MonoBehaviour
 {
+
+    [SerializeField] AudioClip buttonSound;
+    [SerializeField] float buttonSoundVolume = 0.5f;
+
     Vector3 destination = new Vector3(40, 0, -10);
     Vector3 cameraStartPosition;
     [SerializeField] float slidingTime = 5f;
@@ -14,6 +18,7 @@ public class PreviewEnemiesButton : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             StartCoroutine(LookAtBattlegroundForward());
+            AudioSource.PlayClipAtPoint(buttonSound, Camera.main.transform.position, buttonSoundVolume);
         }
     }
 

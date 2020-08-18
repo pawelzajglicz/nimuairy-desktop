@@ -6,6 +6,9 @@ public class SuccessDisplayer : MonoBehaviour
 {
     float waitingToReturnToCityTime = 4f;
 
+    [SerializeField] AudioClip successSound;
+    [SerializeField] float successSoundVolume = 0.5f;
+
     void Start()
     {
     }
@@ -13,6 +16,8 @@ public class SuccessDisplayer : MonoBehaviour
     public void CelebrateSuccess()
     {
         StartCoroutine(ProcessReturnToCity());
+
+        AudioSource.PlayClipAtPoint(successSound, Camera.main.transform.position, successSoundVolume);
     }
 
     protected IEnumerator ProcessReturnToCity()

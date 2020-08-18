@@ -303,6 +303,8 @@ MonoBehaviour:
   costTMP: {fileID: 9214873755445992369}
   maxLevelTMP: {fileID: 1904084976}
   param: {fileID: 0}
+  upgradeSound: {fileID: 8300000, guid: d7cf7b50868f41b4b920913ca952b63a, type: 3}
+  upgradeSoundVolume: 0.5
   level: 1
   startCurrentValue: 5
   startCost: 2

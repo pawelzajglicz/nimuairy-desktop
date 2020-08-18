@@ -82,6 +82,7 @@ public class GameManager : MonoBehaviour
     public void ProcessDefenceFailure()
     {
         failure.gameObject.SetActive(true);
+        failure.ManageFailure();
     }
 
     private void ResetTimers()
