@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +11,7 @@ public class EnemyAttacking : MonoBehaviour
     [SerializeField] float attackTimeRate = 1.4f;
     [SerializeField] public float attackPowerFactor = 1.4f;
     private float timeFromLastAttack = 0f;
+    private bool processAttacking = false;
 
     [SerializeField] AudioClip attackSound;
     [SerializeField] float attackSoundVolume = 0.5f;
@@ -31,13 +33,32 @@ public class EnemyAttacking : MonoBehaviour
 
     private void Update()
     {
-        if (enemyTimeManagerReacting)
+        if (enemyTimeManagerReacting.isReactingToFieldDefenderTimeFactor)
         {
             timeModifier = TimeManager.playerTimeFactor;
         }
         else
         {
             timeModifier = 1f;
+        }
+
+        if (processAttacking)
+        {
+;           timeFromLastAttack += Time.deltaTime * Mathf.Clamp01(timeModifier);
+        }
+
+        if (timeFromLastAttack > attackTimeRate)
+        {
+            AttackAllAllowedGameObjects();
+            timeFromLastAttack = 0f;
+        }
+    }
+
+    private void AttackAllAllowedGameObjects()
+    {
+        foreach (GameObject gameObject in objectsToDealDamage)
+        {
+            AttackGameObject(gameObject);
         }
     }
 
@@ -68,15 +89,16 @@ public class EnemyAttacking : MonoBehaviour
         if (objectsToDealDamage.Count == 0)
         {
             timeFromLastAttack = 0f;
+            processAttacking = false;
         }
     }
 
     private void AttackGameObject(GameObject gameObjectToGetDamage)
     {
+        processAttacking = true;
         MakeAttack(gameObjectToGetDamage);
         animator.SetBool("IsAttacking", true);
         enemyMovement.currentSpeed = 0f;
-        ProcessAttacking(gameObjectToGetDamage);
     }
 
     private void MakeAttack(GameObject gameObjectToGetDamage)
@@ -100,17 +122,6 @@ public class EnemyAttacking : MonoBehaviour
         {
             objectsToDealDamage.Add(gameObjectToGetDamage);
             health.DealDamage(AttackPrefab.GetAttackPower());
-        }
-    }
-
-    private void ProcessAttacking(GameObject gameObjectToGetDamage)
-    {
-        timeFromLastAttack += Time.deltaTime * timeModifier;
-
-        if (timeFromLastAttack > attackTimeRate && objectsToDealDamage.Contains(gameObjectToGetDamage))
-        {
-            timeFromLastAttack = 0f;
-            AttackGameObject(gameObjectToGetDamage);
         }
     }
 
