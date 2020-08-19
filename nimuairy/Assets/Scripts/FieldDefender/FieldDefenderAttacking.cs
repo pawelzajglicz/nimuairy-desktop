@@ -6,8 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(FieldDefenderMovement))]
 public class FieldDefenderAttacking : Paramizable
 {
-    [SerializeField] AttackFieldDefender quickAttack;
-    [SerializeField] AttackFieldDefender slowAttack;
+    [SerializeField] internal AttackFieldDefender quickAttack;
+    [SerializeField] internal AttackFieldDefender slowAttack;
 
     [SerializeField] float horizontalXAttackInterspace = 0.3f;
     [SerializeField] float attackPowerFactor = 1f;

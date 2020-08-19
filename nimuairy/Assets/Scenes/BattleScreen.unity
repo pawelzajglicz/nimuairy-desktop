@@ -5770,6 +5770,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1233134742}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1237827553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1660517609814406450, guid: af2846a2c650d5443899790f6157525b,
+    type: 3}
+  m_PrefabInstance: {fileID: 893028469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1237827554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237827553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2681c9111814c9f4abbb044d2ef1632b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  probabilityOfSelfDeffence: 0.1
+  selfDeffenceVfx: {fileID: 6250570573556333211, guid: 6d454e58d45ed304783d44a56d5a3069,
+    type: 3}
+  durationOfselfDeffence: 0
+  selfDeffenceSound: {fileID: 8300000, guid: 7ed4206fb47ce7d4688e9e09f745a02e, type: 3}
+  selfDeffenceSoundVolume: 0.5
+  attackMultiplier: 5
 --- !u!114 &1246992881 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4694064810645699788, guid: 619581a186ad3aa42810d7c1e80ecafa,

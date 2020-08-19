@@ -104,8 +104,22 @@ public class EnemyAttacking : MonoBehaviour
     private void MakeAttack(GameObject gameObjectToGetDamage)
     {
         InstantiateAttack();
+        bool selfDefenced = CheckIfGameObjectSelfDefenced(gameObjectToGetDamage);
+
+        objectsToDealDamage.Add(gameObjectToGetDamage);
+        if (selfDefenced) return;
+
         DealDamage(gameObjectToGetDamage);
         AudioSource.PlayClipAtPoint(attackSound, Camera.main.transform.position, attackSoundVolume);
+    }
+
+    private bool CheckIfGameObjectSelfDefenced(GameObject gameObjectToGetDamage)
+    {
+        SelfDeffender deffender = gameObjectToGetDamage.GetComponent<SelfDeffender>();
+        if (deffender == null) return false;
+
+        bool selfDefenced = deffender.TrySelfDeffence(gameObject.transform.parent.gameObject);
+        return selfDefenced;
     }
 
     private void InstantiateAttack()
@@ -120,7 +134,6 @@ public class EnemyAttacking : MonoBehaviour
         Health health = gameObjectToGetDamage.GetComponent<Health>();
         if (health)
         {
-            objectsToDealDamage.Add(gameObjectToGetDamage);
             health.DealDamage(AttackPrefab.GetAttackPower());
         }
     }

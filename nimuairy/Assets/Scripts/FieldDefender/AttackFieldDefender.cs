@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class AttackFieldDefender : MonoBehaviour
 {
-    [SerializeField] protected float attackPower = 10f;
-    [SerializeField] protected float lifeTime = 0.2f;
+    [SerializeField] internal float attackPower = 10f;
+    [SerializeField] internal float lifeTime = 0.2f;
     
     private void Awake()
     {
