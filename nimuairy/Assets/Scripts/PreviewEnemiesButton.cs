@@ -13,10 +13,13 @@ public class PreviewEnemiesButton : MonoBehaviour
     [SerializeField] float slidingTime = 5f;
     [SerializeField] float waitingToReturnTime = 2f;
 
+    private bool isPreviewingNow = false;
+
     public void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isPreviewingNow)
         {
+            isPreviewingNow = true;
             StartCoroutine(LookAtBattlegroundForward());
             AudioSource.PlayClipAtPoint(buttonSound, Camera.main.transform.position, buttonSoundVolume);
         }
@@ -53,5 +56,6 @@ public class PreviewEnemiesButton : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }
+        isPreviewingNow = false;
     }
 }
