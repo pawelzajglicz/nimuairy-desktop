@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] public int level;
 
+    [SerializeField] MusicPlayer musicPlayer;
+
     public bool IsBattle;
     static int enemiesNumber;
 
@@ -18,6 +20,7 @@ public class GameManager : MonoBehaviour
         level = 1;
         GenerateLevel();
         UpdateParamizables();
+        musicPlayer = FindObjectOfType<MusicPlayer>();
     }
 
     private void GenerateLevel()
@@ -30,6 +33,7 @@ public class GameManager : MonoBehaviour
     public void StartBattle()
     {
         IsBattle = true;
+        musicPlayer.PlayBattleMusic();
         WallDefenderSlot[] slots = FindObjectsOfType<WallDefenderSlot>();
 
         foreach (WallDefenderSlot slot in slots)
@@ -66,6 +70,7 @@ public class GameManager : MonoBehaviour
         success.gameObject.SetActive(true);
         success.CelebrateSuccess();
         TimeManager.playerTimeFactor = 0;
+        musicPlayer.PlayBackgroundMusic();
 
         ResetTimers();
         ResetHealth();
