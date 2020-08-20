@@ -7174,7 +7174,8 @@ MonoBehaviour:
   m_text: 'Field defender - he moves accros the battleground. You can move him arrow
     keys and attack with ''Z'' and ''X'' keys. Field defender can be in one of two
     states: attacking and defending. In attacking he is faster and deal more damages
-    but is more fractile. You can change state by pressing ''Space''.
+    but is more fractile and can be hurt by allies.. You can change state by pressing
+    ''Space''.
 
     Depending of his state some other mechanics chenge theirs behaviours - let''s
     find them all!'
@@ -7247,12 +7248,12 @@ MonoBehaviour:
   m_margin: {x: 4.336837, y: 0, z: 1.7122936, w: 2.5272217}
   m_textInfo:
     textComponent: {fileID: 1420394489}
-    characterCount: 385
+    characterCount: 412
     spriteCount: 0
-    spaceCount: 67
-    wordCount: 68
+    spaceCount: 73
+    wordCount: 74
     linkCount: 0
-    lineCount: 7
+    lineCount: 8
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
