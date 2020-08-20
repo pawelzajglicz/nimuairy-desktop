@@ -12,16 +12,16 @@ public class EnemiesGenerator : MonoBehaviour
 
     [SerializeField] float xOffsetForNoReactingForTimeFactorEnemies = 26f;
 
-    [SerializeField] public int NumberOfEnemiesReactingToTimeFactor = 4;
+    [SerializeField] public int NumberOfEnemiesReactingToTimeFactor = 3;
 
-    [SerializeField] public int NumberOfEnemiesNoReactingToTimeFactor = 8;
+    [SerializeField] public int NumberOfEnemiesNoReactingToTimeFactor = 7;
     int allEnemiesAmount;
 
     [SerializeField] int numberOfEnemiesWalkingStraight = 4;
    /* [SerializeField]*/ int numberOfEnemiesWalkingSlant;
 
-    [SerializeField] public int NumberAngelModificators = 5;
-    [SerializeField] public int NumberDevilModificators = 55;
+    [SerializeField] public int NumberAngelModificators = 4;
+    [SerializeField] public int NumberDevilModificators = 5;
        
     [SerializeField] public float BiggerityMin = 0.3f;
     [SerializeField] public float BiggerityMax = 2.3f;
@@ -56,7 +56,7 @@ public class EnemiesGenerator : MonoBehaviour
     }
 
     int minNumberOfEnemiesReactingToTimeFactor = 2;
-    float numberOfEnemiesReactingToTimeFactorPerLevelFactor = 3f;
+    float numberOfEnemiesReactingToTimeFactorPerLevelFactor = 2.5f;
 
     int minNumberOfEnemiesNoReactingToTimeFactor = 5;
     float numberOfEnemiesNoReactingToTimeFactorPerLevelFactor = 3f;
@@ -153,7 +153,7 @@ public class EnemiesGenerator : MonoBehaviour
             }
 
             Enemy enemyInstance = Instantiate(prefab, new Vector2(xPos, yPos), Quaternion.identity) as Enemy;
-            enemyInstance.currentMagicCrystalReward = (int) (enemyInstance.basicMagicCrystalReward * Math.Sqrt(level) * 0.5f);
+            enemyInstance.currentMagicCrystalReward = (int) (enemyInstance.basicMagicCrystalReward * Math.Pow(level, 0.25) * 0.5f);
 
             Health health = enemyInstance.gameObject.GetComponent<Health>();
             if (health != null)
