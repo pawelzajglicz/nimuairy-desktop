@@ -9,6 +9,18 @@ public static class CameraPositioner
     static Vector3 cityPosition = new Vector3(0, -50, -10);
     static Vector3 creditsPosition = new Vector3(0, -25, -10);
     static Vector3 mainMenuPosition = new Vector3(0, 0, -10);
+    static float pageOffset = 25f;
+
+    internal static void GoToNextPage()
+    {
+        Camera.main.transform.position += new Vector3(pageOffset, 0 ,0);
+    }
+
+    internal static void GoToPreviousPage()
+    {
+        Camera.main.transform.position -= new Vector3(pageOffset, 0, 0);
+    }
+
     static Vector3 tutorialPosition = new Vector3(0, -50, -10);
 
     internal static void GoToCredits()
