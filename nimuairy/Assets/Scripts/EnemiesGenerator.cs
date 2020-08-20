@@ -12,16 +12,16 @@ public class EnemiesGenerator : MonoBehaviour
 
     [SerializeField] float xOffsetForNoReactingForTimeFactorEnemies = 26f;
 
-    [SerializeField] public int NumberOfEnemiesReactingToTimeFactor = 18;
+    [SerializeField] public int NumberOfEnemiesReactingToTimeFactor = 4;
 
-    [SerializeField] public int NumberOfEnemiesNoReactingToTimeFactor = 26;
+    [SerializeField] public int NumberOfEnemiesNoReactingToTimeFactor = 8;
     int allEnemiesAmount;
 
-    [SerializeField] int numberOfEnemiesWalkingStraight = 26;
+    [SerializeField] int numberOfEnemiesWalkingStraight = 4;
    /* [SerializeField]*/ int numberOfEnemiesWalkingSlant;
 
-    [SerializeField] public int NumberAngelModificators = 15;
-    [SerializeField] public int NumberDevilModificators = 15;
+    [SerializeField] public int NumberAngelModificators = 5;
+    [SerializeField] public int NumberDevilModificators = 55;
        
     [SerializeField] public float BiggerityMin = 0.3f;
     [SerializeField] public float BiggerityMax = 2.3f;
@@ -55,11 +55,11 @@ public class EnemiesGenerator : MonoBehaviour
         UpdateGeneratParams();
     }
 
-    int minNumberOfEnemiesReactingToTimeFactor = 3;
-    float numberOfEnemiesReactingToTimeFactorPerLevelFactor = 8f;
+    int minNumberOfEnemiesReactingToTimeFactor = 2;
+    float numberOfEnemiesReactingToTimeFactorPerLevelFactor = 3f;
 
     int minNumberOfEnemiesNoReactingToTimeFactor = 5;
-    float numberOfEnemiesNoReactingToTimeFactorPerLevelFactor = 10f;
+    float numberOfEnemiesNoReactingToTimeFactorPerLevelFactor = 3f;
 
     private void UpdateGeneratParams()
     {
