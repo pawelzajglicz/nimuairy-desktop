@@ -290,7 +290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &66566280
 Transform:
   m_ObjectHideFlags: 0
@@ -705,7 +705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &100948204
 Transform:
   m_ObjectHideFlags: 0
@@ -1688,7 +1688,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &219377682
 Transform:
   m_ObjectHideFlags: 0
@@ -1819,7 +1819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &244734422
 Transform:
   m_ObjectHideFlags: 0
@@ -2734,7 +2734,7 @@ PrefabInstance:
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
       propertyPath: lockedFeatures.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
@@ -2751,6 +2751,11 @@ PrefabInstance:
       propertyPath: unlockingLevelNumber
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
+        type: 3}
+      propertyPath: lockedFeatures.Array.data[2]
+      value: 
+      objectReference: {fileID: 66566279}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5ca50c0a1a1ce34f8a54db89056c702, type: 3}
 --- !u!4 &431184660 stripped
@@ -2888,7 +2893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &452544189
 Transform:
   m_ObjectHideFlags: 0
@@ -4699,7 +4704,7 @@ PrefabInstance:
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
       propertyPath: lockedFeatures.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
@@ -4716,6 +4721,11 @@ PrefabInstance:
       propertyPath: unlockingLevelNumber
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
+        type: 3}
+      propertyPath: lockedFeatures.Array.data[2]
+      value: 
+      objectReference: {fileID: 244734421}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5ca50c0a1a1ce34f8a54db89056c702, type: 3}
 --- !u!4 &758454046 stripped
@@ -6555,7 +6565,7 @@ PrefabInstance:
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
       propertyPath: lockedFeatures.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
@@ -6572,6 +6582,11 @@ PrefabInstance:
       propertyPath: unlockingLevelNumber
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
+        type: 3}
+      propertyPath: lockedFeatures.Array.data[2]
+      value: 
+      objectReference: {fileID: 100948203}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5ca50c0a1a1ce34f8a54db89056c702, type: 3}
 --- !u!4 &1301127851 stripped
@@ -7316,7 +7331,7 @@ PrefabInstance:
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
       propertyPath: lockedFeatures.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
@@ -7333,6 +7348,11 @@ PrefabInstance:
       propertyPath: unlockingLevelNumber
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
+        type: 3}
+      propertyPath: lockedFeatures.Array.data[2]
+      value: 
+      objectReference: {fileID: 219377681}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5ca50c0a1a1ce34f8a54db89056c702, type: 3}
 --- !u!4 &1488944980 stripped
@@ -11671,7 +11691,7 @@ PrefabInstance:
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
       propertyPath: lockedFeatures.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
         type: 3}
@@ -11688,6 +11708,11 @@ PrefabInstance:
       propertyPath: lockedFeatures.Array.data[1]
       value: 
       objectReference: {fileID: 419504082}
+    - target: {fileID: 5783900143187399188, guid: c5ca50c0a1a1ce34f8a54db89056c702,
+        type: 3}
+      propertyPath: lockedFeatures.Array.data[2]
+      value: 
+      objectReference: {fileID: 452544188}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5ca50c0a1a1ce34f8a54db89056c702, type: 3}
 --- !u!4 &7558770018060752808 stripped
