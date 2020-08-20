@@ -7476,26 +7476,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 8117991461144775501, guid: 4b707d892120cc94cb6e316c49e0ce4f,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8117991461144775501, guid: 4b707d892120cc94cb6e316c49e0ce4f,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8117991461144775501, guid: 4b707d892120cc94cb6e316c49e0ce4f,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8117991461144775501, guid: 4b707d892120cc94cb6e316c49e0ce4f,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b707d892120cc94cb6e316c49e0ce4f, type: 3}
 --- !u!4 &1428817937 stripped
