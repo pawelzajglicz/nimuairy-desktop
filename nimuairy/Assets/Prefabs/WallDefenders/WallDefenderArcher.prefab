@@ -137,8 +137,8 @@ MonoBehaviour:
   slot: {fileID: 0}
   placeholder: {fileID: 0}
   isManualTargeting: 1
-  fastActionInterval: 1
-  slowActionInterval: 6
+  fastActionInterval: 0.5
+  slowActionInterval: 4
   timeToFastAction: 0
   timeToSlowAction: 0
   isActive: 0
@@ -173,9 +173,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5325e13c37daf6847a1bbae3e7032a76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fastAttackInterval: 1.5
+  fastAttackInterval: 0
   timeSinceFastAttack: 0
-  slowAttackInterval: 6
+  slowAttackInterval: 0
   timeSinceSlowAttack: 0
   fastAttackBar: {fileID: 5325087706159164496}
   slowAttackBar: {fileID: 460487891490930421}

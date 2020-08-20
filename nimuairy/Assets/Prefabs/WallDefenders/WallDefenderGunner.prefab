@@ -151,7 +151,7 @@ MonoBehaviour:
   placeholder: {fileID: 0}
   isManualTargeting: 0
   fastActionInterval: 1
-  slowActionInterval: 6
+  slowActionInterval: 9
   timeToFastAction: 0
   timeToSlowAction: 0
   isActive: 0

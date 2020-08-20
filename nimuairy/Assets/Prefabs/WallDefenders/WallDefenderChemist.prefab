@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3892094917178765137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -14.682162, y: 1.3100605, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.65880495, y: 0.65880495, z: 0.65880495}
   m_Children:
   - {fileID: 4520498915034125327}
   - {fileID: 9072348842352865405}
@@ -57,7 +57,7 @@ MonoBehaviour:
   slot: {fileID: 0}
   placeholder: {fileID: 0}
   isManualTargeting: 1
-  fastActionInterval: 1
+  fastActionInterval: 2
   slowActionInterval: 5
   timeToFastAction: 0
   timeToSlowAction: 0

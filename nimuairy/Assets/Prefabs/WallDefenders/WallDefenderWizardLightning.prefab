@@ -106,8 +106,8 @@ MonoBehaviour:
   slot: {fileID: 0}
   placeholder: {fileID: 0}
   isManualTargeting: 0
-  fastActionInterval: 1
-  slowActionInterval: 6
+  fastActionInterval: 0.75
+  slowActionInterval: 7
   timeToFastAction: 0
   timeToSlowAction: 0
   isActive: 0
