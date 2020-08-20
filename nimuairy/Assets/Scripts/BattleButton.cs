@@ -8,6 +8,8 @@ public class BattleButton : MonoBehaviour
     [SerializeField] AudioClip buttonSound;
     [SerializeField] float buttonSoundVolume = 0.5f;
 
+    [SerializeField] LockedFeatures lockedFeatures;
+
     public void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
@@ -18,6 +20,7 @@ public class BattleButton : MonoBehaviour
             FindObjectOfType<EnemiesGenerator>().ProcessGeneratingEnemies();
             FindObjectOfType<GameManager>().CountEnemies();
             AudioSource.PlayClipAtPoint(buttonSound, Camera.main.transform.position, buttonSoundVolume);
+            lockedFeatures.TryUnlockFeatures();
         }
     }
 }

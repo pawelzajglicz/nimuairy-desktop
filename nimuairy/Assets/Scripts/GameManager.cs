@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public bool IsBattle;
     static int enemiesNumber;
 
+
     private void Start()
     {
         level = 1;
