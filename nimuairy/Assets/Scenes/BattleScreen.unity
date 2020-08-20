@@ -1379,7 +1379,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_text
-      value: 'Gunner current attack: '
+      value: 'Cactus current attack: '
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755806861197, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -2434,7 +2434,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -2459,7 +2459,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_text
-      value: 'Ice Wizard current attack: '
+      value: 'Ice Queen current attack: '
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755806861197, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -3773,7 +3773,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -3798,7 +3798,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_text
-      value: 'Archer current attack: '
+      value: 'Chicken current attack: '
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755806861197, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -4602,7 +4602,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -4627,7 +4627,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_text
-      value: 'Priestess current healing power: '
+      value: 'Mushroom current healing power: '
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755806861197, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -5977,17 +5977,17 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 33
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -6002,7 +6002,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_text
-      value: 'Lightning Wizard current attack: '
+      value: 'Shaman current attack: '
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755806861197, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -7078,7 +7078,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 24
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
@@ -7103,7 +7103,7 @@ PrefabInstance:
     - target: {fileID: 9214873755883029770, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
       propertyPath: m_text
-      value: 'Chemist current attack: '
+      value: 'Totem current attack: '
       objectReference: {fileID: 0}
     - target: {fileID: 9214873755806861197, guid: 49cb96ab24aa895419f8c28a7e49b2d5,
         type: 3}
