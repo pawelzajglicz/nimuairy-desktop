@@ -153,6 +153,7 @@ public class EnemiesGenerator : MonoBehaviour
             }
 
             Enemy enemyInstance = Instantiate(prefab, new Vector2(xPos, yPos), Quaternion.identity) as Enemy;
+            enemyInstance.currentMagicCrystalReward = (int) (enemyInstance.basicMagicCrystalReward * Math.Sqrt(level) * 0.5f);
 
             Health health = enemyInstance.gameObject.GetComponent<Health>();
             if (health != null)

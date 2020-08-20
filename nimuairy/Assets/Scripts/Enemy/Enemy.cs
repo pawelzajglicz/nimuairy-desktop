@@ -5,7 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] public float biggerity = 1;
-    [SerializeField] public int magicCrystalReward = 67;
+    [SerializeField] public int basicMagicCrystalReward = 2;
+    [SerializeField] public int currentMagicCrystalReward;
     [SerializeField] float biggerityModificatorMinRange = 0f;
     [SerializeField] float biggerityModificatorMaxRange = 1.3f;
 
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        currentMagicCrystalReward = basicMagicCrystalReward;
         transform.localScale *= biggerity;
         gameManager = FindObjectOfType<GameManager>();
     }
@@ -32,7 +34,7 @@ public class Enemy : MonoBehaviour
         GameObject explosion = Instantiate(deathVfx, transform.position, Quaternion.identity);
         Destroy(explosion, durationOfDeathExplosion);
         gameManager.HandleEnemyDeath();
-        FindObjectOfType<ResourcesManager>().AddMagicCrystals(magicCrystalReward);
+        FindObjectOfType<ResourcesManager>().AddMagicCrystals(currentMagicCrystalReward);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
     }
 }
