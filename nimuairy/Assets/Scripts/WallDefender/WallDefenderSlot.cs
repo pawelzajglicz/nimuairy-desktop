@@ -63,5 +63,14 @@ public class WallDefenderSlot : MonoBehaviour
         wallDefender.transform.position = transform.position;
         isWallDefenderManualDefending = wallDefender.isManualTargeting;
         wallDefender.isActive = true;
+
+        if (wallDefender.isManualTargeting)
+        {
+            SetTargetDefaultPosition();
+        }
+        else
+        {
+            SetTargetPosition(transform.position);
+        }
     }
 }
