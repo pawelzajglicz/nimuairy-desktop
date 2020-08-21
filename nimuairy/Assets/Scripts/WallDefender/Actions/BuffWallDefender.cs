@@ -13,6 +13,7 @@ public class BuffWallDefender : WallDefenderAction
     [SerializeField] public float baseSpeedBuffFactor = 1.25f;
     [SerializeField] public float speedBuffFactor = 1.25f;
     [SerializeField] public float buffTime = 2.75f;
+    [SerializeField] public float liveTime = 0f;
 
     [SerializeField] public float buffAgainstHealingFactor = 0.2f;
 
@@ -21,16 +22,17 @@ public class BuffWallDefender : WallDefenderAction
         fieldDefenderMovement = FindObjectOfType<FieldDefenderMovement>();
         fieldDefenderAttacking = FindObjectOfType<FieldDefenderAttacking>();
 
-        StartCoroutine(ProcessBuff());
-    }
-    
-    private IEnumerator ProcessBuff()
-    {
-        GiveBuff();
-        yield return new WaitForSeconds(buffTime);
         TakeBuff();
+    }
 
-        Destroy(gameObject);
+    private void Update()
+    {
+        liveTime += Time.deltaTime;
+        if (liveTime > buffTime)
+        {
+            TakeBuff();
+            Destroy(gameObject);
+        }
     }
 
     private void GiveBuff()
