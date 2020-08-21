@@ -9,8 +9,12 @@ public class BuffWallDefender : WallDefenderAction
     [SerializeField] FieldDefenderAttacking fieldDefenderAttacking;
 
     [SerializeField] public float attackBuffFactor = 1.3f;
+    [SerializeField] public float baseAttackBuffFactor = 1.3f;
+    [SerializeField] public float baseSpeedBuffFactor = 1.25f;
     [SerializeField] public float speedBuffFactor = 1.25f;
     [SerializeField] public float buffTime = 2.75f;
+
+    [SerializeField] public float buffAgainstHealingFactor = 0.2f;
 
     private void Start()
     {
@@ -31,19 +35,16 @@ public class BuffWallDefender : WallDefenderAction
 
     private void GiveBuff()
     {
-        fieldDefenderMovement.ModifyAccelerationByFactor(speedBuffFactor * factorFromWallDefender);
-        fieldDefenderMovement.ModifyMaxHorizontalSpeedByFactor(speedBuffFactor * factorFromWallDefender);
-        fieldDefenderMovement.ModifyMaxVerticalSpeedByFactor(speedBuffFactor * factorFromWallDefender);
-
-        fieldDefenderAttacking.ModifyAttackPowerFactorByFactor(attackBuffFactor * factorFromWallDefender);
+        speedBuffFactor = baseSpeedBuffFactor * (1 + factorFromWallDefender * buffAgainstHealingFactor);
+        fieldDefenderMovement.SetBuff(this);
+        fieldDefenderAttacking.SetBuff(this);
     }
 
     private void TakeBuff()
     {
-        fieldDefenderMovement.ModifyAccelerationByFactor(1 / (speedBuffFactor * factorFromWallDefender));
-        fieldDefenderMovement.ModifyMaxHorizontalSpeedByFactor(1 / (speedBuffFactor * factorFromWallDefender));
-        fieldDefenderMovement.ModifyMaxVerticalSpeedByFactor(1 / (speedBuffFactor * factorFromWallDefender));
+        attackBuffFactor = baseAttackBuffFactor * (1 + factorFromWallDefender * buffAgainstHealingFactor);
 
-        fieldDefenderAttacking.ModifyAttackPowerFactorByFactor(1 / (attackBuffFactor * factorFromWallDefender));
+        fieldDefenderMovement.TakeBuff(this);
+        fieldDefenderAttacking.TakeBuff(this);
     }
 }

@@ -16,25 +16,29 @@ public class FieldDefenderMovement : Paramizable
     [SerializeField] float acceleration = 10;
     [SerializeField] float deceleration = 10;
 
-    [SerializeField] float startMaxHorizontalSpeed;
-    [SerializeField] float startMaxVerticalSpeed;
-    [SerializeField] float startAcceleration;
-    [SerializeField] float startDeceleration;
+    [SerializeField] float baseMaxHorizontalSpeed;
+    [SerializeField] float baseMaxVerticalSpeed;
+    [SerializeField] float baseAcceleration;
+    [SerializeField] float baseDeceleration;
 
     StateManager stateManager;
     [SerializeField] State state;
 
     public Vector2 direction;
-
+    BuffWallDefender buff;
 
     public State State => state;
     public int FacingRightValue => facingRight;
     GameManager gameManager;
+    [SerializeField] FieldDefenderAttacking fieldDefenderAttacking;
 
     int facingRight = 1;
 
     private void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
+        buff = EmptyBuff();
+
         UpdateParams();
         UpdateSpeed();
 
@@ -44,7 +48,6 @@ public class FieldDefenderMovement : Paramizable
             SetState(stateManager.getCurrentState());
         }
 
-        gameManager = FindObjectOfType<GameManager>();
     }
 
     void Update()
@@ -63,11 +66,11 @@ public class FieldDefenderMovement : Paramizable
 
     private void UpdateSpeed()
     {
-        maxVerticalSpeed = maxHorizontalSpeed * 0.8f;
-        startAcceleration = acceleration;
-        startDeceleration = deceleration;
-        startMaxHorizontalSpeed = maxHorizontalSpeed;
-        startMaxVerticalSpeed = maxVerticalSpeed;
+        maxVerticalSpeed = maxHorizontalSpeed;
+        baseAcceleration = acceleration;
+        baseDeceleration = deceleration;
+        baseMaxHorizontalSpeed = maxHorizontalSpeed;
+        baseMaxVerticalSpeed = maxVerticalSpeed;
     }
 
     private void HandleMoving()
@@ -145,26 +148,26 @@ public class FieldDefenderMovement : Paramizable
     {
         this.state = state;
 
-        acceleration = startAcceleration * state.GetSpeedModifier();
-        deceleration = startDeceleration * state.GetSpeedModifier();
-        maxHorizontalSpeed = startMaxHorizontalSpeed * state.GetSpeedModifier();
-        maxVerticalSpeed = startMaxVerticalSpeed * state.GetSpeedModifier();
+        acceleration = baseAcceleration * state.GetSpeedModifier() * buff.speedBuffFactor;
+        deceleration = baseDeceleration * state.GetSpeedModifier() * buff.speedBuffFactor;
+        maxHorizontalSpeed = baseMaxHorizontalSpeed * state.GetSpeedModifier() * buff.speedBuffFactor;
+        maxVerticalSpeed = baseMaxVerticalSpeed * state.GetSpeedModifier() * buff.speedBuffFactor;
     }
 
 
     internal void ModifyMaxVerticalSpeedByFactor(float speedBuffFactor)
     {
-        maxVerticalSpeed *= speedBuffFactor;
+        maxVerticalSpeed = baseMaxVerticalSpeed * state.GetSpeedModifier() * speedBuffFactor;
     }
 
     internal void ModifyMaxHorizontalSpeedByFactor(float speedBuffFactor)
     {
-        maxHorizontalSpeed *= speedBuffFactor;
+        maxHorizontalSpeed = baseMaxHorizontalSpeed * state.GetSpeedModifier() * speedBuffFactor;
     }
 
     internal void ModifyAccelerationByFactor(float speedBuffFactor)
     {
-        acceleration *= speedBuffFactor;
+        acceleration = baseAcceleration * state.GetSpeedModifier() * speedBuffFactor;
     }
 
     public float GetTimeFactor()
@@ -180,6 +183,33 @@ public class FieldDefenderMovement : Paramizable
         timeFactor = (horizontalTimeFactor + verticalTimeFactor) / 2 * playerTimeFactorModifier;
 
         TimeManager.playerTimeFactor = timeFactor;
+    }
+
+    internal void SetBuff(BuffWallDefender buffWallDefender)
+    {
+        buff = buffWallDefender;
+
+        acceleration = baseAcceleration * state.GetSpeedModifier() * buff.speedBuffFactor;
+        maxHorizontalSpeed = baseMaxHorizontalSpeed * state.GetSpeedModifier() * buff.speedBuffFactor;
+        maxVerticalSpeed = baseMaxVerticalSpeed * state.GetSpeedModifier() * buff.speedBuffFactor;
+    }
+
+    internal void TakeBuff(BuffWallDefender buffWallDefender)
+    {
+        buff = EmptyBuff();
+
+        acceleration = baseAcceleration * state.GetSpeedModifier();
+        maxHorizontalSpeed = baseMaxHorizontalSpeed * state.GetSpeedModifier();
+        maxVerticalSpeed = baseMaxVerticalSpeed * state.GetSpeedModifier();
+    }
+
+    private BuffWallDefender EmptyBuff()
+    {
+        BuffWallDefender buffWallDefender = new BuffWallDefender();
+        buffWallDefender.speedBuffFactor = 1f;
+        buffWallDefender.attackBuffFactor = 1f;
+
+        return buffWallDefender;
     }
 
     private void OnDestroy()

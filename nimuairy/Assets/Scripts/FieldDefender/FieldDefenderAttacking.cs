@@ -10,18 +10,22 @@ public class FieldDefenderAttacking : Paramizable
     [SerializeField] internal AttackFieldDefender slowAttack;
 
     [SerializeField] float horizontalXAttackInterspace = 0.3f;
+    [SerializeField] float baseAttackPowerFactor = 1f;
     [SerializeField] float attackPowerFactor = 1f;
     [SerializeField] Param attackPowerFactorParam;
 
+    [SerializeField] State state;
     [SerializeField] bool isNowAttacking = false;
 
     FieldDefenderMovement fieldDefenderMovement;
     FieldAttackManager fieldAttackManager;
+    BuffWallDefender buff;
 
     private void Awake()
     {
         fieldDefenderMovement = GetComponent<FieldDefenderMovement>();
         fieldAttackManager = GetComponent<FieldAttackManager>();
+        buff = EmptyBuff();
     }
 
     void Update()
@@ -31,7 +35,8 @@ public class FieldDefenderAttacking : Paramizable
 
     public override void UpdateParams()
     {
-        attackPowerFactor = attackPowerFactorParam.paramValue * 0.1f + 1;
+        baseAttackPowerFactor = attackPowerFactorParam.paramValue * 0.1f + 1;
+        attackPowerFactor = baseAttackPowerFactor;
     }
 
     private void HandleAttacking()
@@ -53,6 +58,28 @@ public class FieldDefenderAttacking : Paramizable
         {
             MakeSlowAttack();
         }
+    }
+
+    internal void SetBuff(BuffWallDefender buffWallDefender)
+    {
+        buff = buffWallDefender;
+
+        attackPowerFactor = baseAttackPowerFactor * buff.attackBuffFactor * state.attackPowerModifier;
+    }
+
+    internal void TakeBuff(BuffWallDefender buffWallDefender)
+    {
+        buff = EmptyBuff();
+        attackPowerFactor = baseAttackPowerFactor * state.attackPowerModifier;
+    }
+
+    private BuffWallDefender EmptyBuff()
+    {
+        BuffWallDefender buffWallDefender = new BuffWallDefender();
+        buffWallDefender.speedBuffFactor = 1f;
+        buffWallDefender.attackBuffFactor = 1f;
+
+        return buffWallDefender;
     }
 
     private void MakeQuickAttack()
@@ -99,6 +126,14 @@ public class FieldDefenderAttacking : Paramizable
 
     internal void ModifyAttackPowerFactorByFactor(float attackPowerFactor)
     {
-        this.attackPowerFactor *= attackPowerFactor;
+        baseAttackPowerFactor *= attackPowerFactor;
+        this.attackPowerFactor = baseAttackPowerFactor;
+    }
+
+    internal void UpdateByState(State state)
+    {
+        this.state = state;
+        
+        attackPowerFactor = baseAttackPowerFactor * state.attackPowerModifier * buff.attackBuffFactor;
     }
 }
