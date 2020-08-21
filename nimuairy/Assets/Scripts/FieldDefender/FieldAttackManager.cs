@@ -8,7 +8,7 @@ public class FieldAttackManager : MonoBehaviour
 
     [SerializeField] public AttackFieldDefender LastQuickAttack { get; set; }
     [SerializeField] public AttackFieldDefender LastSlowAttack { get; set; }
-    [SerializeField] List<AttackFieldDefender> lastAttacks;
+    [SerializeField] public List<AttackFieldDefender> lastAttacks;
 
     [SerializeField] public float timeToBreakCombo = 1f;
     [SerializeField] public float timeFromLastAttack;

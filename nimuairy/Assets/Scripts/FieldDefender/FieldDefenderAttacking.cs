@@ -20,12 +20,18 @@ public class FieldDefenderAttacking : Paramizable
     FieldDefenderMovement fieldDefenderMovement;
     FieldAttackManager fieldAttackManager;
     BuffWallDefender buff;
+    GameManager gameManager;
 
     private void Awake()
     {
         fieldDefenderMovement = GetComponent<FieldDefenderMovement>();
         fieldAttackManager = GetComponent<FieldAttackManager>();
         buff = EmptyBuff();
+    }
+
+    private void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>();    
     }
 
     void Update()
@@ -41,7 +47,7 @@ public class FieldDefenderAttacking : Paramizable
 
     private void HandleAttacking()
     {
-        if (!isNowAttacking)
+        if (!isNowAttacking && gameManager.IsBattle)
         {
             Attack();
         }
