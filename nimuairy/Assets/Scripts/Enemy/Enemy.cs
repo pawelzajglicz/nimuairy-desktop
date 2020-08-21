@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        biggerity += Random.Range(biggerityModificatorMinRange, biggerityModificatorMaxRange);
+        biggerity += UnityEngine.Random.Range(biggerityModificatorMinRange, biggerityModificatorMaxRange);
     }
 
     void Start()
