@@ -21,6 +21,7 @@ public class FieldDefenderAttacking : Paramizable
     FieldAttackManager fieldAttackManager;
     BuffWallDefender buff;
     GameManager gameManager;
+    StateManager stateManager;
 
     private void Awake()
     {
@@ -31,7 +32,13 @@ public class FieldDefenderAttacking : Paramizable
 
     private void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();    
+        gameManager = FindObjectOfType<GameManager>();
+
+        stateManager = GetComponent<StateManager>();
+        if (stateManager)
+        {
+            UpdateByState(stateManager.getCurrentState());
+        }
     }
 
     void Update()

@@ -23,7 +23,7 @@ public class BuffWallDefender : WallDefenderAction
 
         StartCoroutine(ProcessBuff());
     }
-
+    
     private IEnumerator ProcessBuff()
     {
         GiveBuff();
