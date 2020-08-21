@@ -30,13 +30,11 @@ public class LockedFeatures : MonoBehaviour
 
     public void TryUnlockFeatures()
     {
-        Debug.Log("TryUnlocking");
         HashSet<LockedFeature> unlockedFeatures = new HashSet<LockedFeature>();
 
         foreach (LockedFeature lockedFeature in lockedFeatures)
         {
             bool wasUnlocked = lockedFeature.TryUnlock();
-            Debug.Log(wasUnlocked);
             if (wasUnlocked)
             {
                 unlockedFeatures.Add(lockedFeature);
