@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public bool IsBattle;
     static int enemiesNumber;
     FieldAttackManager fieldAttackManager;
+    public bool isGameOver;
 
 
     private void Start()
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
         UpdateParamizables();
         musicPlayer = FindObjectOfType<MusicPlayer>();
         fieldAttackManager = FindObjectOfType<FieldAttackManager>();
+        isGameOver = false;
     }
 
     private void GenerateLevel()
@@ -92,6 +94,7 @@ public class GameManager : MonoBehaviour
     {
         failure.gameObject.SetActive(true);
         failure.ManageFailure();
+        isGameOver = true;
     }
 
     private void ResetTimers()

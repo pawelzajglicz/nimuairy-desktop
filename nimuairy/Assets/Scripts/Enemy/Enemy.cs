@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,10 +32,27 @@ public class Enemy : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (gameManager.isGameOver)
+        {
+            CleanDestroy();
+        }
+        else
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
         GameObject explosion = Instantiate(deathVfx, transform.position, Quaternion.identity);
         Destroy(explosion, durationOfDeathExplosion);
         gameManager.HandleEnemyDeath();
         FindObjectOfType<ResourcesManager>().AddMagicCrystals(currentMagicCrystalReward);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+    }
+
+    private void CleanDestroy()
+    {
+
     }
 }
