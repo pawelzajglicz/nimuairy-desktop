@@ -15,13 +15,9 @@ public class StateManager : MonoBehaviour
 
     private void Awake()
     {
-        fieldDefender = GetComponent<FieldDefenderMovement>();
-    }
-
-    void Start()
-    {
         currentState = defenceState;
         InstantiateCurrentState();
+        fieldDefender = GetComponent<FieldDefenderMovement>();
     }
 
     private void Update()

@@ -27,7 +27,6 @@ public class FieldDefenderAttacking : Paramizable
     {
         fieldDefenderMovement = GetComponent<FieldDefenderMovement>();
         fieldAttackManager = GetComponent<FieldAttackManager>();
-        buff = EmptyBuff();
     }
 
     private void Start()
@@ -82,18 +81,10 @@ public class FieldDefenderAttacking : Paramizable
 
     internal void TakeBuff(BuffWallDefender buffWallDefender)
     {
-        buff = EmptyBuff();
+        buff = null;
         attackPowerFactor = baseAttackPowerFactor * state.attackPowerModifier;
     }
 
-    private BuffWallDefender EmptyBuff()
-    {
-        BuffWallDefender buffWallDefender = new BuffWallDefender();
-        buffWallDefender.speedBuffFactor = 1f;
-        buffWallDefender.attackBuffFactor = 1f;
-
-        return buffWallDefender;
-    }
 
     private void MakeQuickAttack()
     {
@@ -146,7 +137,10 @@ public class FieldDefenderAttacking : Paramizable
     internal void UpdateByState(State state)
     {
         this.state = state;
-        
-        attackPowerFactor = baseAttackPowerFactor * state.attackPowerModifier * buff.attackBuffFactor;
+
+        float buffAttackBuffFactor = 1f;
+        if (buff != null) buffAttackBuffFactor = buff.attackBuffFactor;
+
+        attackPowerFactor = baseAttackPowerFactor * state.attackPowerModifier * buffAttackBuffFactor;
     }
 }

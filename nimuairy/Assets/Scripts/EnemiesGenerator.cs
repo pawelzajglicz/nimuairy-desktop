@@ -188,7 +188,6 @@ public class EnemiesGenerator : MonoBehaviour
             }
 
             float biggerityFactor = UnityEngine.Random.Range(BiggerityMin, BiggerityMax);
-            enemyInstance.transform.localScale *= biggerityFactor;
         }
     }
 
