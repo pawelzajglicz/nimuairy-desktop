@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public bool IsBattle;
     static int enemiesNumber;
+    FieldAttackManager fieldAttackManager;
 
 
     private void Start()
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
         GenerateLevel();
         UpdateParamizables();
         musicPlayer = FindObjectOfType<MusicPlayer>();
+        fieldAttackManager = FindObjectOfType<FieldAttackManager>();
     }
 
     private void GenerateLevel()
@@ -72,6 +74,7 @@ public class GameManager : MonoBehaviour
         success.CelebrateSuccess();
         TimeManager.playerTimeFactor = 0;
         musicPlayer.PlayBackgroundMusic();
+        fieldAttackManager.lastAttacks = new List<AttackFieldDefender>();
 
         ResetTimers();
         ResetHealth();
