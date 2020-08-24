@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 51a6616e767fbe94dbd3a36e53d67284, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.630785, g: 0.6349071, b: 0.7075472, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -132,18 +132,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a84cb29496685b4896ddbd206ff1149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeFactor: 0
   speedHorizontal: 0
   speedVertical: 0
   maxHorizontalSpeed: 10
+  speedParam: {fileID: 0}
   maxVerticalSpeed: 8
   acceleration: 10
   deceleration: 22
-  startMaxHorizontalSpeed: 0
-  startMaxVerticalSpeed: 0
-  startAcceleration: 0
-  startDeceleration: 0
+  baseMaxHorizontalSpeed: 0
+  baseMaxVerticalSpeed: 0
+  baseAcceleration: 10
+  baseDeceleration: 10
   state: {fileID: 0}
   direction: {x: 0, y: 0}
+  fieldDefenderAttacking: {fileID: 0}
 --- !u!50 &1897196328
 Rigidbody2D:
   serializedVersion: 4
@@ -208,7 +211,10 @@ MonoBehaviour:
   slowAttack: {fileID: 457339538516085497, guid: 3c4c3ca29c38c414786ca6e394bdadce,
     type: 3}
   horizontalXAttackInterspace: 0.6
+  baseAttackPowerFactor: 1
   attackPowerFactor: 1
+  attackPowerFactorParam: {fileID: 0}
+  state: {fileID: 0}
   isNowAttacking: 0
 --- !u!114 &3330457126080496692
 MonoBehaviour:
@@ -223,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 1000
+  startHealthParam: {fileID: 0}
   maxHealth: 0
   currenttHealth: 0
   healFactor: 1
