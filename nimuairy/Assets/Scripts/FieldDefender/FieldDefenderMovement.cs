@@ -81,6 +81,13 @@ public class FieldDefenderMovement : Paramizable
         UpdateTimeFactor();
     }
 
+    internal void ResetSpeed()
+    {
+        speedHorizontal = 0f;
+        speedVertical = 0f;
+        UpdateSpeed();
+    }
+
     // TODO: refactoring
     private void CalculatingHorizontalSpeed()
     {
